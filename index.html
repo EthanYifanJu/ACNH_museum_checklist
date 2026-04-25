@@ -42,8 +42,8 @@ h1 {
   margin-top: 10px;
   display: flex;
   gap: 12px;
-  align-items: center;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 select, input {
@@ -97,12 +97,10 @@ select, input {
   border-color: rgba(255,255,255,0.2);
 }
 
-/* IMAGE */
 img {
-  width: 90px;
+  width: 130px;
 }
 
-/* TEXT */
 .name {
   font-weight: 600;
 }
@@ -168,6 +166,22 @@ input[type="checkbox"] {
       <option>Oct</option><option>Nov</option><option>Dec</option>
     </select>
 
+    <label>Language:</label>
+    <select id="lang">
+      <option value="USen">English (US)</option>
+      <option value="EUen">English (UK)</option>
+      <option value="JPja">日本語</option>
+      <option value="KRko">한국어</option>
+      <option value="CNzh">中文 (CN)</option>
+      <option value="TWzh">中文 (TW)</option>
+      <option value="EUde">Deutsch</option>
+      <option value="EUfr">Français</option>
+      <option value="EUes">Español</option>
+      <option value="EUit">Italiano</option>
+      <option value="EUnl">Nederlands</option>
+      <option value="EUru">Русский</option>
+    </select>
+
     <label>Search:</label>
     <input id="search" type="text" placeholder="Fish name..." />
   </div>
@@ -186,12 +200,27 @@ input[type="checkbox"] {
 
 <script>
 
-let data = { fish: [] };
-let state = JSON.parse(localStorage.getItem("museum")) || {};
+let fishData = [];
+let fishNames = {};
+let idToLabel = {};
+let state = JSON.parse(localStorage.getItem("fish")) || {};
+
 let searchQuery = "";
+let lang = "USen";
 
 function save() {
-  localStorage.setItem("museum", JSON.stringify(state));
+  localStorage.setItem("fish", JSON.stringify(state));
+}
+
+/* ---------------- NAME RESOLVER ---------------- */
+
+function getName(fish) {
+  const label = `Fish_${String(fish["Internal ID"]).padStart(5, "0")}`;
+  const entry = fishNames.find(x => x.label === label);
+  console.log(label, entry);
+  if (!entry) return fish.Name;
+
+  return entry.locale?.[lang];
 }
 
 /* ---------------- TIME ---------------- */
@@ -234,39 +263,85 @@ function fmt(h) {
 
 function timeline(label, val, color) {
 
+  const isNH = label === "NH";
+
+  const scale = `
+    <div style="
+      display:flex;
+      justify-content:space-between;
+      font-size:9px;
+      color:#94a3b8;
+      margin-bottom:2px;
+      padding:0 2px;
+    ">
+      <span>12 AM</span>
+      <span>6 AM</span>
+      <span>12 PM</span>
+      <span>6 PM</span>
+      <span>12 AM</span>
+    </div>
+  `;
+
   if (val === "All day") {
     return `
       <div class="timeline">
-        <div class="bar" style="background:${color}; display:flex; align-items:center; justify-content:center; color:black; font-size:11px;">
-          Whole day
+        ${scale}
+        <div class="bar" style="
+          background:${color};
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          font-size:11px;
+          font-weight:600;
+        ">
+        </div>
+        <div style="font-size:10px; color:#94a3b8; margin-top:2px;">
+          ${isNH ? " North Hemisphere: " : " South Hemisphere: "}
+            Whole day
         </div>
       </div>
     `;
   }
 
   const r = parse(val);
-  if (!r) return `<div class="timeline">NA</div>`;
+  if (!r) {
+    return `
+      <div class="timeline">
+        ${scale}
+        <div class="bar" style="color:#94a3b8; display:flex; align-items:center; justify-content:center;">
+        </div>
+        <div style="font-size:10px; color:#94a3b8; margin-top:2px;">
+          ${isNH ? " North Hemisphere: " : " South Hemisphere: "}
+            Not Available
+        </div>
+      </div>
+    `;
+  }
 
   const segs = split(r);
 
   return `
     <div class="timeline">
+      ${scale}
+
       <div class="bar">
         ${segs.map(s => `
           <div class="seg" style="
             left:${(s.start/24)*100}%;
-            width:${((s.end-s.start)/24)*100}%;
+            width:${((s.end - s.start)/24)*100}%;
             background:${color};
-          "></div>
+          ">
+          </div>
         `).join("")}
       </div>
+
       <div style="font-size:10px; color:#94a3b8; margin-top:2px;">
-        ${label}: ${fmt(r.start)} → ${fmt(r.end)}
+        ${isNH ? " North Hemisphere" : " South Hemisphere"}
+            : ${fmt(r.start)} → ${fmt(r.end)}
       </div>
     </div>
   `;
 }
-
 /* ---------------- RENDER ---------------- */
 
 function render() {
@@ -276,11 +351,11 @@ function render() {
   const month = document.getElementById("month").value;
   const tooltip = document.getElementById("tooltip");
 
-  data.fish
-    .filter(f => f.Name.toLowerCase().includes(searchQuery))
+  fishData
+    .filter(f => getName(f).toLowerCase().includes(searchQuery))
     .forEach(f => {
 
-    const nh = f[`NH ${month}`] || "NA";
+    const nh = f[`NH ${month}`] || "";
     const sh = f[`SH ${month}`] || "NA";
 
     const card = document.createElement("div");
@@ -294,7 +369,7 @@ function render() {
       <img src="/icon/BookFishIcon/${f["Critterpedia Filename"]}.png">
 
       <div>
-        <div class="name">${f.Name}</div>
+        <div class="name">${getName(f)}</div>
 
         <div class="meta">
           💰 ${f.Sell} • 📍 ${f["Where/How"]} • 🌑 ${f.Shadow}
@@ -334,8 +409,8 @@ function render() {
 /* ---------------- PROGRESS ---------------- */
 
 function updateProgress() {
-  const total = data.fish.length;
-  const done = data.fish.filter(f => state[f.Name]).length;
+  const total = fishData.length;
+  const done = fishData.filter(f => state[f.Name]).length;
 
   document.getElementById("progressText").innerText =
     `${done} / ${total} caught`;
@@ -351,19 +426,26 @@ document.getElementById("search").addEventListener("input", e => {
   render();
 });
 
-document.getElementById("month").addEventListener("change", render);
+document.getElementById("lang").addEventListener("change", e => {
+  lang = e.target.value;
+  render();
+});
 
-const now = new Date().toLocaleString("en-AU", { month: "short" });
-document.getElementById("month").value = now;
+document.getElementById("month").addEventListener("change", render);
 
 /* ---------------- LOAD ---------------- */
 
-fetch("/files/fish.json")
-  .then(r => r.json())
-  .then(j => {
-    data.fish = j;
-    render();
-  });
+Promise.all([
+  fetch("/files/fish.json").then(r => r.json()),
+  fetch("/itemName/STR_ItemName_31_Fish.msbt.json").then(r => r.json())
+]).then(([fish, names]) => {
+  fishData = fish;
+  fishNames = names;
+  render();
+});
+
+const now = new Date().toLocaleString("en-AU", { month: "short" });
+document.getElementById("month").value = now;
 
 </script>
 
