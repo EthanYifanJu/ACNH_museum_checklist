@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ACNH Museum Checklist</title>
+<style>
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+img {
+  width: 50px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
+</style>
+</head>
+<body>
+
+<h1>🐾 Animal Crossing New Horizons Museum Checklist</h1>
+<p id="progress"></p>
+
+<h2>Fish</h2>
+<table id="fish-table">
+<thead>
+<tr>
+  <th>Done</th>
+  <th>Image</th>
+  <th>Name</th>
+  <th>Price</th>
+  <th>Shadow</th>
+  <th>Location</th>
+  <th>Time</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+
+<script>
+  const data = {
+    fish: [
+      {
+        name: "Bitterling",
+        price: 900,
+        shadow: "Tiny",
+        location: "River",
+        time: "All day",
+        img: "https://nookipedia.com/wiki/File:Bitterling_NH_Icon.png"
+      },
+      {
+        name: "Pale Chub",
+        price: 200,
+        shadow: "Tiny",
+        location: "River",
+        time: "9 AM – 4 PM",
+        img: "https://nookipedia.com/wiki/File:Pale_Chub_NH_Icon.png"
+      },
+      {
+        name: "Crucian Carp",
+        price: 160,
+        shadow: "Small",
+        location: "River",
+        time: "All day",
+        img: "https://nookipedia.com/wiki/File:Crucian_Carp_NH_Icon.png"
+      },
+      {
+        name: "Koi",
+        price: 4000,
+        shadow: "Large",
+        location: "Pond",
+        time: "4 PM – 9 AM",
+        img: "https://nookipedia.com/wiki/File:Koi_NH_Icon.png"
+      },
+      {
+        name: "Goldfish",
+        price: 1300,
+        shadow: "Tiny",
+        location: "Pond",
+        time: "All day",
+        img: "https://nookipedia.com/wiki/File:Goldfish_NH_Icon.png"
+      }
+    ]
+  };
+
+  let state = JSON.parse(localStorage.getItem("museum")) || {};
+
+  function save() {
+    localStorage.setItem("museum", JSON.stringify(state));
+  }
+
+  function renderTable() {
+    const tbody = document.querySelector("#fish-table tbody");
+    tbody.innerHTML = "";
+
+    data.fish.forEach(item => {
+      const tr = document.createElement("tr");
+      const checked = state[item.name] || false;
+
+      tr.innerHTML = `
+        <td><input type="checkbox" ${checked ? "checked" : ""}></td>
+        <td><img src="${item.img}"></td>
+        <td class="${checked ? "completed" : ""}">${item.name}</td>
+        <td>${item.price}</td>
+        <td>${item.shadow}</td>
+        <td>${item.location}</td>
+        <td>${item.time}</td>
+      `;
+
+      const checkbox = tr.querySelector("input");
+      checkbox.addEventListener("change", () => {
+        state[item.name] = checkbox.checked;
+        save();
+        renderAll();
+      });
+
+      tbody.appendChild(tr);
+    });
+  }
+
+  function updateProgress() {
+    const total = data.fish.length;
+    const done = data.fish.filter(i => state[i.name]).length;
+
+    document.getElementById("progress").textContent =
+      `Progress: ${done} / ${total}`;
+  }
+
+  function renderAll() {
+    renderTable();
+    updateProgress();
+  }
+
+  renderAll();
+</script>
+
+</body>
+</html>
