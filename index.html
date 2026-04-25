@@ -22,82 +22,62 @@ th, td {
 }
 
 img {
-  width: 50px;
+  width: 100px;
 }
 
 .completed {
   text-decoration: line-through;
   color: grey;
 }
+
+.tooltip {
+  position: absolute;
+  background: #333;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  max-width: 300px;
+  display: none;
+  z-index: 1000;
+  pointer-events: none;
+}
+
 </style>
 </head>
 <body>
 
 <h1>🐾 Animal Crossing New Horizons Museum Checklist</h1>
+<label for="month">Select Month: </label>
+<select id="month">
+  <option>Jan</option><option>Feb</option><option>Mar</option>
+  <option>Apr</option><option>May</option><option>Jun</option>
+  <option>Jul</option><option>Aug</option><option>Sep</option>
+  <option>Oct</option><option>Nov</option><option>Dec</option>
+</select>
 <p id="progress"></p>
 
 <h2>Fish</h2>
 <table id="fish-table">
 <thead>
-<tr>
-  <th>Done</th>
-  <th>Image</th>
-  <th>Name</th>
-  <th>Price</th>
-  <th>Shadow</th>
-  <th>Location</th>
-  <th>Time</th>
-</tr>
+  <tr>
+    <th>Done</th>
+    <th>Name</th>
+    <th>Icon</th>
+    <th>Sell</th>
+    <th>Where/How</th>
+    <th>Shadow</th>
+    <th>Catch Difficulty</th>
+    <th>Vision</th>
+    <th>North Hemisphere</th>
+    <th>South Hemisphere</th>
+  </tr>
 </thead>
 <tbody></tbody>
 </table>
 
 <script>
-  const data = {
-    fish: [
-      {
-        name: "Bitterling",
-        price: 900,
-        shadow: "Tiny",
-        location: "River",
-        time: "All day",
-        img: "https://nookipedia.com/wiki/File:Bitterling_NH_Icon.png"
-      },
-      {
-        name: "Pale Chub",
-        price: 200,
-        shadow: "Tiny",
-        location: "River",
-        time: "9 AM – 4 PM",
-        img: "https://nookipedia.com/wiki/File:Pale_Chub_NH_Icon.png"
-      },
-      {
-        name: "Crucian Carp",
-        price: 160,
-        shadow: "Small",
-        location: "River",
-        time: "All day",
-        img: "https://nookipedia.com/wiki/File:Crucian_Carp_NH_Icon.png"
-      },
-      {
-        name: "Koi",
-        price: 4000,
-        shadow: "Large",
-        location: "Pond",
-        time: "4 PM – 9 AM",
-        img: "https://nookipedia.com/wiki/File:Koi_NH_Icon.png"
-      },
-      {
-        name: "Goldfish",
-        price: 1300,
-        shadow: "Tiny",
-        location: "Pond",
-        time: "All day",
-        img: "https://nookipedia.com/wiki/File:Goldfish_NH_Icon.png"
-      }
-    ]
-  };
-
+  let data = { fish: [] };
   let state = JSON.parse(localStorage.getItem("museum")) || {};
 
   function save() {
@@ -108,23 +88,57 @@ img {
     const tbody = document.querySelector("#fish-table tbody");
     tbody.innerHTML = "";
 
+    const selectedMonth = document.getElementById("month").value;
+
+    const tooltip = document.getElementById("tooltip");
+
     data.fish.forEach(item => {
       const tr = document.createElement("tr");
-      const checked = state[item.name] || false;
+      const checked = state[item.Name] || false;
+
+      const nh = item[`NH ${selectedMonth}`] || "NA";
+      const sh = item[`SH ${selectedMonth}`] || "NA";
 
       tr.innerHTML = `
         <td><input type="checkbox" ${checked ? "checked" : ""}></td>
-        <td><img src="${item.img}"></td>
-        <td class="${checked ? "completed" : ""}">${item.name}</td>
-        <td>${item.price}</td>
-        <td>${item.shadow}</td>
-        <td>${item.location}</td>
-        <td>${item.time}</td>
+        <td class="${checked ? "completed name-cell" : "name-cell"}">${item.Name}</td>
+        <td><img src="/icon/BookFishIcon/${item["Critterpedia Filename"]}.png" alt="${item.Name}"></td>
+        <td>${item.Sell}</td>
+        <td>${item["Where/How"]}</td>
+        <td>${item.Shadow}</td>
+        <td>${item["Catch Difficulty"]}</td>
+        <td>${item.Vision}</td>
+        <td>${nh}</td>
+        <td>${sh}</td>
       `;
+
+      // hover + click behaviour
+      const nameCell = tr.querySelector(".name-cell");
+      const icon = tr.querySelector(".icon");
+      const desc = item.Description || "No description";
+
+      function showTooltip(e) {
+        tooltip.style.display = "block";
+        tooltip.textContent = desc;
+        tooltip.style.left = e.pageX + 10 + "px";
+        tooltip.style.top = e.pageY + 10 + "px";
+      }
+
+      function hideTooltip() {
+        tooltip.style.display = "none";
+      }
+
+      [nameCell, icon].forEach(el => {
+        if (!el) return;
+
+        el.addEventListener("mousemove", showTooltip);
+        el.addEventListener("mouseleave", hideTooltip);
+        el.addEventListener("click", showTooltip);
+      });
 
       const checkbox = tr.querySelector("input");
       checkbox.addEventListener("change", () => {
-        state[item.name] = checkbox.checked;
+        state[item.Name] = checkbox.checked;
         save();
         renderAll();
       });
@@ -135,7 +149,7 @@ img {
 
   function updateProgress() {
     const total = data.fish.length;
-    const done = data.fish.filter(i => state[i.name]).length;
+    const done = data.fish.filter(i => state[i.Name]).length;
 
     document.getElementById("progress").textContent =
       `Progress: ${done} / ${total}`;
@@ -147,7 +161,25 @@ img {
   }
 
   renderAll();
+
+  // LOAD JSON HERE
+  fetch("/files/fish.json")
+    .then(res => res.json())
+    .then(json => {
+      data.fish = json;
+      renderAll();
+    })
+    .catch(err => console.error("Failed to load fish.json:", err));
+
+  // re-render when month changes
+  document.getElementById("month").addEventListener("change", renderAll);
+
+  // default month
+  const now = new Date().toLocaleString("en-AU", { month: "short" });
+  document.getElementById("month").value = now;
 </script>
+
+<div id="tooltip" class="tooltip"></div>
 
 </body>
 </html>
