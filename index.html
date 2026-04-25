@@ -5,148 +5,43 @@
 <title>ACNH Museum Checklist</title>
 
 <style>
-:root {
-  --bg: #0f172a;
-  --card: #111c33;
-  --text: #e5e7eb;
-  --muted: #94a3b8;
-  --green: #22c55e;
-  --blue: #38bdf8;
-  --border: rgba(255,255,255,0.08);
-}
-
 body {
   margin: 0;
   font-family: system-ui, Arial;
-  background: var(--bg);
-  color: var(--text);
+  background: #0f172a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-/* HEADER */
-header {
-  padding: 20px;
-  position: sticky;
-  top: 0;
-  background: rgba(15,23,42,0.95);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--border);
-  z-index: 10;
+.container {
+  text-align: center;
 }
 
 h1 {
-  margin: 0;
-  font-size: 22px;
+  margin-bottom: 30px;
 }
 
-.controls {
-  margin-top: 10px;
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  align-items: center;
+.menu {
+  display: grid;
+  gap: 16px;
 }
 
-select, input {
-  padding: 6px 10px;
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  background: #0b1220;
-  color: var(--text);
-}
-
-/* PROGRESS */
-.progress-wrap {
-  margin-top: 10px;
-}
-
-.progress-bar {
-  height: 8px;
+a {
+  text-decoration: none;
+  padding: 14px 20px;
   background: #1e293b;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.progress-fill {
-  height: 100%;
-  background: linear-gradient(90deg, var(--green), var(--blue));
-  width: 0%;
-}
-
-/* LIST */
-.container {
-  padding: 20px;
-  display: grid;
-  gap: 12px;
-}
-
-/* CARD */
-.card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 14px;
-  display: grid;
-  grid-template-columns: 40px 120px 1fr;
-  gap: 14px;
-  align-items: center;
+  border-radius: 12px;
+  color: white;
+  font-weight: 600;
   transition: 0.2s;
 }
 
-.card:hover {
+a:hover {
+  background: #334155;
   transform: translateY(-2px);
-  border-color: rgba(255,255,255,0.2);
-}
-
-img {
-  width: 130px;
-}
-
-.name {
-  font-weight: 600;
-}
-
-.meta {
-  font-size: 12px;
-  color: var(--muted);
-  margin-top: 4px;
-}
-
-/* TIMELINE */
-.timeline {
-  margin-top: 8px;
-}
-
-.bar {
-  position: relative;
-  height: 14px;
-  background: #0b1220;
-  border-radius: 6px;
-  overflow: hidden;
-}
-
-.seg {
-  position: absolute;
-  top: 0;
-  height: 100%;
-}
-
-/* TOOLTIP */
-.tooltip {
-  position: absolute;
-  background: #0b1220;
-  border: 1px solid var(--border);
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 12px;
-  max-width: 260px;
-  display: none;
-  z-index: 1000;
-}
-
-/* CHECKBOX */
-input[type="checkbox"] {
-  transform: scale(1.2);
 }
 </style>
 
@@ -154,300 +49,20 @@ input[type="checkbox"] {
 
 <body>
 
-<header>
+<div class="container">
   <h1>🐾 ACNH Museum Checklist</h1>
 
-  <div class="controls">
-    <label>Month:</label>
-    <select id="month">
-      <option>Jan</option><option>Feb</option><option>Mar</option>
-      <option>Apr</option><option>May</option><option>Jun</option>
-      <option>Jul</option><option>Aug</option><option>Sep</option>
-      <option>Oct</option><option>Nov</option><option>Dec</option>
-    </select>
-
-    <label>Language:</label>
-    <select id="lang">
-      <option value="USen">English (US)</option>
-      <option value="EUen">English (UK)</option>
-      <option value="JPja">日本語</option>
-      <option value="KRko">한국어</option>
-      <option value="CNzh">中文 (CN)</option>
-      <option value="TWzh">中文 (TW)</option>
-      <option value="EUde">Deutsch</option>
-      <option value="EUfr">Français</option>
-      <option value="EUes">Español</option>
-      <option value="EUit">Italiano</option>
-      <option value="EUnl">Nederlands</option>
-      <option value="EUru">Русский</option>
-    </select>
-
-    <label>Search:</label>
-    <input id="search" type="text" placeholder="Fish name..." />
+  <div class="menu">
+    <a href="fish.html">🐟 Fish</a>
+    <a href="insects.html">🪲 Insects</a>
+    <a href="sea.html">🌊 Sea Creatures</a>
+    <a href="fossils.html">🦴 Fossils</a>
+    <a href="art.html">🎨 Art</a>
+    <a href="music.html">🎵 Music</a>
+    <a href="gyroid.html">Gyroid</a>
+    <a href="emotion.html">Emotions</a>
   </div>
-
-  <div class="progress-wrap">
-    <div id="progressText"></div>
-    <div class="progress-bar">
-      <div class="progress-fill" id="progressFill"></div>
-    </div>
-  </div>
-</header>
-
-<div class="container" id="list"></div>
-
-<div id="tooltip" class="tooltip"></div>
-
-<script>
-
-let fishData = [];
-let fishNames = {};
-let idToLabel = {};
-let state = JSON.parse(localStorage.getItem("fish")) || {};
-
-let searchQuery = "";
-let lang = "USen";
-
-function save() {
-  localStorage.setItem("fish", JSON.stringify(state));
-}
-
-/* ---------------- NAME RESOLVER ---------------- */
-
-function getName(fish) {
-  const label = `Fish_${String(fish["Internal ID"]).padStart(5, "0")}`;
-  const entry = fishNames.find(x => x.label === label);
-  console.log(label, entry);
-  if (!entry) return fish.Name;
-
-  return entry.locale?.[lang];
-}
-
-/* ---------------- TIME ---------------- */
-
-function to24(h, p) {
-  p = p.toUpperCase();
-  if (p === "AM") return h === 12 ? 0 : h;
-  if (p === "PM") return h === 12 ? 12 : h + 12;
-}
-
-function parse(str) {
-  if (!str || str === "NA") return null;
-  if (str === "All day") return { start: 0, end: 24 };
-
-  const m = str.match(/(\d+)\s*(AM|PM)\s*–\s*(\d+)\s*(AM|PM)/i);
-  if (!m) return null;
-
-  return {
-    start: to24(+m[1], m[2]),
-    end: to24(+m[3], m[4])
-  };
-}
-
-function split(r) {
-  if (!r) return [];
-  if (r.start < r.end) return [r];
-  return [
-    { start: r.start, end: 24 },
-    { start: 0, end: r.end }
-  ];
-}
-
-function fmt(h) {
-  if (h === 0 || h === 24) return "12 AM";
-  if (h === 12) return "12 PM";
-  return h < 12 ? `${h} AM` : `${h-12} PM`;
-}
-
-/* ---------------- TIMELINE ---------------- */
-
-function timeline(label, val, color) {
-
-  const isNH = label === "NH";
-
-  const scale = `
-    <div style="
-      display:flex;
-      justify-content:space-between;
-      font-size:9px;
-      color:#94a3b8;
-      margin-bottom:2px;
-      padding:0 2px;
-    ">
-      <span>12 AM</span>
-      <span>6 AM</span>
-      <span>12 PM</span>
-      <span>6 PM</span>
-      <span>12 AM</span>
-    </div>
-  `;
-
-  if (val === "All day") {
-    return `
-      <div class="timeline">
-        ${scale}
-        <div class="bar" style="
-          background:${color};
-          display:flex;
-          align-items:center;
-          justify-content:center;
-          font-size:11px;
-          font-weight:600;
-        ">
-        </div>
-        <div style="font-size:10px; color:#94a3b8; margin-top:2px;">
-          ${isNH ? " North Hemisphere: " : " South Hemisphere: "}
-            Whole day
-        </div>
-      </div>
-    `;
-  }
-
-  const r = parse(val);
-  if (!r) {
-    return `
-      <div class="timeline">
-        ${scale}
-        <div class="bar" style="color:#94a3b8; display:flex; align-items:center; justify-content:center;">
-        </div>
-        <div style="font-size:10px; color:#94a3b8; margin-top:2px;">
-          ${isNH ? " North Hemisphere: " : " South Hemisphere: "}
-            Not Available
-        </div>
-      </div>
-    `;
-  }
-
-  const segs = split(r);
-
-  return `
-    <div class="timeline">
-      ${scale}
-
-      <div class="bar">
-        ${segs.map(s => `
-          <div class="seg" style="
-            left:${(s.start/24)*100}%;
-            width:${((s.end - s.start)/24)*100}%;
-            background:${color};
-          ">
-          </div>
-        `).join("")}
-      </div>
-
-      <div style="font-size:10px; color:#94a3b8; margin-top:2px;">
-        ${isNH ? " North Hemisphere" : " South Hemisphere"}
-            : ${fmt(r.start)} → ${fmt(r.end)}
-      </div>
-    </div>
-  `;
-}
-/* ---------------- RENDER ---------------- */
-
-function render() {
-  const list = document.getElementById("list");
-  list.innerHTML = "";
-
-  const month = document.getElementById("month").value;
-  const tooltip = document.getElementById("tooltip");
-
-  fishData
-    .filter(f => getName(f).toLowerCase().includes(searchQuery))
-    .forEach(f => {
-
-    const nh = f[`NH ${month}`] || "";
-    const sh = f[`SH ${month}`] || "NA";
-
-    const card = document.createElement("div");
-    card.className = "card";
-
-    const checked = state[f.Name];
-
-    card.innerHTML = `
-      <input type="checkbox" ${checked ? "checked" : ""}>
-
-      <img src="/icon/BookFishIcon/${f["Critterpedia Filename"]}.png">
-
-      <div>
-        <div class="name">${getName(f)}</div>
-
-        <div class="meta">
-          💰 ${f.Sell} • 📍 ${f["Where/How"]} • 🌑 ${f.Shadow}
-        </div>
-
-        ${timeline("NH", nh, "#22c55e")}
-        ${timeline("SH", sh, "#38bdf8")}
-      </div>
-    `;
-
-    const checkbox = card.querySelector("input");
-    checkbox.addEventListener("change", () => {
-      state[f.Name] = checkbox.checked;
-      save();
-      render();
-    });
-
-    const name = card.querySelector(".name");
-
-    name.onmousemove = (e) => {
-      tooltip.style.display = "block";
-      tooltip.style.left = e.pageX + 10 + "px";
-      tooltip.style.top = e.pageY + 10 + "px";
-      tooltip.textContent = f.Description;
-    };
-
-    name.onmouseleave = () => {
-      tooltip.style.display = "none";
-    };
-
-    list.appendChild(card);
-  });
-
-  updateProgress();
-}
-
-/* ---------------- PROGRESS ---------------- */
-
-function updateProgress() {
-  const total = fishData.length;
-  const done = fishData.filter(f => state[f.Name]).length;
-
-  document.getElementById("progressText").innerText =
-    `${done} / ${total} caught`;
-
-  document.getElementById("progressFill").style.width =
-    `${(done/total)*100}%`;
-}
-
-/* ---------------- EVENTS ---------------- */
-
-document.getElementById("search").addEventListener("input", e => {
-  searchQuery = e.target.value.toLowerCase();
-  render();
-});
-
-document.getElementById("lang").addEventListener("change", e => {
-  lang = e.target.value;
-  render();
-});
-
-document.getElementById("month").addEventListener("change", render);
-
-/* ---------------- LOAD ---------------- */
-
-Promise.all([
-  fetch("/files/fish.json").then(r => r.json()),
-  fetch("/itemName/STR_ItemName_31_Fish.msbt.json").then(r => r.json())
-]).then(([fish, names]) => {
-  fishData = fish;
-  fishNames = names;
-  render();
-});
-
-const now = new Date().toLocaleString("en-AU", { month: "short" });
-document.getElementById("month").value = now;
-
-</script>
+</div>
 
 </body>
 </html>
