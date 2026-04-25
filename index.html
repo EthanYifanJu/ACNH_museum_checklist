@@ -5,85 +5,189 @@
 <title>ACNH Museum Checklist</title>
 
 <style>
+:root {
+  --bg: #0f172a;
+  --card: #111c33;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --green: #4ade80;
+  --blue: #60a5fa;
+  --border: rgba(255,255,255,0.08);
+}
+
 body {
-  font-family: Arial;
+  margin: 0;
+  font-family: system-ui, Arial;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* HEADER */
+header {
   padding: 20px;
+  position: sticky;
+  top: 0;
+  background: rgba(15,23,42,0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  z-index: 10;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 30px;
+h1 {
+  margin: 0;
+  font-size: 22px;
 }
 
-th, td {
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: left;
-  vertical-align: top;
+.controls {
+  margin-top: 10px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
 }
 
+select {
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #0b1220;
+  color: var(--text);
+}
+
+/* PROGRESS */
+.progress-wrap {
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #1e293b;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--green), var(--blue));
+  width: 0%;
+}
+
+/* GRID */
+.container {
+  padding: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+/* CARD */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px;
+  display: grid;
+  grid-template-columns: 40px 120px 1fr;
+  gap: 14px;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,0.2);
+}
+
+/* IMAGE */
 img {
-  width: 200px;
+  width: 130px;
 }
 
-.completed {
-  text-decoration: line-through;
-  color: grey;
+/* TEXT */
+.name {
+  font-weight: 600;
 }
 
+.meta {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+/* TIMELINE */
+.timeline {
+  margin-top: 8px;
+}
+
+.bar {
+  position: relative;
+  height: 14px;
+  background: #0b1220;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.seg {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  opacity: 0.9;
+}
+
+.label {
+  font-size: 10px;
+  margin-top: 2px;
+  color: var(--muted);
+}
+
+/* CHECKBOX */
+input[type="checkbox"] {
+  transform: scale(1.2);
+}
+
+/* TOOLTIP */
 .tooltip {
   position: absolute;
-  background: #333;
+  background: #0b1220;
+  border: 1px solid var(--border);
   color: white;
-  padding: 8px;
-  border-radius: 6px;
-  font-size: 13px;
-  max-width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  max-width: 260px;
   display: none;
   z-index: 1000;
-  pointer-events: none;
 }
 </style>
-
 </head>
 
 <body>
 
-<h1>🐾 Animal Crossing New Horizons Museum Checklist</h1>
+<header>
+  <h1>🐾 ACNH Museum Checklist</h1>
 
-<label for="month">Select Month: </label>
-<select id="month">
-  <option>Jan</option><option>Feb</option><option>Mar</option>
-  <option>Apr</option><option>May</option><option>Jun</option>
-  <option>Jul</option><option>Aug</option><option>Sep</option>
-  <option>Oct</option><option>Nov</option><option>Dec</option>
-</select>
+  <div class="controls">
+    <label>Month:</label>
+    <select id="month">
+      <option>Jan</option><option>Feb</option><option>Mar</option>
+      <option>Apr</option><option>May</option><option>Jun</option>
+      <option>Jul</option><option>Aug</option><option>Sep</option>
+      <option>Oct</option><option>Nov</option><option>Dec</option>
+    </select>
+  </div>
 
-<p id="progress"></p>
+  <div class="progress-wrap">
+    <div id="progressText"></div>
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+  </div>
+</header>
 
-<h2>Fish</h2>
-
-<table id="fish-table">
-<thead>
-  <tr>
-    <th>Done</th>
-    <th>Name</th>
-    <th>Icon</th>
-    <th>Sell</th>
-    <th>Where/How</th>
-    <th>Shadow</th>
-    <th>Catch Difficulty</th>
-    <th>Vision</th>
-    <th>Availability (NH / SH)</th>
-  </tr>
-</thead>
-<tbody></tbody>
-</table>
+<div class="container" id="list"></div>
 
 <div id="tooltip" class="tooltip"></div>
 
 <script>
+
 let data = { fish: [] };
 let state = JSON.parse(localStorage.getItem("museum")) || {};
 
@@ -91,22 +195,7 @@ function save() {
   localStorage.setItem("museum", JSON.stringify(state));
 }
 
-/* ---------------- TIME PARSER ---------------- */
-
-function parseTimeRange(str) {
-  if (!str || str === "NA") return null;
-  if (str === "All day") return { start: 0, end: 24 };
-
-  const match = str.match(/(\d+)\s*(AM|PM)\s*–\s*(\d+)\s*(AM|PM)/i);
-  if (!match) return null;
-
-  let [, h1, p1, h2, p2] = match;
-
-  const start = to24(+h1, p1);
-  const end = to24(+h2, p2);
-
-  return { start, end };
-}
+/* ---------------- TIME ---------------- */
 
 function to24(h, p) {
   p = p.toUpperCase();
@@ -114,196 +203,141 @@ function to24(h, p) {
   if (p === "PM") return h === 12 ? 12 : h + 12;
 }
 
-function split(range) {
-  if (!range) return [];
+function parse(str) {
+  if (!str || str === "NA") return null;
+  if (str === "All day") return { start: 0, end: 24 };
 
-  if (range.start < range.end) {
-    return [{ start: range.start, end: range.end }];
-  }
+  const m = str.match(/(\d+)\s*(AM|PM)\s*–\s*(\d+)\s*(AM|PM)/i);
+  if (!m) return null;
 
-  // crosses midnight
+  return {
+    start: to24(+m[1], m[2]),
+    end: to24(+m[3], m[4])
+  };
+}
+
+function split(r) {
+  if (!r) return [];
+  if (r.start < r.end) return [r];
   return [
-    { start: range.start, end: 24 },
-    { start: 0, end: range.end }
+    { start: r.start, end: 24 },
+    { start: 0, end: r.end }
   ];
 }
 
 function fmt(h) {
   if (h === 0 || h === 24) return "12 AM";
   if (h === 12) return "12 PM";
-  if (h < 12) return `${h} AM`;
-  return `${h - 12} PM`;
+  return h < 12 ? `${h} AM` : `${h-12} PM`;
 }
 
-/* ---------------- RENDER TIMELINE ---------------- */
+/* ---------------- TIMELINE ---------------- */
 
-function renderTimeline(label, value, color) {
-  if (value === "All day") {
+function timeline(label, val, color) {
+
+  if (val === "All day") {
     return `
-      <div style="margin-bottom:6px;">
-        <div style="font-size:10px;">${label}</div>
-
-        <div style="
-          height:18px;
-          background:${color};
-          border-radius:6px;
-          display:flex;
-          align-items:center;
-          justify-content:center;
-          font-size:11px;
-          font-weight:bold;
-          color:black;
-        ">
-          Whole day
-        </div>
+      <div class="timeline">
+        <div class="label">${label} — Whole day</div>
+        <div class="bar" style="background:${color}"></div>
       </div>
     `;
   }
 
-  const range = parseTimeRange(value);
-
-  if (!range) {
-    return `
-      <div style="font-size:11px;">
-        ${label} <span style="color:#999">Not Available</span>
-      </div>
-    `;
+  const r = parse(val);
+  if (!r) {
+    return `<div class="label">${label} — NA</div>`;
   }
 
-  const segments = split(range);
+  const segs = split(r);
 
   return `
-    <div style="margin-bottom:6px;">
-      <div style="font-size:10px;">${label}</div>
-
-      <div style="
-        position:relative;
-        height:18px;
-        background:#eee;
-        border-radius:6px;
-        overflow:hidden;
-        font-size:10px;
-      ">
-
-        ${segments.map(s => `
-          <div style="
-            position:absolute;
+    <div class="timeline">
+      <div class="label">${label} ${fmt(r.start)} → ${fmt(r.end)}</div>
+      <div class="bar">
+        ${segs.map(s => `
+          <div class="seg" style="
             left:${(s.start/24)*100}%;
-            width:${((s.end - s.start)/24)*100}%;
-            height:100%;
+            width:${((s.end-s.start)/24)*100}%;
             background:${color};
-            opacity:0.85;
           "></div>
         `).join("")}
-
-        <!-- start label -->
-        <div style="
-          position:absolute;
-          left:${(range.start/24)*100}%;
-          top:0;
-          transform:translateX(-50%);
-          font-size:9px;
-        ">
-          ${fmt(range.start)}
-        </div>
-
-        <!-- end label -->
-        <div style="
-          position:absolute;
-          left:${(range.end/24)*100}%;
-          top:0;
-          transform:translateX(-50%);
-          font-size:9px;
-        ">
-          ${fmt(range.end)}
-        </div>
-
       </div>
     </div>
   `;
 }
 
-/* ---------------- TABLE ---------------- */
+/* ---------------- RENDER ---------------- */
 
-function renderTable() {
-  const tbody = document.querySelector("#fish-table tbody");
-  tbody.innerHTML = "";
+function render() {
+  const list = document.getElementById("list");
+  list.innerHTML = "";
 
   const month = document.getElementById("month").value;
   const tooltip = document.getElementById("tooltip");
 
-  data.fish.forEach(item => {
-    const tr = document.createElement("tr");
-    const checked = state[item.Name] || false;
+  data.fish.forEach(f => {
 
-    const nh = item[`NH ${month}`] || "NA";
-    const sh = item[`SH ${month}`] || "NA";
+    const nh = f[`NH ${month}`] || "NA";
+    const sh = f[`SH ${month}`] || "NA";
 
-    tr.innerHTML = `
-      <td><input type="checkbox" ${checked ? "checked" : ""}></td>
+    const card = document.createElement("div");
+    card.className = "card";
 
-      <td class="name-cell ${checked ? "completed" : ""}">
-        ${item.Name}
-      </td>
+    const checked = state[f.Name];
 
-      <td>
-        <img src="/icon/BookFishIcon/${item["Critterpedia Filename"]}.png">
-      </td>
+    card.innerHTML = `
+      <input type="checkbox" ${checked ? "checked" : ""}>
 
-      <td>${item.Sell}</td>
-      <td>${item["Where/How"]}</td>
-      <td>${item.Shadow}</td>
-      <td>${item["Catch Difficulty"]}</td>
-      <td>${item.Vision}</td>
+      <img src="/icon/BookFishIcon/${f["Critterpedia Filename"]}.png">
 
-      <td>
-        ${renderTimeline("NH", nh, "#4caf50")}
-        ${renderTimeline("SH", sh, "#2196f3")}
-      </td>
+      <div>
+        <div class="name ${checked ? "completed" : ""}">${f.Name}</div>
+        <div class="meta">💰 ${f.Sell} | 📍 ${f["Where/How"]} | 🌑 Shadow: ${f.Shadow}</div>
+
+        ${timeline("NH", nh, "#22c55e")}
+        ${timeline("SH", sh, "#38bdf8")}
+      </div>
     `;
 
-    /* tooltip */
-    const nameCell = tr.querySelector(".name-cell");
+    const checkbox = card.querySelector("input");
 
-    function show(e) {
-      tooltip.style.display = "block";
-      tooltip.textContent = item.Description || "No description";
-      tooltip.style.left = e.pageX + 10 + "px";
-      tooltip.style.top = e.pageY + 10 + "px";
-    }
-
-    function hide() {
-      tooltip.style.display = "none";
-    }
-
-    nameCell.addEventListener("mousemove", show);
-    nameCell.addEventListener("mouseleave", hide);
-
-    /* checkbox */
-    const checkbox = tr.querySelector("input");
     checkbox.addEventListener("change", () => {
-      state[item.Name] = checkbox.checked;
+      state[f.Name] = checkbox.checked;
       save();
-      renderAll();
+      render();
     });
 
-    tbody.appendChild(tr);
+    const name = card.querySelector(".name");
+
+    name.onmousemove = (e) => {
+      tooltip.style.display = "block";
+      tooltip.style.left = e.pageX + 10 + "px";
+      tooltip.style.top = e.pageY + 10 + "px";
+      tooltip.textContent = f.Description;
+    };
+
+    name.onmouseleave = () => {
+      tooltip.style.display = "none";
+    };
+
+    list.appendChild(card);
   });
+
+  updateProgress();
 }
 
 /* ---------------- PROGRESS ---------------- */
 
 function updateProgress() {
   const total = data.fish.length;
-  const done = data.fish.filter(i => state[i.Name]).length;
+  const done = data.fish.filter(f => state[f.Name]).length;
 
-  document.getElementById("progress").textContent =
-    `Progress: ${done} / ${total}`;
-}
+  document.getElementById("progressText").innerText =
+    `${done} / ${total} caught`;
 
-function renderAll() {
-  renderTable();
-  updateProgress();
+  document.getElementById("progressFill").style.width =
+    `${(done/total)*100}%`;
 }
 
 /* ---------------- LOAD ---------------- */
@@ -312,12 +346,10 @@ fetch("/files/fish.json")
   .then(r => r.json())
   .then(j => {
     data.fish = j;
-    renderAll();
+    render();
   });
 
-/* ---------------- MONTH ---------------- */
-
-document.getElementById("month").addEventListener("change", renderAll);
+document.getElementById("month").addEventListener("change", render);
 
 const now = new Date().toLocaleString("en-AU", { month: "short" });
 document.getElementById("month").value = now;
