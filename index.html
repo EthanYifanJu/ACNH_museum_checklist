@@ -10,8 +10,8 @@
   --card: #111c33;
   --text: #e5e7eb;
   --muted: #94a3b8;
-  --green: #4ade80;
-  --blue: #60a5fa;
+  --green: #22c55e;
+  --blue: #38bdf8;
   --border: rgba(255,255,255,0.08);
 }
 
@@ -43,9 +43,10 @@ h1 {
   display: flex;
   gap: 12px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-select {
+select, input {
   padding: 6px 10px;
   border-radius: 8px;
   border: 1px solid var(--border);
@@ -71,7 +72,7 @@ select {
   width: 0%;
 }
 
-/* GRID */
+/* LIST */
 .container {
   padding: 20px;
   display: grid;
@@ -98,7 +99,7 @@ select {
 
 /* IMAGE */
 img {
-  width: 130px;
+  width: 90px;
 }
 
 /* TEXT */
@@ -129,18 +130,6 @@ img {
   position: absolute;
   top: 0;
   height: 100%;
-  opacity: 0.9;
-}
-
-.label {
-  font-size: 10px;
-  margin-top: 2px;
-  color: var(--muted);
-}
-
-/* CHECKBOX */
-input[type="checkbox"] {
-  transform: scale(1.2);
 }
 
 /* TOOLTIP */
@@ -156,7 +145,13 @@ input[type="checkbox"] {
   display: none;
   z-index: 1000;
 }
+
+/* CHECKBOX */
+input[type="checkbox"] {
+  transform: scale(1.2);
+}
 </style>
+
 </head>
 
 <body>
@@ -172,6 +167,9 @@ input[type="checkbox"] {
       <option>Jul</option><option>Aug</option><option>Sep</option>
       <option>Oct</option><option>Nov</option><option>Dec</option>
     </select>
+
+    <label>Search:</label>
+    <input id="search" type="text" placeholder="Fish name..." />
   </div>
 
   <div class="progress-wrap">
@@ -190,6 +188,7 @@ input[type="checkbox"] {
 
 let data = { fish: [] };
 let state = JSON.parse(localStorage.getItem("museum")) || {};
+let searchQuery = "";
 
 function save() {
   localStorage.setItem("museum", JSON.stringify(state));
@@ -238,22 +237,20 @@ function timeline(label, val, color) {
   if (val === "All day") {
     return `
       <div class="timeline">
-        <div class="label">${label} — Whole day</div>
-        <div class="bar" style="background:${color}"></div>
+        <div class="bar" style="background:${color}; display:flex; align-items:center; justify-content:center; color:black; font-size:11px;">
+          Whole day
+        </div>
       </div>
     `;
   }
 
   const r = parse(val);
-  if (!r) {
-    return `<div class="label">${label} — NA</div>`;
-  }
+  if (!r) return `<div class="timeline">NA</div>`;
 
   const segs = split(r);
 
   return `
     <div class="timeline">
-      <div class="label">${label} ${fmt(r.start)} → ${fmt(r.end)}</div>
       <div class="bar">
         ${segs.map(s => `
           <div class="seg" style="
@@ -262,6 +259,9 @@ function timeline(label, val, color) {
             background:${color};
           "></div>
         `).join("")}
+      </div>
+      <div style="font-size:10px; color:#94a3b8; margin-top:2px;">
+        ${label}: ${fmt(r.start)} → ${fmt(r.end)}
       </div>
     </div>
   `;
@@ -276,7 +276,9 @@ function render() {
   const month = document.getElementById("month").value;
   const tooltip = document.getElementById("tooltip");
 
-  data.fish.forEach(f => {
+  data.fish
+    .filter(f => f.Name.toLowerCase().includes(searchQuery))
+    .forEach(f => {
 
     const nh = f[`NH ${month}`] || "NA";
     const sh = f[`SH ${month}`] || "NA";
@@ -292,8 +294,11 @@ function render() {
       <img src="/icon/BookFishIcon/${f["Critterpedia Filename"]}.png">
 
       <div>
-        <div class="name ${checked ? "completed" : ""}">${f.Name}</div>
-        <div class="meta">💰 ${f.Sell} | 📍 ${f["Where/How"]} | 🌑 Shadow: ${f.Shadow}</div>
+        <div class="name">${f.Name}</div>
+
+        <div class="meta">
+          💰 ${f.Sell} • 📍 ${f["Where/How"]} • 🌑 ${f.Shadow}
+        </div>
 
         ${timeline("NH", nh, "#22c55e")}
         ${timeline("SH", sh, "#38bdf8")}
@@ -301,7 +306,6 @@ function render() {
     `;
 
     const checkbox = card.querySelector("input");
-
     checkbox.addEventListener("change", () => {
       state[f.Name] = checkbox.checked;
       save();
@@ -340,6 +344,18 @@ function updateProgress() {
     `${(done/total)*100}%`;
 }
 
+/* ---------------- EVENTS ---------------- */
+
+document.getElementById("search").addEventListener("input", e => {
+  searchQuery = e.target.value.toLowerCase();
+  render();
+});
+
+document.getElementById("month").addEventListener("change", render);
+
+const now = new Date().toLocaleString("en-AU", { month: "short" });
+document.getElementById("month").value = now;
+
 /* ---------------- LOAD ---------------- */
 
 fetch("/files/fish.json")
@@ -348,11 +364,6 @@ fetch("/files/fish.json")
     data.fish = j;
     render();
   });
-
-document.getElementById("month").addEventListener("change", render);
-
-const now = new Date().toLocaleString("en-AU", { month: "short" });
-document.getElementById("month").value = now;
 
 </script>
 
