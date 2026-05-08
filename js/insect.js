@@ -1,5 +1,5 @@
-let fishData = [];
-let fishNames = {};
+let insectData = [];
+let insectNames = {};
 let idToLabel = {};
 
 let searchQuery = "";
@@ -7,11 +7,11 @@ let lang = "USen";
 
 /* ---------------- NAME RESOLVER ---------------- */
 
-function getName(fish) {
-    const label = `Fish_${String(fish["Internal ID"]).padStart(5, "0")}`;
-    const entry = fishNames.find(x => x.label === label);
+function getName(insect) {
+    const label = `Insect_${String(insect["Internal ID"]).padStart(5, "0")}`;
+    const entry = insectNames.find(x => x.label === label);
     console.log(label, entry);
-    if (!entry) return fish.Name;
+    if (!entry) return insect.Name;
 
     return entry.locale?.[lang];
 }
@@ -26,28 +26,28 @@ function render() {
     const month = document.getElementById("month").value;
     const tooltip = document.getElementById("tooltip");
 
-    fishData
-        .filter(f => getName(f).toLowerCase().includes(searchQuery))
-        .forEach(f => {
+    insectData
+        .filter(i => getName(i).toLowerCase().includes(searchQuery))
+        .forEach(i => {
 
-            const nh = f[`NH ${month}`] || "";
-            const sh = f[`SH ${month}`] || "NA";
+            const nh = i[`NH ${month}`] || "";
+            const sh = i[`SH ${month}`] || "NA";
 
             const card = document.createElement("div");
             card.className = "card";
 
-            const checked = state[f.Name];
+            const checked = state[i.Name];
 
             card.innerHTML = `
                 <input type="checkbox" ${checked ? "checked" : ""}>
 
-                <img src="/icon/BookFishIcon/${f["Critterpedia Filename"]}.png">
+                <img src="/icon/BookInsectIcon/${i["Critterpedia Filename"]}.png">
 
                 <div>
-                    <div class="name">${getName(f)}</div>
+                    <div class="name">${getName(i)}</div>
 
                     <div class="meta">
-                    💰 ${f.Sell} • 📍 ${f["Where/How"]} • 🌑 ${f.Shadow}
+                    💰 ${i.Sell} • 📍 ${i["Where/How"]} • 🌑 ${i.Weather}
                     </div>
 
                     ${timeline("NH", nh, "#22c55e")}
@@ -57,7 +57,7 @@ function render() {
 
             const checkbox = card.querySelector("input");
             checkbox.addEventListener("change", () => {
-                state[f.Name] = checkbox.checked;
+                state[i.Name] = checkbox.checked;
                 save();
                 render();
             });
@@ -68,7 +68,7 @@ function render() {
                 tooltip.style.display = "block";
                 tooltip.style.left = e.pageX + 10 + "px";
                 tooltip.style.top = e.pageY + 10 + "px";
-                tooltip.textContent = f.Description;
+                tooltip.textContent = i.Description;
             };
 
             name.onmouseleave = () => {
@@ -84,8 +84,8 @@ function render() {
 /* ---------------- PROGRESS ---------------- */
 
 function updateProgress() {
-    const total = fishData.length;
-    const done = fishData.filter(f => state[f.Name]).length;
+    const total = insectData.length;
+    const done = insectData.filter(i => state[i.Name]).length;
 
     document.getElementById("progressText").innerText =
         `${done} / ${total} caught`;
@@ -111,11 +111,11 @@ document.getElementById("month").addEventListener("change", render);
 /* ---------------- LOAD ---------------- */
 
 Promise.all([
-    fetch("/data/fish.json").then(r => r.json()),
-    fetch("/itemName/STR_ItemName_31_Fish.msbt.json").then(r => r.json())
-]).then(([fish, names]) => {
-    fishData = fish;
-    fishNames = names;
+    fetch("/data/insect.json").then(r => r.json()),
+    fetch("/itemName/STR_ItemName_30_Insect.msbt.json").then(r => r.json())
+]).then(([insect, names]) => {
+    insectData = insect;
+    insectNames = names;
     render();
 });
 
