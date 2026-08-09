@@ -1,5 +1,5 @@
-let fossilData = [];
-let fossilNames = {};
+let musicData = [];
+let musicNames = {};
 let idToLabel = {};
 
 let searchQuery = "";
@@ -7,11 +7,11 @@ let lang = "USen";
 
 /* ---------------- NAME RESOLVER ---------------- */
 
-function getName(fossil) {
-    const label = `Fossil_${String(fossil["Internal ID"]).padStart(5, "0")}`;
-    const entry = fossilNames.find(x => x.label === label);
+function getName(music) {
+    const label = `Music_${String(music["Internal ID"]).padStart(5, "0")}`;
+    const entry = musicNames.find(x => x.label === label);
     console.log(label, entry);
-    if (!entry) return fossil.Name;
+    if (!entry) return music.Name;
 
     return entry.locale?.[lang];
 }
@@ -25,32 +25,36 @@ function render() {
 
     const tooltip = document.getElementById("tooltip");
 
-    fossilData
-        .filter(f => getName(f).toLowerCase().includes(searchQuery))
-        .forEach(f => {
+    musicData
+        .filter(m => getName(m).toLowerCase().includes(searchQuery))
+        .forEach(m => {
 
             const card = document.createElement("div");
             card.className = "card";
 
-            const checked = state[f.Name];
+            const checked = state[m.Name];
 
             card.innerHTML = `
                 <input type="checkbox" ${checked ? "checked" : ""}>
 
-                <img src="/icon/FtrIcon/${f["Filename"]}.png">
+                <img src="/icon/FtrIcon/${m["Filename"]}.png">
 
                 <div>
-                    <div class="name">${getName(f)}</div>
+                    <div class="name">${getName(m)}</div>
 
                     <div class="meta">
-                    💰 ${f.Sell} | 📏 ${f.Size} | ${f["Fossil Group"]}
+                    💰 Buy: ${m.Buy} Sell: ${m.Sell} | 📍 ${m.Source}
+                    </div>
+
+                    <div class="meta">
+                    ${m["Source Notes"]}
                     </div>
                 </div>
             `;
 
             const checkbox = card.querySelector("input");
             checkbox.addEventListener("change", () => {
-                state[f.Name] = checkbox.checked;
+                state[m.Name] = checkbox.checked;
                 save();
                 render();
             });
@@ -61,7 +65,7 @@ function render() {
                 tooltip.style.display = "block";
                 tooltip.style.left = e.pageX + 10 + "px";
                 tooltip.style.top = e.pageY + 10 + "px";
-                tooltip.textContent = f.Description;
+                tooltip.textContent = m["Source Notes"];
             };
 
             name.onmouseleave = () => {
@@ -77,8 +81,8 @@ function render() {
 /* ---------------- PROGRESS ---------------- */
 
 function updateProgress() {
-    const total = fossilData.length;
-    const done = fossilData.filter(f => state[f.Name]).length;
+    const total = musicData.length;
+    const done = musicData.filter(m => state[m.Name]).length;
 
     document.getElementById("progressText").innerText =
         `${done} / ${total} collected`;
@@ -103,11 +107,11 @@ document.getElementById("lang").addEventListener("change", e => {
 /* ---------------- LOAD ---------------- */
 
 Promise.all([
-    fetch("/data/fossil.json").then(r => r.json()),
-    fetch("/itemName/STR_ItemName_34_Fossil.msbt.json").then(r => r.json())
-]).then(([fossil, names]) => {
-    fossilData = fossil;
-    fossilNames = names;
+    fetch("/data/music.json").then(r => r.json()),
+    fetch("/itemName/STR_ItemName_82_Music.msbt.json").then(r => r.json())
+]).then(([music, names]) => {
+    musicData = music;
+    musicNames = names;
     render();
 });
 
