@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ACNH Museum Checklist</title>
+    <link rel="stylesheet" href="../css/core.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>ACNH Insect Checklist</h1>
+
+        <div class="controls">
+            <a href="../index.html" class="menu-btn floating-back">⬅ Menu</a>
+            <label>Month:</label>
+            <select id="month">
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+                <option>Jun</option>
+                <option>Jul</option>
+                <option>Aug</option>
+                <option>Sep</option>
+                <option>Oct</option>
+                <option>Nov</option>
+                <option>Dec</option>
+            </select>
+
+            <label>Language:</label>
+            <select id="lang">
+                <option value="USen">English (US)</option>
+                <option value="EUen">English (UK)</option>
+                <option value="JPja">日本語</option>
+                <option value="KRko">한국어</option>
+                <option value="CNzh">简体中文 (中国)</option>
+                <option value="TWzh">繁體中文 (台灣)</option>
+                <option value="EUde">Deutsch</option>
+                <option value="EUfr">Français</option>
+                <option value="USfr">Français (Canada)</option>
+                <option value="EUes">Español</option>
+                <option value="USes">Español (Latinoamérica)</option>
+                <option value="EUit">Italiano</option>
+                <option value="EUnl">Nederlands</option>
+                <option value="EUru">Русский</option>
+            </select>
+
+            <label>Search:</label>
+            <input id="search" type="text" placeholder="Insect name..." />
+        </div>
+
+        <div class="progress-wrap">
+            <div id="progressText"></div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" id="list"></div>
+
+    <div id="tooltip" class="tooltip"></div>
+
+    <script src="../js/core.js"></script>
+
+    <script src="../js/timeline.js"></script>
+
+    <script src="../js/insect.js"></script>
+
+</body>
+
+</html>
