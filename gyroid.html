@@ -1,0 +1,59 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ACNH Music Checklist</title>
+    <link rel="stylesheet" href="css/core.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>ACNH Gyroid Checklist</h1>
+
+        <div class="controls">
+            <a href="index.html" class="menu-btn floating-back">⬅ Menu</a>
+
+            <label>Language:</label>
+            <select id="lang">
+                <option value="USen">English (US)</option>
+                <option value="EUen">English (UK)</option>
+                <option value="JPja">日本語</option>
+                <option value="KRko">한국어</option>
+                <option value="CNzh">简体中文 (中国)</option>
+                <option value="TWzh">繁體中文 (台灣)</option>
+                <option value="EUde">Deutsch</option>
+                <option value="EUfr">Français</option>
+                <option value="USfr">Français (Canada)</option>
+                <option value="EUes">Español</option>
+                <option value="USes">Español (Latinoamérica)</option>
+                <option value="EUit">Italiano</option>
+                <option value="EUnl">Nederlands</option>
+                <option value="EUru">Русский</option>
+            </select>
+
+            <label>Search:</label>
+            <input id="search" type="text" placeholder="Music name..." />
+        </div>
+
+        <div class="progress-wrap">
+            <div id="progressText"></div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" id="list"></div>
+
+    <div id="tooltip" class="tooltip"></div>
+
+    <script src="js/core.js"></script>
+    <script src="js/gyroid.js"></script>
+
+</body>
+
+</html>
+```
