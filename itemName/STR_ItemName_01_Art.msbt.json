@@ -798,7 +798,7 @@
     }
   },
   {
-    "label": "SculptureFake_00075",
+    "label": "PictureFake_00075",
     "locale": {
       "CNzh": "粗野的名画右半边",
       "EUde": "Ungestümgemälde (rechts)",
@@ -1026,7 +1026,7 @@
     }
   },
   {
-    "label": "SculptureFake_12571",
+    "label": "PictureFake_12571",
     "locale": {
       "CNzh": "粗野的名画左半边",
       "EUde": "Ungestümgemälde (links)",
@@ -1045,7 +1045,7 @@
     }
   },
   {
-    "label": "Sculpture_00076",
+    "label": "Picture_00076",
     "locale": {
       "CNzh": "粗野的名画右半边",
       "EUde": "Ungestümgemälde (rechts)",
@@ -1311,7 +1311,7 @@
     }
   },
   {
-    "label": "Sculpture_12570",
+    "label": "Picture_12570",
     "locale": {
       "CNzh": "粗野的名画左半边",
       "EUde": "Ungestümgemälde (links)",
