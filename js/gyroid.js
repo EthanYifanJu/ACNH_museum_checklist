@@ -37,7 +37,7 @@ function render() {
             card.innerHTML = `
                 <input type="checkbox" ${checked ? "checked" : ""}>
 
-                <img src="/icon/FtrIcon/${g["Filename"]}.png">
+                <img src="../icon/FtrIcon/${g["Filename"]}.png">
 
                 <div>
                     <div class="name">${getName(g)}</div>
@@ -107,8 +107,8 @@ document.getElementById("lang").addEventListener("change", e => {
 /* ---------------- LOAD ---------------- */
 
 Promise.all([
-    fetch("/data/gyroid.json").then(r => r.json()),
-    fetch("/itemName/STR_ItemName_35_Gyroid.msbt.json").then(r => r.json())
+    fetch("../data/gyroid.json").then(r => r.json()),
+    fetch("../itemName/STR_ItemName_35_Gyroid.msbt.json").then(r => r.json())
 ]).then(([gyroid, names]) => {
     gyroidData = gyroid;
     gyroidNames = names;

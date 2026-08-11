@@ -37,7 +37,7 @@ function render() {
             card.innerHTML = `
                 <input type="checkbox" ${checked ? "checked" : ""}>
 
-                <img src="/icon/ManpuIcon/${r["Icon Filename"]}.png">
+                <img src="../icon/ManpuIcon/${r["Icon Filename"]}.png">
 
                 <div>
                     <div class="name">${getName(r)}</div>
@@ -107,8 +107,8 @@ document.getElementById("lang").addEventListener("change", e => {
 /* ---------------- LOAD ---------------- */
 
 Promise.all([
-    fetch("/data/reaction.json").then(r => r.json()),
-    fetch("/itemName/STR_Emoticon.msbt.json").then(r => r.json())
+    fetch("../data/reaction.json").then(r => r.json()),
+    fetch("../itemName/STR_Emoticon.msbt.json").then(r => r.json())
 ]).then(([reaction, names]) => {
     reactionData = reaction;
     reactionNames = names;

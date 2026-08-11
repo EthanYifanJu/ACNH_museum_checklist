@@ -41,7 +41,7 @@ function render() {
             card.innerHTML = `
                 <input type="checkbox" ${checked ? "checked" : ""}>
 
-                <img src="/icon/BookFishIcon/${f["Critterpedia Filename"]}.png">
+                <img src="../icon/BookFishIcon/${f["Critterpedia Filename"]}.png">
 
                 <div>
                     <div class="name">${getName(f)}</div>
@@ -111,8 +111,8 @@ document.getElementById("month").addEventListener("change", render);
 /* ---------------- LOAD ---------------- */
 
 Promise.all([
-    fetch("/data/fish.json").then(r => r.json()),
-    fetch("/itemName/STR_ItemName_31_Fish.msbt.json").then(r => r.json())
+    fetch("../data/fish.json").then(r => r.json()),
+    fetch("../itemName/STR_ItemName_31_Fish.msbt.json").then(r => r.json())
 ]).then(([fish, names]) => {
     fishData = fish;
     fishNames = names;

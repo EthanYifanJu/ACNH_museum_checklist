@@ -37,7 +37,7 @@ function render() {
             card.innerHTML = `
                 <input type="checkbox" ${checked ? "checked" : ""}>
 
-                <img src="/icon/FtrIcon/${f["Filename"]}.png">
+                <img src="../icon/FtrIcon/${f["Filename"]}.png">
 
                 <div>
                     <div class="name">${getName(f)}</div>
@@ -103,8 +103,8 @@ document.getElementById("lang").addEventListener("change", e => {
 /* ---------------- LOAD ---------------- */
 
 Promise.all([
-    fetch("/data/fossil.json").then(r => r.json()),
-    fetch("/itemName/STR_ItemName_34_Fossil.msbt.json").then(r => r.json())
+    fetch("../data/fossil.json").then(r => r.json()),
+    fetch("../itemName/STR_ItemName_34_Fossil.msbt.json").then(r => r.json())
 ]).then(([fossil, names]) => {
     fossilData = fossil;
     fossilNames = names;
