@@ -1,6 +1,6 @@
-# ACNH Museum Checklist
+# Animal Crossing: New Horizons items Checklist
 
-A simple web-based checklist for tracking your **Animal Crossing: New Horizons** museum collection.
+A simple web-based checklist for tracking your **Animal Crossing: New Horizons** collection.
 
 The checklist currently includes:
 
@@ -13,7 +13,12 @@ The checklist currently includes:
 * Gyroids
 * Reactions
 
-Your collection progress is saved locally in your browser.
+## Live Website
+
+**[Animal Crossing: New Horizons Checklist](https://ethanyifanju.github.io/ACNH_museum_checklist/)**
+
+A simple, interactive checklist for tracking your Animal Crossing: New Horizons collection. Browse different categories, search for items, view detailed information, and mark items as collected. Your progress is saved locally in your browser.
+
 
 ## Features
 
