@@ -16,6 +16,26 @@ function getName(sea) {
     return entry.locale?.[lang];
 }
 
+/* ---------------- SORT ---------------- */
+
+function sortSea(data) {
+    const order = document.getElementById("order").value;
+
+    if (order === "alphabetical") {
+        return data.sort((a, b) =>
+            getName(a).localeCompare(
+                getName(b),
+                undefined,
+                { sensitivity: "base" }
+            )
+        );
+    }
+
+    // Critterpedia order
+    return data.sort(
+        (a, b) => Number(a["#"]) - Number(b["#"])
+    );
+}
 
 /* ---------------- RENDER ---------------- */
 
@@ -26,9 +46,11 @@ function render() {
     const month = document.getElementById("month").value;
     const tooltip = document.getElementById("tooltip");
 
-    seaData
-        .filter(s => getName(s).toLowerCase().includes(searchQuery))
-        .forEach(s => {
+    sortSea(
+        seaData.filter(s =>
+            getName(s).toLowerCase().includes(searchQuery)
+        )
+    ).forEach(s => {
 
             const nh = s[`NH ${month}`] || "";
             const sh = s[`SH ${month}`] || "NA";
@@ -107,6 +129,8 @@ document.getElementById("lang").addEventListener("change", e => {
 });
 
 document.getElementById("month").addEventListener("change", render);
+
+document.getElementById("order").addEventListener("change", render);
 
 /* ---------------- LOAD ---------------- */
 

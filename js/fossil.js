@@ -16,6 +16,33 @@ function getName(fossil) {
     return entry.locale?.[lang];
 }
 
+/* ---------------- SORT ---------------- */
+
+function sortFossil(data) {
+    const order = document.getElementById("order").value;
+
+    if (order === "alphabetical") {
+        return data.sort((a, b) =>
+            getName(a).localeCompare(
+                getName(b),
+                undefined,
+                { sensitivity: "base" }
+            )
+        );
+    }
+
+    // Museum room order
+    return data.sort(
+        (a, b) => {
+            const roomA = Number(a["Museum"].match(/\d+/)?.[0]);
+            const roomB = Number(b["Museum"].match(/\d+/)?.[0]);
+
+            return roomA - roomB;
+        }
+    );
+}
+
+
 
 /* ---------------- RENDER ---------------- */
 
@@ -25,9 +52,11 @@ function render() {
 
     const tooltip = document.getElementById("tooltip");
 
-    fossilData
-        .filter(f => getName(f).toLowerCase().includes(searchQuery))
-        .forEach(f => {
+    sortFossil(
+        fossilData.filter(f =>
+            getName(f).toLowerCase().includes(searchQuery)
+        )
+    ).forEach(f => {
 
             const card = document.createElement("div");
             card.className = "card";
@@ -43,7 +72,7 @@ function render() {
                     <div class="name">${getName(f)}</div>
 
                     <div class="meta">
-                    💰 ${f.Sell} | 📏 ${f.Size} | ${f["Fossil Group"]}
+                    💰 ${f.Sell} | 📏 ${f.Size} | 📍 Museum ${f["Museum"]} |${f["Fossil Group"]}
                     </div>
                 </div>
             `;
@@ -99,6 +128,7 @@ document.getElementById("lang").addEventListener("change", e => {
     render();
 });
 
+document.getElementById("order").addEventListener("change", render);
 
 /* ---------------- LOAD ---------------- */
 

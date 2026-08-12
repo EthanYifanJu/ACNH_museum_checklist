@@ -16,6 +16,27 @@ function getName(fish) {
     return entry.locale?.[lang];
 }
 
+/* ---------------- SORT ---------------- */
+
+function sortFish(data) {
+    const order = document.getElementById("order").value;
+
+    if (order === "alphabetical") {
+        return data.sort((a, b) =>
+            getName(a).localeCompare(
+                getName(b),
+                undefined,
+                { sensitivity: "base" }
+            )
+        );
+    }
+
+    // Critterpedia order
+    return data.sort(
+        (a, b) => Number(a["#"]) - Number(b["#"])
+    );
+}
+
 
 /* ---------------- RENDER ---------------- */
 
@@ -26,57 +47,60 @@ function render() {
     const month = document.getElementById("month").value;
     const tooltip = document.getElementById("tooltip");
 
-    fishData
-        .filter(f => getName(f).toLowerCase().includes(searchQuery))
-        .forEach(f => {
+    sortFish(
+        fishData.filter(f =>
+            getName(f).toLowerCase().includes(searchQuery)
+        )
+    ).forEach(f => {
 
-            const nh = f[`NH ${month}`] || "";
-            const sh = f[`SH ${month}`] || "NA";
+        const nh = f[`NH ${month}`] || "";
+        const sh = f[`SH ${month}`] || "NA";
 
-            const card = document.createElement("div");
-            card.className = "card";
+        const card = document.createElement("div");
+        card.className = "card";
 
-            const checked = state[f.Name];
+        const checked = state[f.Name];
 
-            card.innerHTML = `
-                <input type="checkbox" ${checked ? "checked" : ""}>
+        card.innerHTML = `
+            <input type="checkbox" ${checked ? "checked" : ""}>
 
-                <img src="../icon/BookFishIcon/${f["Critterpedia Filename"]}.png">
+            <img src="../icon/BookFishIcon/${f["Critterpedia Filename"]}.png">
 
-                <div>
-                    <div class="name">${getName(f)}</div>
+            <div>
+                <div class="name">${getName(f)}</div>
 
-                    <div class="meta">
-                    💰 ${f.Sell} • 📍 ${f["Where/How"]} • 🌑 ${f.Shadow}
-                    </div>
-
-                    ${timeline("NH", nh, "#22c55e")}
-                    ${timeline("SH", sh, "#38bdf8")}
+                <div class="meta">
+                💰 ${f.Sell} • 📍 ${f["Where/How"]} • 🌑 ${f.Shadow}
                 </div>
-            `;
 
-            const checkbox = card.querySelector("input");
-            checkbox.addEventListener("change", () => {
-                state[f.Name] = checkbox.checked;
-                save();
-                render();
-            });
+                ${timeline("NH", nh, "#22c55e")}
+                ${timeline("SH", sh, "#38bdf8")}
+            </div>
+        `;
 
-            const name = card.querySelector(".name");
+        const checkbox = card.querySelector("input");
 
-            name.onmousemove = (e) => {
-                tooltip.style.display = "block";
-                tooltip.style.left = e.pageX + 10 + "px";
-                tooltip.style.top = e.pageY + 10 + "px";
-                tooltip.textContent = f.Description;
-            };
-
-            name.onmouseleave = () => {
-                tooltip.style.display = "none";
-            };
-
-            list.appendChild(card);
+        checkbox.addEventListener("change", () => {
+            state[f.Name] = checkbox.checked;
+            save();
+            render();
         });
+
+        const name = card.querySelector(".name");
+
+        name.onmousemove = (e) => {
+            tooltip.style.display = "block";
+            tooltip.style.left = e.pageX + 10 + "px";
+            tooltip.style.top = e.pageY + 10 + "px";
+            tooltip.textContent = f.Description;
+        };
+
+        name.onmouseleave = () => {
+            tooltip.style.display = "none";
+        };
+
+        list.appendChild(card);
+    });
 
     updateProgress();
 }
@@ -107,6 +131,8 @@ document.getElementById("lang").addEventListener("change", e => {
 });
 
 document.getElementById("month").addEventListener("change", render);
+
+document.getElementById("order").addEventListener("change", render);
 
 /* ---------------- LOAD ---------------- */
 

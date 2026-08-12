@@ -16,6 +16,26 @@ function getName(insect) {
     return entry.locale?.[lang];
 }
 
+/* ---------------- SORT ---------------- */
+
+function sortInsect(data) {
+    const order = document.getElementById("order").value;
+
+    if (order === "alphabetical") {
+        return data.sort((a, b) =>
+            getName(a).localeCompare(
+                getName(b),
+                undefined,
+                { sensitivity: "base" }
+            )
+        );
+    }
+
+    // Critterpedia order
+    return data.sort(
+        (a, b) => Number(a["#"]) - Number(b["#"])
+    );
+}
 
 /* ---------------- RENDER ---------------- */
 
@@ -26,9 +46,11 @@ function render() {
     const month = document.getElementById("month").value;
     const tooltip = document.getElementById("tooltip");
 
-    insectData
-        .filter(i => getName(i).toLowerCase().includes(searchQuery))
-        .forEach(i => {
+    sortInsect(
+        insectData.filter(i =>
+            getName(i).toLowerCase().includes(searchQuery)
+        )
+    ).forEach(i => {
 
             const nh = i[`NH ${month}`] || "";
             const sh = i[`SH ${month}`] || "NA";
@@ -107,6 +129,8 @@ document.getElementById("lang").addEventListener("change", e => {
 });
 
 document.getElementById("month").addEventListener("change", render);
+
+document.getElementById("order").addEventListener("change", render);
 
 /* ---------------- LOAD ---------------- */
 
