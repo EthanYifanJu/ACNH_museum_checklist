@@ -1,12 +1,18 @@
 :root {
-  --bg: #0f172a;
-  --card: #111c33;
-  --text: #e5e7eb;
-  --muted: #94a3b8;
-  --green: #22c55e;
-  --blue: #38bdf8;
-  --border: rgba(255, 255, 255, 0.08);
+  --bg: #fff8f0;
+  --card: #fffdf9;
+  --text: #5a4636;
+  --muted: #9a8472;
+  --green: #78b88a;
+  --blue: #7db8c9;
+  --border: rgba(120, 90, 60, 0.15);
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
 
 body {
   margin: 0;
@@ -15,21 +21,24 @@ body {
   color: var(--text);
 }
 
+
 /* HEADER */
 header {
   padding: 20px;
   position: sticky;
   top: 0;
-  background: rgba(15, 23, 42, 0.95);
+  background: rgba(255, 248, 240, 0.95);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
   z-index: 10;
 }
 
+
 h1 {
   margin: 0;
   font-size: 22px;
 }
+
 
 .controls {
   margin-top: 10px;
@@ -39,26 +48,30 @@ h1 {
   align-items: center;
 }
 
+
 select,
 input {
   padding: 6px 10px;
   border-radius: 8px;
   border: 1px solid var(--border);
-  background: #0b1220;
+  background: #fffdf9;
   color: var(--text);
 }
+
 
 /* PROGRESS */
 .progress-wrap {
   margin-top: 10px;
 }
 
+
 .progress-bar {
   height: 8px;
-  background: #1e293b;
+  background: #f1e5d8;
   border-radius: 10px;
   overflow: hidden;
 }
+
 
 .progress-fill {
   height: 100%;
@@ -66,12 +79,14 @@ input {
   width: 0%;
 }
 
+
 /* LIST */
 .container {
   padding: 20px;
   display: grid;
   gap: 12px;
 }
+
 
 /* CARD */
 .card {
@@ -84,39 +99,55 @@ input {
   gap: 14px;
   align-items: center;
   transition: 0.2s;
+
+  box-shadow: 0 2px 8px rgba(120, 90, 60, 0.05);
 }
+
 
 .card:hover {
   transform: translateY(-2px);
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(120, 90, 60, 0.25);
+  box-shadow: 0 4px 12px rgba(120, 90, 60, 0.08);
 }
 
-img {
-  width: 130px;
+
+/* CARD IMAGE */
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  display: block;
 }
 
+
+/* NAME */
 .name {
   font-weight: 600;
 }
 
+
+/* META */
 .meta {
   font-size: 12px;
   color: var(--muted);
   margin-top: 4px;
 }
 
+
 /* TIMELINE */
 .timeline {
   margin-top: 8px;
 }
 
+
 .bar {
   position: relative;
   height: 14px;
-  background: #0b1220;
+  background: #f1e5d8;
   border-radius: 6px;
   overflow: hidden;
 }
+
 
 .seg {
   position: absolute;
@@ -124,39 +155,113 @@ img {
   height: 100%;
 }
 
+
 /* TOOLTIP */
 .tooltip {
   position: absolute;
-  background: #0b1220;
+  background: #fffdf9;
   border: 1px solid var(--border);
-  color: white;
+  color: var(--text);
   padding: 10px;
   border-radius: 10px;
   font-size: 12px;
   max-width: 260px;
   display: none;
   z-index: 1000;
+
+  box-shadow: 0 4px 12px rgba(120, 90, 60, 0.12);
 }
+
 
 /* CHECKBOX */
 input[type="checkbox"] {
   transform: scale(1.2);
+  accent-color: var(--green);
 }
 
+
+/* MENU BUTTON */
 .menu-btn {
   padding: 6px 10px;
   border-radius: 8px;
   border: 1px solid var(--border);
-  background: #0b1220;
+  background: #fffdf9;
   color: var(--text);
   text-decoration: none;
   font-size: 13px;
   transition: 0.2s;
 }
 
+
+.menu-btn:hover {
+  background: #fdf0e5;
+}
+
+
+/* FLOATING BACK */
 .floating-back {
   position: fixed;
   top: 20px;
   right: 20px;
   z-index: 1000;
+}
+
+
+/* ========================================
+   MOBILE
+   ======================================== */
+
+@media (max-width: 600px) {
+
+  header {
+    padding: 14px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .controls {
+    gap: 8px;
+  }
+
+  select,
+  input {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .container {
+    padding: 10px;
+    gap: 8px;
+  }
+
+  .card {
+    grid-template-columns: 30px 80px minmax(0, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .name {
+    font-size: 15px;
+  }
+
+  .meta {
+    font-size: 11px;
+    line-height: 1.4;
+  }
+
+  input[type="checkbox"] {
+    transform: scale(1.1);
+  }
+
+  .floating-back {
+    top: 10px;
+    right: 10px;
+  }
 }

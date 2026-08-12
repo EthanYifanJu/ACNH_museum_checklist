@@ -1,68 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Animal Crossing: New Horizons Checklist</title>
+  <meta charset="UTF-8">
+  <title>Animal Crossing: New Horizons Checklist</title>
 
-<style>
-body {
-  margin: 0;
-  font-family: system-ui, Arial;
-  background: #0f172a;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-.container {
-  text-align: center;
-}
+  <style>
+    :root {
+      --bg: #fff8f0;
+      --card: #fffdf9;
+      --text: #5a4636;
+      --muted: #9a8472;
+      --green: #78b88a;
+      --blue: #7db8c9;
+      --border: rgba(120, 90, 60, 0.15);
+    }
 
-h1 {
-  margin-bottom: 30px;
-}
+    * {
+      box-sizing: border-box;
+    }
 
-.menu {
-  display: grid;
-  gap: 16px;
-}
+    body {
+      margin: 0;
+      font-family: system-ui, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
 
-a {
-  text-decoration: none;
-  padding: 14px 20px;
-  background: #1e293b;
-  border-radius: 12px;
-  color: white;
-  font-weight: 600;
-  transition: 0.2s;
-}
+      min-height: 100vh;
 
-a:hover {
-  background: #334155;
-  transform: translateY(-2px);
-}
-</style>
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      padding: 20px;
+    }
+
+
+    /* MAIN CONTAINER */
+
+    .container {
+      width: 100%;
+      max-width: 500px;
+      text-align: center;
+    }
+
+
+    /* TITLE */
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      margin-bottom: 30px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+
+    /* MENU */
+
+    .menu {
+      display: grid;
+      gap: 12px;
+    }
+
+
+    .menu a {
+      text-decoration: none;
+
+      padding: 15px 20px;
+
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+
+      color: var(--text);
+      font-weight: 600;
+
+      box-shadow: 0 2px 8px rgba(120, 90, 60, 0.05);
+
+      transition: 0.2s;
+    }
+
+
+    .menu a:hover {
+      transform: translateY(-2px);
+
+      background: #fdf0e5;
+
+      border-color: rgba(120, 90, 60, 0.25);
+
+      box-shadow: 0 4px 12px rgba(120, 90, 60, 0.1);
+    }
+
+
+    /* ICON */
+
+    .icon {
+      margin-right: 8px;
+    }
+
+
+    /* MOBILE */
+
+    @media (max-width: 600px) {
+
+      body {
+        align-items: flex-start;
+        padding-top: 60px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      .subtitle {
+        margin-bottom: 24px;
+      }
+
+      .menu a {
+        padding: 14px;
+      }
+    }
+  </style>
 
 </head>
 
+
 <body>
 
-<div class="container">
-  <h1>🐾 ACNH Museum Checklist</h1>
+  <div class="container">
 
-  <div class="menu">
-    <a href="src/fish.html">Fish</a>
-    <a href="src/insect.html">Insects</a>
-    <a href="src/sea.html">Sea Creatures</a>
-    <a href="src/fossil.html">Fossils</a>
-    <a href="src/art.html">Artwork</a>
-    <a href="src/music.html">Music</a>
-    <a href="src/gyroid.html">Gyroids</a>
-    <a href="src/reaction.html">Reactions</a>
+    <h1>Animal Crossing: New Horizons Checklist</h1>
+
+    <div class="subtitle">
+      Track your Animal Crossing: New Horizons collection
+    </div>
+
+
+    <div class="menu">
+
+      <a href="src/fish.html">
+        Fish
+      </a>
+
+      <a href="src/insect.html">
+        Insects
+      </a>
+
+      <a href="src/sea.html">
+        Sea Creatures
+      </a>
+
+      <a href="src/fossil.html">
+        Fossils
+      </a>
+
+      <a href="src/art.html">
+        Artwork
+      </a>
+
+      <a href="src/music.html">
+        Music
+      </a>
+
+      <a href="src/gyroid.html">
+        Gyroids
+      </a>
+
+      <a href="src/reaction.html">
+        Reactions
+      </a>
+
+    </div>
+
   </div>
-</div>
 
 </body>
+
 </html>
