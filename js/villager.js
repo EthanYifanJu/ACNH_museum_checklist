@@ -628,8 +628,9 @@ function render() {
 
                     <img
                         class="villager-post"
-                        src="../icon/NpcBromide/NpcNml${v["Filename"]}.png"
+                        src="../icon/NpcBromide/NpcNml${v["Filename"].charAt(0).toUpperCase() + v["Filename"].slice(1)}.png"
                         alt="${getName(v)}"
+                        onerror="this.style.display='none';"
                     >
 
                 </div>

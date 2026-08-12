@@ -242,7 +242,7 @@ function render() {
 
                     <img
                         class="villager-post"
-                        src="../icon/NpcBromide/NpcSp${v["Icon Filename"]}.png"
+                        src="../icon/NpcBromide/NpcSp${v["Icon Filename"].charAt(0).toUpperCase() + v["Icon Filename"].slice(1)}.png"
                         alt="${getName(v)}"
                         onerror="this.style.display='none';"
                     >
