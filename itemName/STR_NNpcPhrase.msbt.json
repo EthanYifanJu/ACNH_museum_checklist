@@ -1,0 +1,7925 @@
+﻿[
+  {
+    "label": "ant00",
+    "locale": {
+      "CNzh": "有的",
+      "EUde": "schneuf",
+      "EUen": "ah-CHOO",
+      "EUes": "achús",
+      "EUfr": "ATCHOUM",
+      "EUit": "ett-CCIÙ",
+      "EUnl": "ha-TSJOE",
+      "EUru": "апчхи",
+      "JPja": "でごわす",
+      "KRko": "임돠",
+      "TWzh": "有的",
+      "USen": "ah-CHOO",
+      "USes": "achús",
+      "USfr": "ATCHOUM"
+    }
+  },
+  {
+    "label": "ant01",
+    "locale": {
+      "CNzh": "真诚",
+      "EUde": "schlürrrf",
+      "EUen": "honk",
+      "EUes": "fufuf",
+      "EUfr": "pouet",
+      "EUit": "honk",
+      "EUnl": "snuit",
+      "EUru": "го-го-го",
+      "JPja": "ホントに",
+      "KRko": "진짜로",
+      "TWzh": "真誠",
+      "USen": "honk",
+      "USes": "fufuf",
+      "USfr": "pouet"
+    }
+  },
+  {
+    "label": "ant02",
+    "locale": {
+      "CNzh": "希希",
+      "EUde": "schnieef",
+      "EUen": "snooooof",
+      "EUes": "snuf-snuf",
+      "EUfr": "pouuuuuf",
+      "EUit": "snuuf",
+      "EUnl": "snufffff",
+      "EUru": "снуф-снуф",
+      "JPja": "だっしー",
+      "KRko": "라지요",
+      "TWzh": "希希",
+      "USen": "snooooof",
+      "USes": "snuf-snuf",
+      "USfr": "pouuuuuf"
+    }
+  },
+  {
+    "label": "ant03",
+    "locale": {
+      "CNzh": "真的假的",
+      "EUde": "puuust",
+      "EUen": "snorty",
+      "EUes": "esnoink",
+      "EUfr": "grognon",
+      "EUit": "snorty",
+      "EUnl": "snork",
+      "EUru": "хрум-хрум",
+      "JPja": "マジでー",
+      "KRko": "정말",
+      "TWzh": "真的假的",
+      "USen": "snorty",
+      "USes": "fa-fiú",
+      "USfr": "grognon"
+    }
+  },
+  {
+    "label": "ant05",
+    "locale": {
+      "CNzh": "粉粉",
+      "EUde": "schnurz",
+      "EUen": "zoozooroo",
+      "EUes": "olisquín",
+      "EUfr": "bubale",
+      "EUit": "oiiinfff",
+      "EUnl": "mierakel",
+      "EUru": "пых-пых",
+      "JPja": "ハフーン",
+      "KRko": "후루룩",
+      "TWzh": "粉粉",
+      "USen": "zoozooroo",
+      "USes": "olisquín",
+      "USfr": "bubale"
+    }
+  },
+  {
+    "label": "ant06",
+    "locale": {
+      "CNzh": "麻烦了",
+      "EUde": "schnuff",
+      "EUen": "sniffff",
+      "EUes": "sniff",
+      "EUfr": "snif snif",
+      "EUit": "sniffff",
+      "EUnl": "snuifff",
+      "EUru": "шмыг",
+      "JPja": "たもれ",
+      "KRko": "추릅",
+      "TWzh": "麻煩了",
+      "USen": "sniffff",
+      "USes": "sniff",
+      "USfr": "snif snif"
+    }
+  },
+  {
+    "label": "ant08",
+    "locale": {
+      "CNzh": "优雅",
+      "EUde": "schnüffel",
+      "EUen": "gumdrop",
+      "EUes": "nubecillas",
+      "EUfr": "tap tap",
+      "EUit": "chic",
+      "EUnl": "dropje",
+      "EUru": "жуй-жуй",
+      "JPja": "をかし",
+      "KRko": "하양하양",
+      "TWzh": "優雅",
+      "USen": "gumdrop",
+      "USes": "snifffi",
+      "USfr": "tap tap"
+    }
+  },
+  {
+    "label": "ant09",
+    "locale": {
+      "CNzh": "欧啦",
+      "EUde": "mwahaaa",
+      "EUen": "whiffa",
+      "EUes": "fruf",
+      "EUfr": "tartarin",
+      "EUit": "swish",
+      "EUnl": "toet",
+      "EUru": "уф-уф",
+      "JPja": "ムーチョ",
+      "KRko": "무쵸",
+      "TWzh": "歐啦",
+      "USen": "whiffa",
+      "USes": "fruf",
+      "USfr": "yesss"
+    }
+  },
+  {
+    "label": "bea00",
+    "locale": {
+      "CNzh": "太好了",
+      "EUde": "gruff",
+      "EUen": "grooof",
+      "EUes": "gruuuf",
+      "EUfr": "grrrrrr",
+      "EUit": "gruf",
+      "EUnl": "grommm",
+      "EUru": "быр-быр",
+      "JPja": "ですたい",
+      "KRko": "입네다",
+      "TWzh": "太好了",
+      "USen": "grooof",
+      "USes": "gruuuf",
+      "USfr": "grrrrrr"
+    }
+  },
+  {
+    "label": "bea01",
+    "locale": {
+      "CNzh": "哇喔",
+      "EUde": "schätzchen",
+      "EUen": "wah",
+      "EUes": "terronillo",
+      "EUfr": "ouah",
+      "EUit": "cubetto",
+      "EUnl": "wauw",
+      "EUru": "ну и ну",
+      "JPja": "わぉ",
+      "KRko": "와",
+      "TWzh": "哇喔",
+      "USen": "wah",
+      "USes": "guah",
+      "USfr": "ouah"
+    }
+  },
+  {
+    "label": "bea02",
+    "locale": {
+      "CNzh": "嗯唔",
+      "EUde": "grumml",
+      "EUen": "fuzzball",
+      "EUes": "oye",
+      "EUfr": "bouboule",
+      "EUit": "grrroan",
+      "EUnl": "brombeer",
+      "EUru": "махрово",
+      "JPja": "ウム",
+      "KRko": "음",
+      "TWzh": "嗯唔",
+      "USen": "fuzzball",
+      "USes": "gromp",
+      "USfr": "bouboule"
+    }
+  },
+  {
+    "label": "bea03",
+    "locale": {
+      "CNzh": "有喔",
+      "EUde": "hiijaa",
+      "EUen": "aiya",
+      "EUes": "ándale-oso",
+      "EUfr": "lala",
+      "EUit": "ehilà",
+      "EUnl": "kiai",
+      "EUru": "ай-яй",
+      "JPja": "アルヨ",
+      "KRko": "그럼",
+      "TWzh": "有喔",
+      "USen": "aiya",
+      "USes": "grinchu",
+      "USfr": "lala"
+    }
+  },
+  {
+    "label": "bea05",
+    "locale": {
+      "CNzh": "嗯是",
+      "EUde": "gäähn",
+      "EUen": "yawwwn",
+      "EUes": "uuaaaah",
+      "EUfr": "baaîîîllle",
+      "EUit": "yauuun",
+      "EUnl": "gaaaap",
+      "EUru": "спа-а-ать",
+      "JPja": "んだ",
+      "KRko": "힘내",
+      "TWzh": "嗯是",
+      "USen": "yawwwn",
+      "USes": "uuaaaah",
+      "USfr": "baaîîîllle"
+    }
+  },
+  {
+    "label": "bea06",
+    "locale": {
+      "CNzh": "哇哇",
+      "EUde": "brummel",
+      "EUen": "grumble",
+      "EUes": "jorrr",
+      "EUfr": "grou-gnon",
+      "EUit": "grum grum",
+      "EUnl": "brom",
+      "EUru": "бур-бур",
+      "JPja": "ワォー",
+      "KRko": "어쩌라구",
+      "TWzh": "哇哇",
+      "USen": "grumble",
+      "USes": "jorrr",
+      "USfr": "grou-gnon"
+    }
+  },
+  {
+    "label": "bea07",
+    "locale": {
+      "CNzh": "加油",
+      "EUde": "hooonig",
+      "EUen": "twinkles",
+      "EUes": "fisflash",
+      "EUfr": "pic pic",
+      "EUit": "gnifa",
+      "EUnl": "honingbij",
+      "EUru": "ме-е-ед",
+      "JPja": "ファイト",
+      "KRko": "사르르",
+      "TWzh": "加油",
+      "USen": "twinkles",
+      "USes": "fisflash",
+      "USfr": "pic pic"
+    }
+  },
+  {
+    "label": "bea08",
+    "locale": {
+      "CNzh": "呀呐",
+      "EUde": "brumbrum",
+      "EUen": "grooomph",
+      "EUes": "grumf",
+      "EUfr": "groumpf",
+      "EUit": "gruuunf",
+      "EUnl": "oemf",
+      "EUru": "гррум",
+      "JPja": "やーねぇ",
+      "KRko": "그라지",
+      "TWzh": "呀吶",
+      "USen": "grooomph",
+      "USes": "grumf",
+      "USfr": "groumpf"
+    }
+  },
+  {
+    "label": "bea09",
+    "locale": {
+      "CNzh": "熊熊",
+      "EUde": "grrr",
+      "EUen": "grrr",
+      "EUes": "tostón",
+      "EUfr": "canaillou",
+      "EUit": "grrr",
+      "EUnl": "grrr",
+      "EUru": "грр",
+      "JPja": "だクマ",
+      "KRko": "냅둬",
+      "TWzh": "熊熊",
+      "USen": "grrr",
+      "USes": "grrre",
+      "USfr": "canaillou"
+    }
+  },
+  {
+    "label": "bea10",
+    "locale": {
+      "CNzh": "耶呼",
+      "EUde": "bralala",
+      "EUen": "yodelay",
+      "EUes": "borobó",
+      "EUfr": "léchouille",
+      "EUit": "bah",
+      "EUnl": "jodelie",
+      "EUru": "йодль",
+      "JPja": "ヤッホー",
+      "KRko": "야호야호",
+      "TWzh": "耶呼",
+      "USen": "yodelay",
+      "USes": "borobó",
+      "USfr": "tourlou"
+    }
+  },
+  {
+    "label": "bea11",
+    "locale": {
+      "CNzh": "施主",
+      "EUde": "brrruah",
+      "EUen": "roadie",
+      "EUes": "tornillos",
+      "EUfr": "pot d'miel",
+      "EUit": "sgrugno",
+      "EUnl": "ja denk",
+      "EUru": "гарр-сон",
+      "JPja": "ボウズ",
+      "KRko": "터프",
+      "TWzh": "施主",
+      "USen": "roadie",
+      "USes": "grurrr",
+      "USfr": "pot d'miel"
+    }
+  },
+  {
+    "label": "bea12",
+    "locale": {
+      "CNzh": "唷咻",
+      "EUde": "bärbär",
+      "EUen": "urgh",
+      "EUes": "comolooyes",
+      "EUfr": "verlue",
+      "EUit": "sbuff",
+      "EUnl": "pff",
+      "EUru": "ого-го",
+      "JPja": "よいしょ",
+      "KRko": "으랏차차",
+      "TWzh": "唷咻",
+      "USen": "urgh",
+      "USes": "urrrgh",
+      "USfr": "chacha"
+    }
+  },
+  {
+    "label": "bea13",
+    "locale": {
+      "CNzh": "咳咳",
+      "EUde": "brrroho",
+      "EUen": "whiskers",
+      "EUes": "bigotre",
+      "EUfr": "poilodos",
+      "EUit": "andale",
+      "EUnl": "snorhaar",
+      "EUru": "усы мои",
+      "JPja": "オッホン",
+      "KRko": "오홍홍",
+      "TWzh": "咳咳",
+      "USen": "whiskers",
+      "USes": "bigotre",
+      "USfr": "ciao"
+    }
+  },
+  {
+    "label": "bea14",
+    "locale": {
+      "CNzh": "Over",
+      "EUde": "gruaaa",
+      "EUen": "strudel",
+      "EUes": "ricitos",
+      "EUfr": "achtung",
+      "EUit": "bailar",
+      "EUnl": "strudel",
+      "EUru": "штрудель",
+      "JPja": "オパー",
+      "KRko": "라저",
+      "TWzh": "Over",
+      "USen": "strudel",
+      "USes": "achurf",
+      "USfr": "achtung"
+    }
+  },
+  {
+    "label": "bea15",
+    "locale": {
+      "CNzh": "舔舔",
+      "EUde": "lollipop",
+      "EUen": "sundae",
+      "EUes": "tutifruti",
+      "EUfr": "berlingot",
+      "EUit": "sucré",
+      "EUnl": "lolly",
+      "EUru": "сладенько",
+      "JPja": "ぺろ",
+      "KRko": "낼름",
+      "TWzh": "舔舔",
+      "USen": "sundae",
+      "USes": "tutifruti",
+      "USfr": "berlingot"
+    }
+  },
+  {
+    "label": "brd00",
+    "locale": {
+      "CNzh": "呢喃",
+      "EUde": "hiiiijjj",
+      "EUen": "heeeeeyy",
+      "EUes": "heeey",
+      "EUfr": "maaaaaais",
+      "EUit": "cipinci",
+      "EUnl": "heeeeeyy",
+      "EUru": "хей-хей",
+      "JPja": "でおます",
+      "KRko": "그쵸",
+      "TWzh": "呢喃",
+      "USen": "heeeeeyy",
+      "USes": "eeey",
+      "USfr": "maaaaaais"
+    }
+  },
+  {
+    "label": "brd01",
+    "locale": {
+      "CNzh": "喳",
+      "EUde": "ladida",
+      "EUen": "la-di-da",
+      "EUes": "picatoste",
+      "EUfr": "ta-di-da",
+      "EUit": "yuppidù",
+      "EUnl": "lalala",
+      "EUru": "ля-ля-ля",
+      "JPja": "さ",
+      "KRko": "글쎄",
+      "TWzh": "喳",
+      "USen": "la-di-da",
+      "USes": "larará",
+      "USfr": "ta-di-da"
+    }
+  },
+  {
+    "label": "brd02",
+    "locale": {
+      "CNzh": "如斯",
+      "EUde": "tschurp",
+      "EUen": "chuurp",
+      "EUes": "piu-piu",
+      "EUfr": "muf-muf",
+      "EUit": "ciripì",
+      "EUnl": "tsjiiirp",
+      "EUru": "чик-чирик",
+      "JPja": "でシ",
+      "KRko": "이어라",
+      "TWzh": "如斯",
+      "USen": "chuurp",
+      "USes": "piu-piu",
+      "USfr": "muf-muf"
+    }
+  },
+  {
+    "label": "brd03",
+    "locale": {
+      "CNzh": "叽",
+      "EUde": "zwirtschi",
+      "EUen": "cheepers",
+      "EUes": "tirití",
+      "EUfr": "coolos",
+      "EUit": "ciiip",
+      "EUnl": "fwieeet",
+      "EUru": "тю-вить",
+      "JPja": "ッピ",
+      "KRko": "크",
+      "TWzh": "嘰",
+      "USen": "cheepers",
+      "USes": "tirití",
+      "USfr": "coolos"
+    }
+  },
+  {
+    "label": "brd04",
+    "locale": {
+      "CNzh": "诺诺",
+      "EUde": "zischhh",
+      "EUen": "bzzert",
+      "EUes": "pío-pío",
+      "EUfr": "bouerk",
+      "EUit": "bzzert",
+      "EUnl": "tjulp",
+      "EUru": "бзе-е-ерт",
+      "JPja": "だニョ",
+      "KRko": "삼바",
+      "TWzh": "諾諾",
+      "USen": "bzzert",
+      "USes": "pío-pío",
+      "USfr": "bouerk"
+    }
+  },
+  {
+    "label": "brd05",
+    "locale": {
+      "CNzh": "山雀",
+      "EUde": "tschikadii",
+      "EUen": "chickadee",
+      "EUes": "chupiyá",
+      "EUfr": "puic puic",
+      "EUit": "cocoricò",
+      "EUnl": "tjiep tjiep",
+      "EUru": "чики-чик",
+      "JPja": "けどー",
+      "KRko": "허나",
+      "TWzh": "山雀",
+      "USen": "chickadee",
+      "USes": "chupiyá",
+      "USfr": "puic puic"
+    }
+  },
+  {
+    "label": "brd06",
+    "locale": {
+      "CNzh": "贯彻",
+      "EUde": "oh, ja",
+      "EUen": "aye aye",
+      "EUes": "avechucho",
+      "EUfr": "cornichon",
+      "EUit": "cipissi",
+      "EUnl": "yep yep",
+      "EUru": "чиф-чиф",
+      "JPja": "ってか",
+      "KRko": "오예",
+      "TWzh": "貫徹",
+      "USen": "aye aye",
+      "USes": "piuc-piuc",
+      "USfr": "cornichon"
+    }
+  },
+  {
+    "label": "brd08",
+    "locale": {
+      "CNzh": "脸红",
+      "EUde": "twitiriti",
+      "EUen": "tweedledee",
+      "EUes": "arrurrú",
+      "EUfr": "loulou",
+      "EUit": "firulì",
+      "EUnl": "kwetter",
+      "EUru": "тви-тви",
+      "JPja": "キョン",
+      "KRko": "핑그르르",
+      "TWzh": "臉紅",
+      "USen": "tweedledee",
+      "USes": "arrurrú",
+      "USfr": "loulou"
+    }
+  },
+  {
+    "label": "brd09",
+    "locale": {
+      "CNzh": "是也",
+      "EUde": "astrein",
+      "EUen": "ace",
+      "EUes": "figura",
+      "EUfr": "ma caille",
+      "EUit": "blablo",
+      "EUnl": "hopla",
+      "EUru": "фьють",
+      "JPja": "でヤス",
+      "KRko": "겁나",
+      "TWzh": "是也",
+      "USen": "ace",
+      "USes": "figura",
+      "USfr": "ma caille"
+    }
+  },
+  {
+    "label": "brd11",
+    "locale": {
+      "CNzh": "话说",
+      "EUde": "tirilü",
+      "EUen": "ya feel",
+      "EUes": "pelusilla",
+      "EUfr": "asticô",
+      "EUit": "ciiipito",
+      "EUnl": "snappie",
+      "EUru": "чуррп",
+      "JPja": "っつーの",
+      "KRko": "그거야",
+      "TWzh": "話說",
+      "USen": "ya feel",
+      "USes": "chiurp",
+      "USfr": "asticô"
+    }
+  },
+  {
+    "label": "brd15",
+    "locale": {
+      "CNzh": "嘎",
+      "EUde": "mauser",
+      "EUen": "cacaw",
+      "EUes": "picopico",
+      "EUfr": "yaaaah",
+      "EUit": "lorito",
+      "EUnl": "kakauw",
+      "EUru": "кар-ко",
+      "JPja": "カァー",
+      "KRko": "까아악",
+      "TWzh": "嘎",
+      "USen": "cacaw",
+      "USes": "pío",
+      "USfr": "yaaaah"
+    }
+  },
+  {
+    "label": "brd16",
+    "locale": {
+      "CNzh": "唷唷唷",
+      "EUde": "piepiep",
+      "EUen": "zut alors",
+      "EUes": "chapó",
+      "EUfr": "ploc ploc",
+      "EUit": "pio pio",
+      "EUnl": "zut alors",
+      "EUru": "фу ты",
+      "JPja": "チェケラ",
+      "KRko": "체키라웃",
+      "TWzh": "唷唷唷",
+      "USen": "zut alors",
+      "USes": "chapó",
+      "USfr": "why not"
+    }
+  },
+  {
+    "label": "brd17",
+    "locale": {
+      "CNzh": "噗噗",
+      "EUde": "flatter",
+      "EUen": "crunch",
+      "EUes": "muy fuerte",
+      "EUfr": "poupousse",
+      "EUit": "sprint",
+      "EUnl": "wasbordje",
+      "EUru": "тук-тук",
+      "JPja": "ブン",
+      "KRko": "츠츠츠",
+      "TWzh": "噗噗",
+      "USen": "crunch",
+      "USes": "cachirp",
+      "USfr": "poupousse"
+    }
+  },
+  {
+    "label": "brd18",
+    "locale": {
+      "CNzh": "啁啁",
+      "EUde": "birtz",
+      "EUen": "like whoa",
+      "EUes": "gorrión",
+      "EUfr": "piaaaaf",
+      "EUit": "adiós",
+      "EUnl": "wreed",
+      "EUru": "так-так",
+      "JPja": "だチュン",
+      "KRko": "섭섭",
+      "TWzh": "啁啁",
+      "USen": "like whoa",
+      "USes": "chirpi",
+      "USfr": "piaaaaf"
+    }
+  },
+  {
+    "label": "brd20",
+    "locale": {
+      "CNzh": "吹风",
+      "EUde": "wind",
+      "EUen": "gust",
+      "EUes": "viento",
+      "EUfr": "rafale",
+      "EUit": "folata",
+      "EUnl": "woesh",
+      "EUru": "ветер",
+      "JPja": "かぜを",
+      "KRko": "바람을",
+      "TWzh": "風呀",
+      "USen": "gust",
+      "USes": "viento",
+      "USfr": "rafale"
+    }
+  },
+  {
+    "label": "bul00",
+    "locale": {
+      "CNzh": "呼呼",
+      "EUde": "brrruzzl",
+      "EUen": "macmoo",
+      "EUes": "cuernos",
+      "EUfr": "meuh meuh",
+      "EUit": "macmoo",
+      "EUnl": "denderund",
+      "EUru": "макму-у-у",
+      "JPja": "ふふ",
+      "KRko": "후후",
+      "TWzh": "呼呼",
+      "USen": "macmoo",
+      "USes": "bufff",
+      "USfr": "meuh meuh"
+    }
+  },
+  {
+    "label": "bul01",
+    "locale": {
+      "CNzh": "了不起",
+      "EUde": "oléolé",
+      "EUen": "chaps",
+      "EUes": "olé",
+      "EUfr": "crac",
+      "EUit": "oléolé",
+      "EUnl": "cowboy",
+      "EUru": "ковбой",
+      "JPja": "さすがに",
+      "KRko": "디용",
+      "TWzh": "了不起",
+      "USen": "chaps",
+      "USes": "olé",
+      "USfr": "olé"
+    }
+  },
+  {
+    "label": "bul03",
+    "locale": {
+      "CNzh": "奔驰",
+      "EUde": "muhuhu",
+      "EUen": "mrooooo",
+      "EUes": "olé y olé",
+      "EUfr": "meuh quoi",
+      "EUit": "ciaumù",
+      "EUnl": "boe-jend",
+      "EUru": "му-у",
+      "JPja": "だなっす",
+      "KRko": "알것소",
+      "TWzh": "奔馳",
+      "USen": "mrooooo",
+      "USes": "olé y olé",
+      "USfr": "meuh quoi"
+    }
+  },
+  {
+    "label": "bul05",
+    "locale": {
+      "CNzh": "是呗",
+      "EUde": "hhmmuuuhh",
+      "EUen": "moocher",
+      "EUes": "muooola",
+      "EUfr": "vachte",
+      "EUit": "muuusica",
+      "EUnl": "moehoe",
+      "EUru": "бычок",
+      "JPja": "だっぺ",
+      "KRko": "워메에",
+      "TWzh": "是唄",
+      "USen": "moocher",
+      "USes": "muuuchi",
+      "USfr": "mes cornes"
+    }
+  },
+  {
+    "label": "bul07",
+    "locale": {
+      "CNzh": "胡渣",
+      "EUde": "schnoff",
+      "EUen": "stubble",
+      "EUes": "chacho",
+      "EUfr": "mon cou",
+      "EUit": "oooh issa",
+      "EUnl": "stoppel",
+      "EUru": "раз-два",
+      "JPja": "ジョリッ",
+      "KRko": "땅땅",
+      "TWzh": "鬍渣",
+      "USen": "stubble",
+      "USes": "chacho",
+      "USfr": "bétail"
+    }
+  },
+  {
+    "label": "bul08",
+    "locale": {
+      "CNzh": "哞",
+      "EUde": "grumpf",
+      "EUen": "cud",
+      "EUes": "muuubién",
+      "EUfr": "moumoul",
+      "EUit": "trullalà",
+      "EUnl": "kauw",
+      "EUru": "полундра",
+      "JPja": "モイ",
+      "KRko": "뭐임",
+      "TWzh": "哞",
+      "USen": "cud",
+      "USes": "brufff",
+      "USfr": "moumoul"
+    }
+  },
+  {
+    "label": "cat00",
+    "locale": {
+      "CNzh": "猫猫",
+      "EUde": "psssps",
+      "EUen": "pthhpth",
+      "EUes": "zarpas",
+      "EUfr": "pfioupf",
+      "EUit": "baffo",
+      "EUnl": "poekie",
+      "EUru": "кх-кх-кх",
+      "JPja": "ネコ",
+      "KRko": "고양이",
+      "TWzh": "貓貓",
+      "USen": "pthhpth",
+      "USes": "fishfish",
+      "USfr": "pfioupf"
+    }
+  },
+  {
+    "label": "cat01",
+    "locale": {
+      "CNzh": "喵",
+      "EUde": "muh",
+      "EUen": "mew",
+      "EUes": "misi-misi",
+      "EUfr": "meeeeeh",
+      "EUit": "miao",
+      "EUnl": "mieuw",
+      "EUru": "мяу-мяу",
+      "JPja": "ニャー",
+      "KRko": "야～옹",
+      "TWzh": "喵",
+      "USen": "mew",
+      "USes": "misi-misi",
+      "USfr": "meeeeeh"
+    }
+  },
+  {
+    "label": "cat02",
+    "locale": {
+      "CNzh": "看看",
+      "EUde": "flöt",
+      "EUen": "silly",
+      "EUes": "miaaau",
+      "EUfr": "flûte",
+      "EUit": "tontolon",
+      "EUnl": "gekkie",
+      "EUru": "рыбка",
+      "JPja": "チェキ",
+      "KRko": "헤이",
+      "TWzh": "看看",
+      "USen": "silly",
+      "USes": "miaaau",
+      "USfr": "flûte"
+    }
+  },
+  {
+    "label": "cat03",
+    "locale": {
+      "CNzh": "什么",
+      "EUde": "schnurr",
+      "EUen": "purrr",
+      "EUes": "raspas",
+      "EUfr": "rrrrrrrrr",
+      "EUit": "purrr",
+      "EUnl": "prrrrrr",
+      "EUru": "мур-мяу",
+      "JPja": "なんやん",
+      "KRko": "머냐",
+      "TWzh": "什麼",
+      "USen": "purrr",
+      "USes": "michimiau",
+      "USfr": "rrrrrrrrr"
+    }
+  },
+  {
+    "label": "cat04",
+    "locale": {
+      "CNzh": "酱酱",
+      "EUde": "miausi",
+      "EUen": "kitty cat",
+      "EUes": "galletita",
+      "EUfr": "chti minou",
+      "EUit": "mieaoo",
+      "EUnl": "poesjemauw",
+      "EUru": "кисуля",
+      "JPja": "だニ",
+      "KRko": "뭐라지요",
+      "TWzh": "醬醬",
+      "USen": "kitty cat",
+      "USes": "michifiú",
+      "USfr": "chti minou"
+    }
+  },
+  {
+    "label": "cat05",
+    "locale": {
+      "CNzh": "蜜柑",
+      "EUde": "grraul",
+      "EUen": "reeeeOWR",
+      "EUes": "mandarinas",
+      "EUfr": "roooaR",
+      "EUit": "miiiiaOU",
+      "EUnl": "sinas",
+      "EUru": "фруктик",
+      "JPja": "みかん",
+      "KRko": "귤귤",
+      "TWzh": "蜜柑",
+      "USen": "reeeeOWR",
+      "USes": "mirriau",
+      "USfr": "roooaR"
+    }
+  },
+  {
+    "label": "cat06",
+    "locale": {
+      "CNzh": "晃晃",
+      "EUde": "mrmpft",
+      "EUen": "mrmpht",
+      "EUes": "arenque",
+      "EUfr": "blébléblé",
+      "EUit": "maramao",
+      "EUnl": "plof",
+      "EUru": "отдыхаем",
+      "JPja": "だのら",
+      "KRko": "노라줘",
+      "TWzh": "晃晃",
+      "USen": "mrmpht",
+      "USes": "gruuuah",
+      "USfr": "mimine"
+    }
+  },
+  {
+    "label": "cat07",
+    "locale": {
+      "CNzh": "嗯嗯",
+      "EUde": "kätzchen",
+      "EUen": "kitten",
+      "EUes": "tontaina",
+      "EUfr": "chaton",
+      "EUit": "micetto",
+      "EUnl": "kitten",
+      "EUru": "кис-кис",
+      "JPja": "ふんっ",
+      "KRko": "냠",
+      "TWzh": "嗯嗯",
+      "USen": "kitten",
+      "USes": "michimiu",
+      "USfr": "chaton"
+    }
+  },
+  {
+    "label": "cat08",
+    "locale": {
+      "CNzh": "呐",
+      "EUde": "schluchz",
+      "EUen": "myawn",
+      "EUes": "grrrroou",
+      "EUfr": "miou",
+      "EUit": "myawn",
+      "EUnl": "geeuweldig",
+      "EUru": "мяу-а-а-а",
+      "JPja": "な",
+      "KRko": "그치",
+      "TWzh": "吶",
+      "USen": "myawn",
+      "USes": "grrrroou",
+      "USfr": "miou"
+    }
+  },
+  {
+    "label": "cat09",
+    "locale": {
+      "CNzh": "咦唷",
+      "EUde": "miiiau",
+      "EUen": "meooo-OH",
+      "EUes": "imikimono",
+      "EUfr": "mia-ouh",
+      "EUit": "meooo-OH",
+      "EUnl": "mie-auw",
+      "EUru": "мя-я-яу",
+      "JPja": "ぃよぉー",
+      "KRko": "꺄",
+      "TWzh": "咦唷",
+      "USen": "meooo-OH",
+      "USes": "imikimono",
+      "USfr": "mia-ouh"
+    }
+  },
+  {
+    "label": "cat10",
+    "locale": {
+      "CNzh": "喝",
+      "EUde": "maunz",
+      "EUen": "psst",
+      "EUes": "soldado",
+      "EUfr": "psst",
+      "EUit": "psst",
+      "EUnl": "psst",
+      "EUru": "шш",
+      "JPja": "とぉっ",
+      "KRko": "얍",
+      "TWzh": "喝",
+      "USen": "psst",
+      "USes": "psst",
+      "USfr": "psst"
+    }
+  },
+  {
+    "label": "cat11",
+    "locale": {
+      "CNzh": "嗯哼",
+      "EUde": "mrrrrrrr",
+      "EUen": "pffffft",
+      "EUes": "ronrón",
+      "EUfr": "pffffft",
+      "EUit": "miaù",
+      "EUnl": "pffffft",
+      "EUru": "фи-фи",
+      "JPja": "ウフーン",
+      "KRko": "우",
+      "TWzh": "嗯哼",
+      "USen": "pffffft",
+      "USes": "ronrón",
+      "USfr": "pffffft"
+    }
+  },
+  {
+    "label": "cat12",
+    "locale": {
+      "CNzh": "喵吼",
+      "EUde": "mrriau",
+      "EUen": "me-WOW",
+      "EUes": "animiaul",
+      "EUfr": "mi-AOUUH",
+      "EUit": "meOW",
+      "EUnl": "mi-WAUW",
+      "EUru": "мя-ого",
+      "JPja": "にゃは",
+      "KRko": "삐뽀",
+      "TWzh": "喵吼",
+      "USen": "me-WOW",
+      "USes": "animiaul",
+      "USfr": "mi-AOUUH"
+    }
+  },
+  {
+    "label": "cat13",
+    "locale": {
+      "CNzh": "打啊",
+      "EUde": "fauchch",
+      "EUen": "GAAHHH",
+      "EUes": "marramiau",
+      "EUfr": "miaoum",
+      "EUit": "GAAHHH",
+      "EUnl": "BAH",
+      "EUru": "фу-у-у",
+      "JPja": "ダァーッ",
+      "KRko": "아뵤",
+      "TWzh": "打啊",
+      "USen": "GAAHHH",
+      "USes": "marramiau",
+      "USfr": "miaoum"
+    }
+  },
+  {
+    "label": "cat14",
+    "locale": {
+      "CNzh": "古古",
+      "EUde": "miezmiez",
+      "EUen": "mrowrr",
+      "EUes": "cascabel",
+      "EUfr": "miaaaouh",
+      "EUit": "fusolo",
+      "EUnl": "giechel",
+      "EUru": "мр-мр-мр",
+      "JPja": "フフ",
+      "KRko": "자갸",
+      "TWzh": "古古",
+      "USen": "mrowrr",
+      "USes": "miaul",
+      "USfr": "miaaaouh"
+    }
+  },
+  {
+    "label": "cat15",
+    "locale": {
+      "CNzh": "切",
+      "EUde": "fauch",
+      "EUen": "me-YOWZA",
+      "EUes": "miooou",
+      "EUfr": "mistigri",
+      "EUit": "mi-IAO",
+      "EUnl": "miauw moe",
+      "EUru": "мя-я-яоза",
+      "JPja": "ナックル",
+      "KRko": "쳇",
+      "TWzh": "關節",
+      "USen": "me-YOWZA",
+      "USes": "miooou",
+      "USfr": "mistigri"
+    }
+  },
+  {
+    "label": "cat16",
+    "locale": {
+      "CNzh": "喵嗯",
+      "EUde": "prrrrr",
+      "EUen": "mweee",
+      "EUes": "michifú",
+      "EUfr": "miou-mi",
+      "EUit": "pffffft",
+      "EUnl": "mi-jippie",
+      "EUru": "мяуи-и-и",
+      "JPja": "にゃん",
+      "KRko": "냥냥",
+      "TWzh": "喵嗯",
+      "USen": "mweee",
+      "USes": "michifú",
+      "USfr": "miou-mi"
+    }
+  },
+  {
+    "label": "cat17",
+    "locale": {
+      "CNzh": "哪",
+      "EUde": "mauzi",
+      "EUen": "mimimi",
+      "EUes": "miauito",
+      "EUfr": "chatounet",
+      "EUit": "meeeow",
+      "EUnl": "mimimi",
+      "EUru": "ми-ми-ми",
+      "JPja": "ね",
+      "KRko": "우앙",
+      "TWzh": "哪",
+      "USen": "mimimi",
+      "USes": "miauito",
+      "USfr": "chatounet"
+    }
+  },
+  {
+    "label": "cat18",
+    "locale": {
+      "CNzh": "娜个",
+      "EUde": "kratz",
+      "EUen": "bonbon",
+      "EUes": "purrrr",
+      "EUfr": "ron-ron",
+      "EUit": "purrrr",
+      "EUnl": "zuurtje",
+      "EUru": "конфетка",
+      "JPja": "あのね",
+      "KRko": "퐁퐁",
+      "TWzh": "娜個",
+      "USen": "bonbon",
+      "USes": "purrrr",
+      "USfr": "ron-ron"
+    }
+  },
+  {
+    "label": "cat19",
+    "locale": {
+      "CNzh": "尼罗",
+      "EUde": "mi-miau",
+      "EUen": "me meow",
+      "EUes": "marramius",
+      "EUfr": "mi-i-i-ouh",
+      "EUit": "miao miao",
+      "EUnl": "sfinx",
+      "EUru": "ми-мяу",
+      "JPja": "クフフ",
+      "KRko": "파트라",
+      "TWzh": "尼羅",
+      "USen": "me meow",
+      "USes": "marramius",
+      "USfr": "mi-i-i-ouh"
+    }
+  },
+  {
+    "label": "cat20",
+    "locale": {
+      "CNzh": "之类的",
+      "EUde": "katzaaa",
+      "EUen": "mush",
+      "EUes": "cachusco",
+      "EUfr": "alatienne",
+      "EUit": "ron ron",
+      "EUnl": "robijn",
+      "EUru": "шмяк",
+      "JPja": "とかナ",
+      "KRko": "그러거나",
+      "TWzh": "之類的",
+      "USen": "mush",
+      "USes": "cachusco",
+      "USfr": "mouah"
+    }
+  },
+  {
+    "label": "cat21",
+    "locale": {
+      "CNzh": "掰掰",
+      "EUde": "zischel",
+      "EUen": "purrty",
+      "EUes": "salmonete",
+      "EUfr": "miaouille",
+      "EUit": "fffz",
+      "EUnl": "prrrachtig",
+      "EUru": "хор-р-рошо",
+      "JPja": "じゃね",
+      "KRko": "휘리릭",
+      "TWzh": "掰掰",
+      "USen": "purrty",
+      "USes": "purrrs",
+      "USfr": "miaouille"
+    }
+  },
+  {
+    "label": "cat23",
+    "locale": {
+      "CNzh": "严肃",
+      "EUde": "weeßte",
+      "EUen": "crisp",
+      "EUes": "atilda",
+      "EUfr": "panache",
+      "EUit": "rrricooo",
+      "EUnl": "netjes",
+      "EUru": "стильненько",
+      "JPja": "キリッ",
+      "KRko": "우쭐",
+      "TWzh": "嚴肅",
+      "USen": "crisp",
+      "USes": "atilda",
+      "USfr": "panache"
+    }
+  },
+  {
+    "label": "cbr00",
+    "locale": {
+      "CNzh": "怦怦",
+      "EUde": "früchtchen",
+      "EUen": "peach",
+      "EUes": "cielito",
+      "EUfr": "prune",
+      "EUit": "pepè",
+      "EUnl": "perzik",
+      "EUru": "персик",
+      "JPja": "キュン",
+      "KRko": "두근",
+      "TWzh": "怦怦",
+      "USen": "peach",
+      "USes": "melí-melá",
+      "USfr": "prune"
+    }
+  },
+  {
+    "label": "cbr01",
+    "locale": {
+      "CNzh": "熊仔",
+      "EUde": "darling",
+      "EUen": "honey",
+      "EUes": "caramelito",
+      "EUfr": "chouchou",
+      "EUit": "miele",
+      "EUnl": "zoeterd",
+      "EUru": "лапушка",
+      "JPja": "だベア",
+      "KRko": "저기요",
+      "TWzh": "熊仔",
+      "USen": "honey",
+      "USes": "mielmiel",
+      "USfr": "chouchou"
+    }
+  },
+  {
+    "label": "cbr02",
+    "locale": {
+      "CNzh": "萌",
+      "EUde": "bärli",
+      "EUen": "li'l bear",
+      "EUes": "bolita",
+      "EUfr": "nounours",
+      "EUit": "babà",
+      "EUnl": "beertje",
+      "EUru": "медвежонок",
+      "JPja": "モン",
+      "KRko": "몽",
+      "TWzh": "萌",
+      "USen": "li'l bear",
+      "USes": "pruah",
+      "USfr": "nounours"
+    }
+  },
+  {
+    "label": "cbr03",
+    "locale": {
+      "CNzh": "真是的",
+      "EUde": "griesgram",
+      "EUen": "golly",
+      "EUes": "rebollos",
+      "EUfr": "louloute",
+      "EUit": "pulcino",
+      "EUnl": "pudding",
+      "EUru": "карапуз",
+      "JPja": "んもう",
+      "KRko": "아이참",
+      "TWzh": "真是的",
+      "USen": "golly",
+      "USes": "bruah",
+      "USfr": "louloute"
+    }
+  },
+  {
+    "label": "cbr04",
+    "locale": {
+      "CNzh": "精神",
+      "EUde": "okeydokey",
+      "EUen": "grah grah",
+      "EUes": "mola",
+      "EUfr": "grih grih",
+      "EUit": "oki-doki",
+      "EUnl": "okidoki",
+      "EUru": "гррр",
+      "JPja": "のこころ",
+      "KRko": "나는나야",
+      "TWzh": "精神",
+      "USen": "grah grah",
+      "USes": "graaau",
+      "USfr": "grih grih"
+    }
+  },
+  {
+    "label": "cbr05",
+    "locale": {
+      "CNzh": "玩玩",
+      "EUde": "brummm",
+      "EUen": "stuffin'",
+      "EUes": "peluche",
+      "EUfr": "ou bien",
+      "EUit": "ohilà",
+      "EUnl": "pluche",
+      "EUru": "плюш-плюш",
+      "JPja": "なのれす",
+      "KRko": "그런거죠",
+      "TWzh": "玩玩",
+      "USen": "stuffin'",
+      "USes": "paguahhh",
+      "USfr": "ou bien"
+    }
+  },
+  {
+    "label": "cbr06",
+    "locale": {
+      "CNzh": "唉唷",
+      "EUde": "nastrovje",
+      "EUen": "nyet",
+      "EUes": "nyet",
+      "EUfr": "niet",
+      "EUit": "nyet",
+      "EUnl": "njet",
+      "EUru": "ну не-е-ет",
+      "JPja": "やんけ",
+      "KRko": "참말로",
+      "TWzh": "唉唷",
+      "USen": "nyet",
+      "USes": "nyet",
+      "USfr": "niet"
+    }
+  },
+  {
+    "label": "cbr07",
+    "locale": {
+      "CNzh": "罢了",
+      "EUde": "liebelein",
+      "EUen": "malarkey",
+      "EUes": "pelusita",
+      "EUfr": "canaille",
+      "EUit": "grizzel",
+      "EUnl": "spruit",
+      "EUru": "товарищ",
+      "JPja": "ですばい",
+      "KRko": "샐리",
+      "TWzh": "罷了",
+      "USen": "malarkey",
+      "USes": "heee",
+      "USfr": "fait que"
+    }
+  },
+  {
+    "label": "cbr09",
+    "locale": {
+      "CNzh": "马克杯",
+      "EUde": "honigtopf",
+      "EUen": "sweet pea",
+      "EUes": "panalito",
+      "EUfr": "trognon",
+      "EUit": "fagiolino",
+      "EUnl": "honingkelkje",
+      "EUru": "милашка",
+      "JPja": "マグ",
+      "KRko": "오잉",
+      "TWzh": "馬克杯",
+      "USen": "sweet pea",
+      "USes": "panipof",
+      "USfr": "trognon"
+    }
+  },
+  {
+    "label": "cbr10",
+    "locale": {
+      "CNzh": "开玩笑的",
+      "EUde": "tralala",
+      "EUen": "tralala",
+      "EUes": "tralará",
+      "EUfr": "tralala",
+      "EUit": "trallalà",
+      "EUnl": "tralala",
+      "EUru": "тра-ля-ля",
+      "JPja": "なんてね",
+      "KRko": "어쩜이래",
+      "TWzh": "開玩笑的",
+      "USen": "tralala",
+      "USes": "tralará",
+      "USfr": "tralala"
+    }
+  },
+  {
+    "label": "cbr13",
+    "locale": {
+      "CNzh": "有耶",
+      "EUde": "schönheit",
+      "EUen": "rainbow",
+      "EUes": "cielo",
+      "EUfr": "cacou",
+      "EUit": "grrande",
+      "EUnl": "wolkje",
+      "EUru": "радуга-дуга",
+      "JPja": "アルネ",
+      "KRko": "있죠",
+      "TWzh": "有耶",
+      "USen": "rainbow",
+      "USes": "lurilá",
+      "USfr": "cacou"
+    }
+  },
+  {
+    "label": "cbr14",
+    "locale": {
+      "CNzh": "佳佳",
+      "EUde": "flüster",
+      "EUen": "bud",
+      "EUes": "pitiminí",
+      "EUfr": "linou",
+      "EUit": "purrrimba",
+      "EUnl": "bloempje",
+      "EUru": "цветочек",
+      "JPja": "チャ",
+      "KRko": "띵호아",
+      "TWzh": "佳佳",
+      "USen": "bud",
+      "USes": "pitiminí",
+      "USfr": "linou"
+    }
+  },
+  {
+    "label": "cbr15",
+    "locale": {
+      "CNzh": "竹子",
+      "EUde": "baaambus",
+      "EUen": "rookie",
+      "EUes": "ahivá",
+      "EUfr": "pla-pla",
+      "EUit": "brupp",
+      "EUnl": "bamboe",
+      "EUru": "бамбук",
+      "JPja": "だバンブ",
+      "KRko": "부끄",
+      "TWzh": "竹子",
+      "USen": "rookie",
+      "USes": "ahivá",
+      "USfr": "pla-pla"
+    }
+  },
+  {
+    "label": "cbr16",
+    "locale": {
+      "CNzh": "算了",
+      "EUde": "mwuuu",
+      "EUen": "cubby",
+      "EUes": "apurri",
+      "EUfr": "dodododu",
+      "EUit": "babalù",
+      "EUnl": "welpje",
+      "EUru": "берлога",
+      "JPja": "いっそ",
+      "KRko": "아니그냥",
+      "TWzh": "算了",
+      "USen": "cubby",
+      "USes": "apurri",
+      "USfr": "dodododu"
+    }
+  },
+  {
+    "label": "cbr17",
+    "locale": {
+      "CNzh": "竟然说",
+      "EUde": "bossi",
+      "EUen": "ya heard",
+      "EUes": "tararí",
+      "EUfr": "grifouille",
+      "EUit": "ohè",
+      "EUnl": "weet je",
+      "EUru": "понимаешь",
+      "JPja": "だってサ",
+      "KRko": "차라리",
+      "TWzh": "竟然說",
+      "USen": "ya heard",
+      "USes": "tararí",
+      "USfr": "grifouille"
+    }
+  },
+  {
+    "label": "cbr18",
+    "locale": {
+      "CNzh": "布丁",
+      "EUde": "pompudding",
+      "EUen": "pompom",
+      "EUes": "pudin",
+      "EUfr": "pom pom",
+      "EUit": "pom pom",
+      "EUnl": "pommetje",
+      "EUru": "помпончик",
+      "JPja": "ポムッ",
+      "KRko": "폼폼",
+      "TWzh": "布丁",
+      "USen": "pompom",
+      "USes": "pudin",
+      "USfr": "pom pom"
+    }
+  },
+  {
+    "label": "cbr19",
+    "locale": {
+      "CNzh": "哎呀",
+      "EUde": "träum",
+      "EUen": "myohmy",
+      "EUes": "qué cosas",
+      "EUfr": "oh là là",
+      "EUit": "misu misu",
+      "EUnl": "nee maar",
+      "EUru": "охохонюшки",
+      "JPja": "あらら",
+      "KRko": "어머머",
+      "TWzh": "哎呀",
+      "USen": "myohmy",
+      "USes": "uyuyuy",
+      "USfr": "oh là là"
+    }
+  },
+  {
+    "label": "chn00",
+    "locale": {
+      "CNzh": "咕咕",
+      "EUde": "buaa-ka-ka",
+      "EUen": "buh-kay",
+      "EUes": "caracol",
+      "EUfr": "bouyaka",
+      "EUit": "cucù",
+      "EUnl": "toktok",
+      "EUru": "ко-кей",
+      "JPja": "だコケ",
+      "KRko": "키득",
+      "TWzh": "咕咕",
+      "USen": "buh-kay",
+      "USes": "bukááá",
+      "USfr": "bouyaka"
+    }
+  },
+  {
+    "label": "chn01",
+    "locale": {
+      "CNzh": "好棒",
+      "EUde": "putputtt",
+      "EUen": "uh-hoo",
+      "EUes": "cocorico",
+      "EUfr": "oh oh",
+      "EUit": "uh-hoo",
+      "EUnl": "eitje",
+      "EUru": "о-ко-ко",
+      "JPja": "ウヒョー",
+      "KRko": "우힛",
+      "TWzh": "好棒",
+      "USen": "uh-hoo",
+      "USes": "cocorico",
+      "USfr": "oh oh"
+    }
+  },
+  {
+    "label": "chn02",
+    "locale": {
+      "CNzh": "很优",
+      "EUde": "duudle-du",
+      "EUen": "doodle-duh",
+      "EUes": "kikirikí",
+      "EUfr": "di di dou",
+      "EUit": "du du du",
+      "EUnl": "kukelejus",
+      "EUru": "кукареку",
+      "JPja": "だヨ",
+      "KRko": "짜잔",
+      "TWzh": "很優",
+      "USen": "doodle-duh",
+      "USes": "kikirikí",
+      "USfr": "di di dou"
+    }
+  },
+  {
+    "label": "chn05",
+    "locale": {
+      "CNzh": "是唷",
+      "EUde": "biiika",
+      "EUen": "beaker",
+      "EUes": "piquito",
+      "EUfr": "cô-cômment",
+      "EUit": "sbecsbec",
+      "EUnl": "snavel",
+      "EUru": "клювик",
+      "JPja": "のよぉ",
+      "KRko": "그랬대요",
+      "TWzh": "是唷",
+      "USen": "beaker",
+      "USes": "kikiú",
+      "USfr": "cô-cômment"
+    }
+  },
+  {
+    "label": "chn09",
+    "locale": {
+      "CNzh": "哈雷路亚",
+      "EUde": "bokbok",
+      "EUen": "chicklet",
+      "EUes": "cucurrús",
+      "EUfr": "côôôôt",
+      "EUit": "coccoricò",
+      "EUnl": "kuiken",
+      "EUru": "модненько",
+      "JPja": "ハレルヤ",
+      "KRko": "도레미",
+      "TWzh": "哈雷路亞",
+      "USen": "chicklet",
+      "USes": "cucurrús",
+      "USfr": "côôôôt"
+    }
+  },
+  {
+    "label": "chn10",
+    "locale": {
+      "CNzh": "泰泰",
+      "EUde": "hühnermist",
+      "EUen": "chicky-poo",
+      "EUes": "tesorito",
+      "EUfr": "galine",
+      "EUit": "zampoli",
+      "EUnl": "kippetje",
+      "EUru": "щип-щип",
+      "JPja": "どうだい",
+      "KRko": "그게어때",
+      "TWzh": "泰泰",
+      "USen": "chicky-poo",
+      "USes": "corocó",
+      "USfr": "galine"
+    }
+  },
+  {
+    "label": "chn11",
+    "locale": {
+      "CNzh": "等待",
+      "EUde": "knusprig",
+      "EUen": "cluckling",
+      "EUes": "mazorca",
+      "EUfr": "ra-ta-tak",
+      "EUit": "uovole",
+      "EUnl": "nestei",
+      "EUru": "короко",
+      "JPja": "せいッ",
+      "KRko": "하앗",
+      "TWzh": "等待",
+      "USen": "cluckling",
+      "USes": "cocorocó",
+      "USfr": "ra-ta-tak"
+    }
+  },
+  {
+    "label": "chn12",
+    "locale": {
+      "CNzh": "咯咯",
+      "EUde": "eieiei",
+      "EUen": "cluckadoo",
+      "EUes": "pitas",
+      "EUfr": "mon œuf",
+      "EUit": "ovodè",
+      "EUnl": "kakel",
+      "EUru": "ки-ки-ки",
+      "JPja": "ケッコー",
+      "KRko": "오싹오싹",
+      "TWzh": "咯咯",
+      "USen": "cluckadoo",
+      "USes": "kiriquicó",
+      "USfr": "mon œuf"
+    }
+  },
+  {
+    "label": "chn13",
+    "locale": {
+      "CNzh": "骨鸡",
+      "EUde": "gockgock",
+      "EUen": "no doubt",
+      "EUes": "kirrí",
+      "EUfr": "pôt pôt",
+      "EUit": "quiriqui",
+      "EUnl": "eiteraard",
+      "EUru": "это точно",
+      "JPja": "コッケイ",
+      "KRko": "깜깜",
+      "TWzh": "骨雞",
+      "USen": "no doubt",
+      "USes": "kirrí",
+      "USfr": "chicken"
+    }
+  },
+  {
+    "label": "cow00",
+    "locale": {
+      "CNzh": "牟",
+      "EUde": "muuhna",
+      "EUen": "how-now",
+      "EUes": "muuuu",
+      "EUfr": "allez",
+      "EUit": "truuulà",
+      "EUnl": "koebeest",
+      "EUru": "му-му",
+      "JPja": "だモー",
+      "KRko": "음메",
+      "TWzh": "牟",
+      "USen": "how-now",
+      "USes": "muuuu",
+      "USfr": "oui oui"
+    }
+  },
+  {
+    "label": "cow01",
+    "locale": {
+      "CNzh": "牛奶",
+      "EUde": "dingdong",
+      "EUen": "pushy",
+      "EUes": "cuernitos",
+      "EUfr": "choupette",
+      "EUit": "sì sì sì",
+      "EUnl": "boelala",
+      "EUru": "теленок",
+      "JPja": "ミルミル",
+      "KRko": "우유우유",
+      "TWzh": "牛奶",
+      "USen": "pushy",
+      "USes": "muamuuu",
+      "USfr": "choupette"
+    }
+  },
+  {
+    "label": "cow06",
+    "locale": {
+      "CNzh": "微笑",
+      "EUde": "muuuhi",
+      "EUen": "hoof hoo",
+      "EUes": "mu-mu",
+      "EUfr": "meuh nan",
+      "EUit": "mu muuu",
+      "EUnl": "boehoe",
+      "EUru": "до-ре-му",
+      "JPja": "うふ",
+      "KRko": "에헤",
+      "TWzh": "微笑",
+      "USen": "hoof hoo",
+      "USes": "mu-mu",
+      "USfr": "meuh nan"
+    }
+  },
+  {
+    "label": "cow07",
+    "locale": {
+      "CNzh": "这样很好",
+      "EUde": "joggi",
+      "EUen": "moolah",
+      "EUes": "merengue",
+      "EUfr": "pistouille",
+      "EUit": "moumou",
+      "EUnl": "loei",
+      "EUru": "муля",
+      "JPja": "セボーン",
+      "KRko": "메르시",
+      "TWzh": "這樣很好",
+      "USen": "moolah",
+      "USes": "mumumu",
+      "USfr": "merengue"
+    }
+  },
+  {
+    "label": "crd00",
+    "locale": {
+      "CNzh": "鳄泥",
+      "EUde": "ahhhrg",
+      "EUen": "it'sa me",
+      "EUes": "ñam-ñam",
+      "EUfr": "moi moi",
+      "EUit": "proprio",
+      "EUnl": "it⁠'⁠sa me",
+      "EUru": "это я",
+      "JPja": "だワニ",
+      "KRko": "나아거",
+      "TWzh": "鱷泥",
+      "USen": "it'sa me",
+      "USes": "ñam-ñam",
+      "USfr": "moi moi"
+    }
+  },
+  {
+    "label": "crd01",
+    "locale": {
+      "CNzh": "鳄鱼皮",
+      "EUde": "graaach",
+      "EUen": "graaagh",
+      "EUes": "lagartija",
+      "EUfr": "graaagh",
+      "EUit": "graaag",
+      "EUnl": "graaach",
+      "EUru": "гра-а-а",
+      "JPja": "どすえ",
+      "KRko": "얘야",
+      "TWzh": "鱷魚皮",
+      "USen": "graaagh",
+      "USes": "muamú",
+      "USfr": "graaagh"
+    }
+  },
+  {
+    "label": "crd02",
+    "locale": {
+      "CNzh": "跳",
+      "EUde": "schmatzi",
+      "EUen": "munchie",
+      "EUes": "crococroco",
+      "EUfr": "mariolle",
+      "EUit": "gnammi",
+      "EUnl": "smikkel",
+      "EUru": "кусь",
+      "JPja": "だぴょん",
+      "KRko": "만세",
+      "TWzh": "跳",
+      "USen": "munchie",
+      "USes": "crococroco",
+      "USfr": "miam miam"
+    }
+  },
+  {
+    "label": "crd04",
+    "locale": {
+      "CNzh": "噗咻",
+      "EUde": "happ",
+      "EUen": "gronk",
+      "EUes": "chomp",
+      "EUfr": "clap",
+      "EUit": "chomp",
+      "EUnl": "gronk",
+      "EUru": "щелк",
+      "JPja": "プシュー",
+      "KRko": "처얼썩",
+      "TWzh": "噗咻",
+      "USen": "gronk",
+      "USes": "chomp",
+      "USfr": "clap"
+    }
+  },
+  {
+    "label": "crd05",
+    "locale": {
+      "CNzh": "吼吼",
+      "EUde": "yoyoyo",
+      "EUen": "spaaace",
+      "EUes": "alien",
+      "EUfr": "parsec",
+      "EUit": "blipblop",
+      "EUnl": "kosmos",
+      "EUru": "космос",
+      "JPja": "パヨマケ",
+      "KRko": "삐리리",
+      "TWzh": "吼吼",
+      "USen": "spaaace",
+      "USes": "blipblop",
+      "USfr": "parsec"
+    }
+  },
+  {
+    "label": "crd06",
+    "locale": {
+      "CNzh": "唰唰",
+      "EUde": "schnapp",
+      "EUen": "hoo-rah",
+      "EUes": "capón",
+      "EUfr": "repos",
+      "EUit": "ciaf",
+      "EUnl": "ingerukt",
+      "EUru": "ура-а-а",
+      "JPja": "カサコソ",
+      "KRko": "부스럭",
+      "TWzh": "唰唰",
+      "USen": "hoo-rah",
+      "USes": "smack",
+      "USfr": "repos"
+    }
+  },
+  {
+    "label": "crd07",
+    "locale": {
+      "CNzh": "鳄莉",
+      "EUde": "zähni",
+      "EUen": "snacky",
+      "EUes": "corazón",
+      "EUfr": "croquignou",
+      "EUit": "désolée",
+      "EUnl": "snackje",
+      "EUru": "перекус",
+      "JPja": "ワニャン",
+      "KRko": "아거얌",
+      "TWzh": "鱷莉",
+      "USen": "snacky",
+      "USes": "smuack",
+      "USfr": "croc-croc"
+    }
+  },
+  {
+    "label": "crd08",
+    "locale": {
+      "CNzh": "然后",
+      "EUde": "hömpf",
+      "EUen": "burrrn",
+      "EUes": "quemarrr",
+      "EUfr": "ducroc",
+      "EUit": "tic tac",
+      "EUnl": "puf",
+      "EUru": "огонь",
+      "JPja": "えーと",
+      "KRko": "띠용띠용",
+      "TWzh": "然後",
+      "USen": "burrrn",
+      "USes": "ñami",
+      "USfr": "ducroc"
+    }
+  },
+  {
+    "label": "der00",
+    "locale": {
+      "CNzh": "小鹿",
+      "EUde": "bimbam",
+      "EUen": "dearie",
+      "EUes": "puchu",
+      "EUfr": "toudoux",
+      "EUit": "vule vu",
+      "EUnl": "do ree mi",
+      "EUru": "олешек",
+      "JPja": "でしか",
+      "KRko": "파샵파샵",
+      "TWzh": "小鹿",
+      "USen": "dearie",
+      "USes": "puchu",
+      "USfr": "toudoux"
+    }
+  },
+  {
+    "label": "der01",
+    "locale": {
+      "CNzh": "梅花",
+      "EUde": "weihweih",
+      "EUen": "kablang",
+      "EUes": "galilla",
+      "EUfr": "têtedebois",
+      "EUit": "hop hop",
+      "EUnl": "gaffel",
+      "EUru": "скок-скок",
+      "JPja": "ナラね",
+      "KRko": "슉슉",
+      "TWzh": "梅花",
+      "USen": "kablang",
+      "USes": "caplúúú",
+      "USfr": "têtedebois"
+    }
+  },
+  {
+    "label": "der02",
+    "locale": {
+      "CNzh": "鹿营",
+      "EUde": "sproing",
+      "EUen": "pronk",
+      "EUes": "bambín",
+      "EUfr": "wapiti",
+      "EUit": "arriba",
+      "EUnl": "gazellig",
+      "EUru": "прыг-прыг",
+      "JPja": "たしかに",
+      "KRko": "슴사사",
+      "TWzh": "鹿營",
+      "USen": "pronk",
+      "USes": "bambín",
+      "USfr": "wapiti"
+    }
+  },
+  {
+    "label": "der03",
+    "locale": {
+      "CNzh": "福鹿寿",
+      "EUde": "röööhr",
+      "EUen": "gruff",
+      "EUes": "aquesí",
+      "EUfr": "nunul",
+      "EUit": "uauwaii",
+      "EUnl": "burl",
+      "EUru": "забияка",
+      "JPja": "しかしな",
+      "KRko": "아비옹",
+      "TWzh": "福鹿壽",
+      "USen": "gruff",
+      "USes": "aquesí",
+      "USfr": "ouain"
+    }
+  },
+  {
+    "label": "der04",
+    "locale": {
+      "CNzh": "随便啦",
+      "EUde": "tripptripp",
+      "EUen": "whatevs",
+      "EUes": "rumiante",
+      "EUfr": "pan",
+      "EUit": "babam",
+      "EUnl": "nou ja",
+      "EUru": "как-то так",
+      "JPja": "まいっか",
+      "KRko": "됐고",
+      "TWzh": "隨便啦",
+      "USen": "whatevs",
+      "USes": "uatever",
+      "USfr": "pan"
+    }
+  },
+  {
+    "label": "der05",
+    "locale": {
+      "CNzh": "变了",
+      "EUde": "bocko",
+      "EUen": "badoom",
+      "EUes": "trisca",
+      "EUfr": "jaunisse",
+      "EUit": "sdleng",
+      "EUnl": "bokje",
+      "EUru": "бубух",
+      "JPja": "がぜん",
+      "KRko": "엣헴",
+      "TWzh": "變了",
+      "USen": "badoom",
+      "USes": "trisca",
+      "USfr": "you bet"
+    }
+  },
+  {
+    "label": "der06",
+    "locale": {
+      "CNzh": "西卡",
+      "EUde": "zick",
+      "EUen": "precious",
+      "EUes": "braaaam",
+      "EUfr": "rosace",
+      "EUit": "cervilà",
+      "EUnl": "meid",
+      "EUru": "зазноба",
+      "JPja": "なんしか",
+      "KRko": "핑크크",
+      "TWzh": "西卡",
+      "USen": "precious",
+      "USes": "braaaam",
+      "USfr": "frambou"
+    }
+  },
+  {
+    "label": "der07",
+    "locale": {
+      "CNzh": "怎么办",
+      "EUde": "knospel",
+      "EUen": "saltlick",
+      "EUes": "babum",
+      "EUfr": "feufeuille",
+      "EUit": "gnam gnam",
+      "EUnl": "zoutsteen",
+      "EUru": "соль-соль",
+      "JPja": "おろおろ",
+      "KRko": "우왕",
+      "TWzh": "怎麼辦",
+      "USen": "saltlick",
+      "USes": "babum",
+      "USfr": "feufeuille"
+    }
+  },
+  {
+    "label": "der08",
+    "locale": {
+      "CNzh": "是吧",
+      "EUde": "kitz",
+      "EUen": "no doy",
+      "EUes": "braaavo",
+      "EUfr": "bichouchou",
+      "EUit": "mamy",
+      "EUnl": "joh",
+      "EUru": "еще бы",
+      "JPja": "でしょ",
+      "KRko": "라니까",
+      "TWzh": "是吧",
+      "USen": "no doy",
+      "USes": "nonuá",
+      "USfr": "bichouchou"
+    }
+  },
+  {
+    "label": "der09",
+    "locale": {
+      "CNzh": "鹿鹿",
+      "EUde": "hirschl",
+      "EUen": "chow down",
+      "EUes": "ñume-ñume",
+      "EUfr": "breuh",
+      "EUit": "relax",
+      "EUnl": "schorsie",
+      "EUru": "ем мох",
+      "JPja": "しかじか",
+      "KRko": "뚜비뚜바",
+      "TWzh": "鹿鹿",
+      "USen": "chow down",
+      "USes": "ñume-ñume",
+      "USfr": "breuh"
+    }
+  },
+  {
+    "label": "der10",
+    "locale": {
+      "CNzh": "喜喜",
+      "EUde": "denkpink",
+      "EUen": "pound cake",
+      "EUes": "melomelo",
+      "EUfr": "bibiche",
+      "EUit": "melodì",
+      "EUnl": "melodietje",
+      "EUru": "бисквит",
+      "JPja": "メロメロ",
+      "KRko": "하트하트",
+      "TWzh": "喜喜",
+      "USen": "pound cake",
+      "USes": "melomelo",
+      "USfr": "bibiche"
+    }
+  },
+  {
+    "label": "der11",
+    "locale": {
+      "CNzh": "总芝",
+      "EUde": "okido",
+      "EUen": "okaaay",
+      "EUes": "oni",
+      "EUfr": "bramaka",
+      "EUit": "bramì",
+      "EUnl": "okééé",
+      "EUru": "окей",
+      "JPja": "とにかく",
+      "KRko": "아무튼",
+      "TWzh": "總芝",
+      "USen": "okaaay",
+      "USes": "oni",
+      "USfr": "bramaka"
+    }
+  },
+  {
+    "label": "der12",
+    "locale": {
+      "CNzh": "魔像",
+      "EUde": "konstrukt",
+      "EUen": "construct",
+      "EUes": "gólem",
+      "EUfr": "golem",
+      "EUit": "golem",
+      "EUnl": "zonoïde",
+      "EUru": "голем",
+      "JPja": "ゴーレム",
+      "KRko": "골렘",
+      "TWzh": "魔像",
+      "USen": "construct",
+      "USes": "gólem",
+      "USfr": "golem"
+    }
+  },
+  {
+    "label": "dog00",
+    "locale": {
+      "CNzh": "汪",
+      "EUde": "wuff",
+      "EUen": "woof",
+      "EUes": "guau-guau",
+      "EUfr": "ouaf",
+      "EUit": "wuf wuf",
+      "EUnl": "woef",
+      "EUru": "тяв",
+      "JPja": "ワン",
+      "KRko": "왈왈",
+      "TWzh": "汪",
+      "USen": "woof",
+      "USes": "guau-guau",
+      "USfr": "ouaf"
+    }
+  },
+  {
+    "label": "dog01",
+    "locale": {
+      "CNzh": "侬",
+      "EUde": "GRRUFF",
+      "EUen": "ROOOOOWF",
+      "EUes": "gruf-gruf",
+      "EUfr": "WROOOOUF",
+      "EUit": "ROOOOOF",
+      "EUnl": "BROEEEF",
+      "EUru": "ррр-гав",
+      "JPja": "ノン",
+      "KRko": "아니",
+      "TWzh": "儂",
+      "USen": "ROOOOOWF",
+      "USes": "gruf-gruf",
+      "USfr": "WROOOOUF"
+    }
+  },
+  {
+    "label": "dog02",
+    "locale": {
+      "CNzh": "大概",
+      "EUde": "rrr-awau",
+      "EUen": "rrr-owch",
+      "EUes": "guuuuAY",
+      "EUfr": "graaaouch",
+      "EUit": "ossorrr",
+      "EUnl": "www-⁠au",
+      "EUru": "ррр-ой-ой",
+      "JPja": "らしいよ",
+      "KRko": "그렇대",
+      "TWzh": "大概",
+      "USen": "rrr-owch",
+      "USes": "guuuuf",
+      "USfr": "graaaouch"
+    }
+  },
+  {
+    "label": "dog03",
+    "locale": {
+      "CNzh": "狗狗",
+      "EUde": "kläff",
+      "EUen": "dawg",
+      "EUes": "guau",
+      "EUfr": "clair",
+      "EUit": "brrranco",
+      "EUnl": "makker",
+      "EUru": "пр-риятяв",
+      "JPja": "だイヌ",
+      "KRko": "멍멍",
+      "TWzh": "狗狗",
+      "USen": "dawg",
+      "USes": "guau",
+      "USfr": "clair"
+    }
+  },
+  {
+    "label": "dog04",
+    "locale": {
+      "CNzh": "对吧",
+      "EUde": "hechel",
+      "EUen": "yip yip",
+      "EUes": "yip yip",
+      "EUfr": "yip yip",
+      "EUit": "yip yip",
+      "EUnl": "snuf snuf",
+      "EUru": "тяв-тяв",
+      "JPja": "ネッ",
+      "KRko": "옙",
+      "TWzh": "對吧",
+      "USen": "yip yip",
+      "USes": "yip yip",
+      "USfr": "yip yip"
+    }
+  },
+  {
+    "label": "dog05",
+    "locale": {
+      "CNzh": "屋屋",
+      "EUde": "frechi",
+      "EUen": "ruffian",
+      "EUes": "ruf-ruf",
+      "EUfr": "brute",
+      "EUit": "ronfietto",
+      "EUnl": "keffer",
+      "EUru": "тяв-ряв",
+      "JPja": "フンッ",
+      "KRko": "흥",
+      "TWzh": "屋屋",
+      "USen": "ruffian",
+      "USes": "ruf-ruf",
+      "USfr": "brute"
+    }
+  },
+  {
+    "label": "dog06",
+    "locale": {
+      "CNzh": "咆",
+      "EUde": "wafff",
+      "EUen": "wuh",
+      "EUes": "huesitos",
+      "EUfr": "ouh",
+      "EUit": "wuff",
+      "EUnl": "waf",
+      "EUru": "ау-у",
+      "JPja": "バウ",
+      "KRko": "컹컹",
+      "TWzh": "咆",
+      "USen": "wuh",
+      "USes": "guuu-ah",
+      "USfr": "ouh"
+    }
+  },
+  {
+    "label": "dog07",
+    "locale": {
+      "CNzh": "对不对",
+      "EUde": "wauwau",
+      "EUen": "bow-WOW",
+      "EUes": "guaay",
+      "EUfr": "mon chou",
+      "EUit": "bau WOW",
+      "EUnl": "hazewind",
+      "EUru": "тяв-ого",
+      "JPja": "だよね",
+      "KRko": "그렇죠",
+      "TWzh": "對不對",
+      "USen": "bow-WOW",
+      "USes": "guaucito",
+      "USfr": "mon chou"
+    }
+  },
+  {
+    "label": "dog08",
+    "locale": {
+      "CNzh": "琳琳",
+      "EUde": "nuffnuff",
+      "EUen": "arfer",
+      "EUes": "fresita",
+      "EUfr": "woufi",
+      "EUit": "bubabù",
+      "EUnl": "kwispel",
+      "EUru": "гав-гав",
+      "JPja": "プリリン",
+      "KRko": "초롱초롱",
+      "TWzh": "琳琳",
+      "USen": "arfer",
+      "USes": "can",
+      "USfr": "woufi"
+    }
+  },
+  {
+    "label": "dog09",
+    "locale": {
+      "CNzh": "一二",
+      "EUde": "hurra",
+      "EUen": "yippee",
+      "EUes": "chupi",
+      "EUfr": "youp",
+      "EUit": "yuuuppii",
+      "EUnl": "jippie",
+      "EUru": "ур-ра",
+      "JPja": "ワンツー",
+      "KRko": "달코미",
+      "TWzh": "一二",
+      "USen": "yippee",
+      "USes": "reguau",
+      "USfr": "youpi"
+    }
+  },
+  {
+    "label": "dog10",
+    "locale": {
+      "CNzh": "宾果",
+      "EUde": "bingo",
+      "EUen": "bingo",
+      "EUes": "huesín",
+      "EUfr": "mon chaton",
+      "EUit": "bingo",
+      "EUnl": "bingo",
+      "EUru": "динго",
+      "JPja": "グー",
+      "KRko": "쫀득",
+      "TWzh": "賓果",
+      "USen": "bingo",
+      "USes": "gufi-guf",
+      "USfr": "mon chaton"
+    }
+  },
+  {
+    "label": "dog11",
+    "locale": {
+      "CNzh": "唉",
+      "EUde": "gnüff",
+      "EUen": "goshers",
+      "EUes": "pichichi",
+      "EUfr": "nondinche",
+      "EUit": "goleador",
+      "EUnl": "gossie",
+      "EUru": "ай-яй-яй",
+      "JPja": "ったく",
+      "KRko": "참나",
+      "TWzh": "欸",
+      "USen": "goshers",
+      "USes": "golgol",
+      "USfr": "nondinche"
+    }
+  },
+  {
+    "label": "dog14",
+    "locale": {
+      "CNzh": "摘",
+      "EUde": "bellbell",
+      "EUen": "woo woof",
+      "EUes": "frusky",
+      "EUfr": "babines",
+      "EUit": "arfidenti",
+      "EUnl": "woewoef",
+      "EUru": "ау-у-гав",
+      "JPja": "モグ",
+      "KRko": "우물우물",
+      "TWzh": "摘",
+      "USen": "woo woof",
+      "USes": "frusky",
+      "USfr": "babines"
+    }
+  },
+  {
+    "label": "dog15",
+    "locale": {
+      "CNzh": "什么字",
+      "EUde": "tusch",
+      "EUen": "non",
+      "EUes": "colmillos",
+      "EUfr": "miaouf",
+      "EUit": "snif snif",
+      "EUnl": "mais non",
+      "EUru": "ау-уи",
+      "JPja": "なんじゃ",
+      "KRko": "하옵소서",
+      "TWzh": "什麼字",
+      "USen": "non",
+      "USes": "nenonó",
+      "USfr": "miaouf"
+    }
+  },
+  {
+    "label": "dog16",
+    "locale": {
+      "CNzh": "那么那么",
+      "EUde": "winsel",
+      "EUen": "alrighty",
+      "EUes": "tirirí",
+      "EUfr": "croquettes",
+      "EUit": "bauuau",
+      "EUnl": "oké dan",
+      "EUru": "пор-рядок",
+      "JPja": "ではでは",
+      "KRko": "그럼그럼",
+      "TWzh": "那麼那麼",
+      "USen": "alrighty",
+      "USes": "tirirí",
+      "USfr": "croquettes"
+    }
+  },
+  {
+    "label": "dog17",
+    "locale": {
+      "CNzh": "听说娜",
+      "EUde": "wedel",
+      "EUen": "what what",
+      "EUes": "guauchi",
+      "EUfr": "niniche",
+      "EUit": "arf arf",
+      "EUnl": "wat jij",
+      "EUru": "что-что",
+      "JPja": "だってネ",
+      "KRko": "그냥저냥",
+      "TWzh": "聽說娜",
+      "USen": "what what",
+      "USes": "guauchi",
+      "USfr": "niniche"
+    }
+  },
+  {
+    "label": "dog18",
+    "locale": {
+      "CNzh": "汪想想",
+      "EUde": "heffheff",
+      "EUen": "baa baa baa",
+      "EUes": "tufos",
+      "EUfr": "pedigree",
+      "EUit": "guau guau",
+      "EUnl": "schapie",
+      "EUru": "бр-р-разер",
+      "JPja": "ワンダー",
+      "KRko": "안보여",
+      "TWzh": "汪想想",
+      "USen": "baa baa baa",
+      "USes": "grrruau",
+      "USfr": "pedigree"
+    }
+  },
+  {
+    "label": "duk00",
+    "locale": {
+      "CNzh": "蛋是啊",
+      "EUde": "quako",
+      "EUen": "quacko",
+      "EUes": "cuaco",
+      "EUfr": "choupichou",
+      "EUit": "quaquo",
+      "EUnl": "kwaker",
+      "EUru": "кряко",
+      "JPja": "だね",
+      "KRko": "탕",
+      "TWzh": "蛋是啊",
+      "USen": "quacko",
+      "USes": "cuaco",
+      "USfr": "choupichou"
+    }
+  },
+  {
+    "label": "duk01",
+    "locale": {
+      "CNzh": "鸭鸭",
+      "EUde": "tschiiirp",
+      "EUen": "bleeeeeck",
+      "EUes": "uac-uac",
+      "EUfr": "beeeuuuurk",
+      "EUit": "squack",
+      "EUnl": "kèèèk",
+      "EUru": "кряк",
+      "JPja": "でヤンス",
+      "KRko": "그래유",
+      "TWzh": "鴨鴨",
+      "USen": "bleeeeeck",
+      "USes": "uac-uac",
+      "USfr": "beeeuuuurk"
+    }
+  },
+  {
+    "label": "duk02",
+    "locale": {
+      "CNzh": "呜呜",
+      "EUde": "quaak",
+      "EUen": "quackle",
+      "EUes": "cuaqui",
+      "EUfr": "coin coin",
+      "EUit": "quackquack",
+      "EUnl": "kwakel",
+      "EUru": "кряки-кряк",
+      "JPja": "メソメソ",
+      "KRko": "아잉",
+      "TWzh": "嗚嗚",
+      "USen": "quackle",
+      "USes": "cuaqui",
+      "USfr": "coin coin"
+    }
+  },
+  {
+    "label": "duk03",
+    "locale": {
+      "CNzh": "叹",
+      "EUde": "entchen",
+      "EUen": "duckling",
+      "EUes": "perla",
+      "EUfr": "canardou",
+      "EUit": "paperotto",
+      "EUnl": "pulletje",
+      "EUru": "желторотик",
+      "JPja": "ふぅ",
+      "KRko": "우아",
+      "TWzh": "嘆",
+      "USen": "duckling",
+      "USes": "plumi-piú",
+      "USfr": "canardou"
+    }
+  },
+  {
+    "label": "duk04",
+    "locale": {
+      "CNzh": "球球",
+      "EUde": "juhuu",
+      "EUen": "woowoo",
+      "EUes": "miguita",
+      "EUfr": "youhou",
+      "EUit": "quiproquò",
+      "EUnl": "joehoe",
+      "EUru": "кря-кря",
+      "JPja": "マル",
+      "KRko": "우우",
+      "TWzh": "毬毬",
+      "USen": "woowoo",
+      "USes": "yiuju",
+      "USfr": "youhou"
+    }
+  },
+  {
+    "label": "duk05",
+    "locale": {
+      "CNzh": "裴裴",
+      "EUde": "krah",
+      "EUen": "rah rah",
+      "EUes": "sinplumas",
+      "EUfr": "rah rah",
+      "EUit": "quoquiquà",
+      "EUnl": "hup hup",
+      "EUru": "крякушки",
+      "JPja": "だっピ",
+      "KRko": "다삐",
+      "TWzh": "裴裴",
+      "USen": "rah rah",
+      "USes": "ra-rá",
+      "USfr": "rah rah"
+    }
+  },
+  {
+    "label": "duk06",
+    "locale": {
+      "CNzh": "八十八",
+      "EUde": "quackpss",
+      "EUen": "quackpth",
+      "EUes": "recuac",
+      "EUfr": "coinpff",
+      "EUit": "quackplà",
+      "EUnl": "kwaks",
+      "EUru": "кряк-фи",
+      "JPja": "ヨネ",
+      "KRko": "모모",
+      "TWzh": "八十八",
+      "USen": "quackpth",
+      "USes": "recuac",
+      "USfr": "coinpff"
+    }
+  },
+  {
+    "label": "duk07",
+    "locale": {
+      "CNzh": "鱼鱼",
+      "EUde": "schnatter",
+      "EUen": "ducky",
+      "EUes": "cui-cuá",
+      "EUfr": "poussin",
+      "EUit": "qua qua",
+      "EUnl": "eendje",
+      "EUru": "утенок",
+      "JPja": "ぎょぎょ",
+      "KRko": "물물",
+      "TWzh": "魚魚",
+      "USen": "ducky",
+      "USes": "cui-cuá",
+      "USfr": "poussin"
+    }
+  },
+  {
+    "label": "duk08",
+    "locale": {
+      "CNzh": "喂！妈妈",
+      "EUde": "krook",
+      "EUen": "derrrr",
+      "EUes": "cuato",
+      "EUfr": "derrrr",
+      "EUit": "quaccolo",
+      "EUnl": "ergo",
+      "EUru": "кррря",
+      "JPja": "ね！ママ",
+      "KRko": "엄마",
+      "TWzh": "喂！媽媽",
+      "USen": "derrrr",
+      "USes": "cuato",
+      "USfr": "derrrr"
+    }
+  },
+  {
+    "label": "duk09",
+    "locale": {
+      "CNzh": "或许鸭",
+      "EUde": "schnabbl",
+      "EUen": "quacko",
+      "EUes": "polluelo",
+      "EUfr": "canard",
+      "EUit": "quaqua",
+      "EUnl": "snabbel",
+      "EUru": "кра-а",
+      "JPja": "かもね",
+      "KRko": "어쩌면",
+      "TWzh": "或許鴨",
+      "USen": "quacko",
+      "USes": "cui-cuac",
+      "USfr": "ben couac"
+    }
+  },
+  {
+    "label": "duk10",
+    "locale": {
+      "CNzh": "呱呱",
+      "EUde": "flitzer",
+      "EUen": "zip zoom",
+      "EUes": "zapizum",
+      "EUfr": "zak zak",
+      "EUit": "zip zoom",
+      "EUnl": "broem",
+      "EUru": "брум-брум",
+      "JPja": "グワッ",
+      "KRko": "꾸왁",
+      "TWzh": "呱呱",
+      "USen": "zip zoom",
+      "USes": "zapizum",
+      "USfr": "zak zak"
+    }
+  },
+  {
+    "label": "duk11",
+    "locale": {
+      "CNzh": "唧唧",
+      "EUde": "quaa",
+      "EUen": "quaa",
+      "EUes": "cuaa-cuaa",
+      "EUfr": "plumeau",
+      "EUit": "quaaa",
+      "EUnl": "kwaaah",
+      "EUru": "кря-а",
+      "JPja": "ピヨ",
+      "KRko": "꽥꽥",
+      "TWzh": "唧唧",
+      "USen": "quaa",
+      "USes": "cuaa-cuaa",
+      "USfr": "plumeau"
+    }
+  },
+  {
+    "label": "duk12",
+    "locale": {
+      "CNzh": "怎么回事",
+      "EUde": "brotbrot",
+      "EUen": "quackulous",
+      "EUes": "cua-cuá",
+      "EUfr": "couac",
+      "EUit": "quaquao",
+      "EUnl": "kwektakel",
+      "EUru": "покрясающе",
+      "JPja": "なにさ",
+      "KRko": "괜찮아",
+      "TWzh": "怎麼回事",
+      "USen": "quackulous",
+      "USes": "cua-cuá",
+      "USfr": "couac"
+    }
+  },
+  {
+    "label": "duk13",
+    "locale": {
+      "CNzh": "噗吱",
+      "EUde": "pullilol",
+      "EUen": "bitty",
+      "EUes": "cuic-cuic",
+      "EUfr": "plouf",
+      "EUit": "quaraquack",
+      "EUnl": "tomaatje",
+      "EUru": "покрякушка",
+      "JPja": "プチ",
+      "KRko": "찌익",
+      "TWzh": "噗吱",
+      "USen": "bitty",
+      "USes": "cuic-cuic",
+      "USfr": "plouf"
+    }
+  },
+  {
+    "label": "duk15",
+    "locale": {
+      "CNzh": "相反",
+      "EUde": "nerv",
+      "EUen": "quacker",
+      "EUes": "picodoro",
+      "EUfr": "kwakos",
+      "EUit": "paperonz",
+      "EUnl": "kwebbel",
+      "EUru": "не кряк ли",
+      "JPja": "ぎゃくに",
+      "KRko": "유～후",
+      "TWzh": "相反",
+      "USen": "quacker",
+      "USes": "picodoro",
+      "USfr": "kwakos"
+    }
+  },
+  {
+    "label": "duk16",
+    "locale": {
+      "CNzh": "说不定鸭",
+      "EUde": "krümel",
+      "EUen": "quackidee",
+      "EUes": "deverdá",
+      "EUfr": "canénette",
+      "EUit": "coin coin",
+      "EUnl": "topper",
+      "EUru": "крякульки",
+      "JPja": "そうかも",
+      "KRko": "그럴지도",
+      "TWzh": "說不定鴨",
+      "USen": "quackidee",
+      "USes": "cuáquidi",
+      "USfr": "canénette"
+    }
+  },
+  {
+    "label": "duk17",
+    "locale": {
+      "CNzh": "说真的",
+      "EUde": "pluster",
+      "EUen": "ridukulous",
+      "EUes": "verdoncho",
+      "EUfr": "arrêêêête",
+      "EUit": "cua cua",
+      "EUnl": "smient",
+      "EUru": "шу-утка",
+      "JPja": "マジかよ",
+      "KRko": "리얼리",
+      "TWzh": "說真的",
+      "USen": "ridukulous",
+      "USes": "cuacoac",
+      "USfr": "arrêêêête"
+    }
+  },
+  {
+    "label": "elp00",
+    "locale": {
+      "CNzh": "勇",
+      "EUde": "tröööt",
+      "EUen": "snoot",
+      "EUes": "flip-flop",
+      "EUfr": "gropif",
+      "EUit": "snoob",
+      "EUnl": "snoet",
+      "EUru": "хобот",
+      "JPja": "ヨン",
+      "KRko": "땡",
+      "TWzh": "勇",
+      "USen": "snoot",
+      "USes": "flip-flop",
+      "USfr": "gropif"
+    }
+  },
+  {
+    "label": "elp01",
+    "locale": {
+      "CNzh": "象象",
+      "EUde": "taraaaa",
+      "EUen": "woo-oo",
+      "EUes": "naricita",
+      "EUfr": "woutchou",
+      "EUit": "ullà",
+      "EUnl": "trompet",
+      "EUru": "тру-ру",
+      "JPja": "だゾウ",
+      "KRko": "휴휴",
+      "TWzh": "象象",
+      "USen": "woo-oo",
+      "USes": "wuuulá",
+      "USfr": "woutchou"
+    }
+  },
+  {
+    "label": "elp02",
+    "locale": {
+      "CNzh": "哈啊",
+      "EUde": "truuu",
+      "EUen": "villain",
+      "EUes": "mutante",
+      "EUfr": "vipère",
+      "EUit": "furfante",
+      "EUnl": "boef",
+      "EUru": "хитрюга",
+      "JPja": "うりゃー",
+      "KRko": "으랏차",
+      "TWzh": "哈啊",
+      "USen": "villain",
+      "USes": "duuud",
+      "USfr": "vipère"
+    }
+  },
+  {
+    "label": "elp03",
+    "locale": {
+      "CNzh": "鲁鲁",
+      "EUde": "tuutuuuu",
+      "EUen": "tooooot",
+      "EUes": "orejillas",
+      "EUfr": "tooouut",
+      "EUit": "nappole",
+      "EUnl": "pwèèèèèp",
+      "EUru": "тру-тут",
+      "JPja": "ルン",
+      "KRko": "훨훨",
+      "TWzh": "魯魯",
+      "USen": "tooooot",
+      "USes": "fruuuf",
+      "USfr": "tooouut"
+    }
+  },
+  {
+    "label": "elp04",
+    "locale": {
+      "CNzh": "莎啦啦",
+      "EUde": "trampl",
+      "EUen": "tootie",
+      "EUes": "flaqui",
+      "EUfr": "toutie",
+      "EUit": "tootie",
+      "EUnl": "pwèèpie",
+      "EUru": "тру-у-ти",
+      "JPja": "シャララ",
+      "KRko": "샬랄라",
+      "TWzh": "莎啦啦",
+      "USen": "tootie",
+      "USes": "fiuf-fiuf",
+      "USfr": "toutie"
+    }
+  },
+  {
+    "label": "elp05",
+    "locale": {
+      "CNzh": "保罗",
+      "EUde": "pruuust",
+      "EUen": "pal",
+      "EUes": "amigante",
+      "EUfr": "fanfan",
+      "EUit": "pistaaaa",
+      "EUnl": "gabber",
+      "EUru": "друг",
+      "JPja": "パオ",
+      "KRko": "파오",
+      "TWzh": "保羅",
+      "USen": "pal",
+      "USes": "pruuuf",
+      "USfr": "fanfan"
+    }
+  },
+  {
+    "label": "elp06",
+    "locale": {
+      "CNzh": "嘻嘻",
+      "EUde": "TUUUUT",
+      "EUen": "WHONK",
+      "EUes": "ankagua",
+      "EUfr": "splaf",
+      "EUit": "SBONK",
+      "EUnl": "PWAAP",
+      "EUru": "потрубим",
+      "JPja": "でゴンス",
+      "KRko": "히힛",
+      "TWzh": "嘻嘻",
+      "USen": "WHONK",
+      "USes": "ankagua",
+      "USfr": "splaf"
+    }
+  },
+  {
+    "label": "elp07",
+    "locale": {
+      "CNzh": "啦啷",
+      "EUde": "polter",
+      "EUen": "li'l one",
+      "EUes": "trompi",
+      "EUfr": "sacrelotte",
+      "EUit": "caromé",
+      "EUnl": "dreumes",
+      "EUru": "кроха",
+      "JPja": "ララン",
+      "KRko": "트랄라",
+      "TWzh": "啦啷",
+      "USen": "li'l one",
+      "USes": "fi-fiú",
+      "USfr": "sacrelotte"
+    }
+  },
+  {
+    "label": "elp09",
+    "locale": {
+      "CNzh": "毛毛",
+      "EUde": "puuuuuh",
+      "EUen": "fuzzers",
+      "EUes": "purupú",
+      "EUfr": "mammouth",
+      "EUit": "barrir",
+      "EUnl": "pluisie",
+      "EUru": "бивень",
+      "JPja": "もじゃ",
+      "KRko": "뿌뿌",
+      "TWzh": "毛毛",
+      "USen": "fuzzers",
+      "USes": "purupú",
+      "USfr": "mammouth"
+    }
+  },
+  {
+    "label": "elp10",
+    "locale": {
+      "CNzh": "呼",
+      "EUde": "huiuiui",
+      "EUen": "teacup",
+      "EUes": "snuuuf",
+      "EUfr": "énoooorme",
+      "EUit": "parbleu",
+      "EUnl": "kopje thee",
+      "EUru": "чайку-у",
+      "JPja": "ホッ",
+      "KRko": "따끈따끈",
+      "TWzh": "呼",
+      "USen": "teacup",
+      "USes": "snuuuf",
+      "USfr": "énoooorme"
+    }
+  },
+  {
+    "label": "elp11",
+    "locale": {
+      "CNzh": "大耳",
+      "EUde": "zimtroll",
+      "EUen": "flap flap",
+      "EUes": "vuelalto",
+      "EUfr": "pachipach",
+      "EUit": "ruuu ruuu",
+      "EUnl": "kaneel",
+      "EUru": "машу ушами",
+      "JPja": "ロルロル",
+      "KRko": "롤롤",
+      "TWzh": "大耳",
+      "USen": "flap flap",
+      "USes": "vuelalto",
+      "USfr": "pachipach"
+    }
+  },
+  {
+    "label": "elp12",
+    "locale": {
+      "CNzh": "摇滚",
+      "EUde": "hau",
+      "EUen": "rockin'",
+      "EUes": "rocanrol",
+      "EUfr": "bastringue",
+      "EUit": "rocking",
+      "EUnl": "mieters",
+      "EUru": "рок-н-ролл",
+      "JPja": "ウス",
+      "KRko": "피스",
+      "TWzh": "搖滾",
+      "USen": "rockin'",
+      "USes": "rocanrol",
+      "USfr": "barda"
+    }
+  },
+  {
+    "label": "flg00",
+    "locale": {
+      "CNzh": "雨雨",
+      "EUde": "kröti",
+      "EUen": "toady",
+      "EUes": "mosquita",
+      "EUfr": "watich'",
+      "EUit": "gragragra",
+      "EUnl": "padje",
+      "EUru": "ква",
+      "JPja": "でちゅ",
+      "KRko": "그래요",
+      "TWzh": "雨雨",
+      "USen": "toady",
+      "USes": "riiibit",
+      "USfr": "zzrrbbitt"
+    }
+  },
+  {
+    "label": "flg01",
+    "locale": {
+      "CNzh": "机器",
+      "EUde": "quarrrk",
+      "EUen": "zzrrbbitt",
+      "EUes": "crobit",
+      "EUfr": "croac",
+      "EUit": "cracrà",
+      "EUnl": "kwwwrrrk",
+      "EUru": "квак-дзынь",
+      "JPja": "だロボ",
+      "KRko": "오버",
+      "TWzh": "機器",
+      "USen": "zzrrbbitt",
+      "USes": "crobit",
+      "USfr": "croac"
+    }
+  },
+  {
+    "label": "flg02",
+    "locale": {
+      "CNzh": "咕噜",
+      "EUde": "quäääk",
+      "EUen": "fribbit",
+      "EUes": "anquitas",
+      "EUfr": "breup",
+      "EUit": "fribbit",
+      "EUnl": "fffwaak",
+      "EUru": "квак",
+      "JPja": "クルリ",
+      "KRko": "객울",
+      "TWzh": "咕嚕",
+      "USen": "fribbit",
+      "USes": "fribit",
+      "USfr": "breup"
+    }
+  },
+  {
+    "label": "flg03",
+    "locale": {
+      "CNzh": "喂",
+      "EUde": "quak-quak",
+      "EUen": "ten-hut",
+      "EUes": "recluta",
+      "EUfr": "taïaut",
+      "EUit": "attacroak",
+      "EUnl": "geef acht",
+      "EUru": "шагом-квак",
+      "JPja": "わい",
+      "KRko": "와이",
+      "TWzh": "喂",
+      "USen": "ten-hut",
+      "USes": "croooa",
+      "USfr": "kaki"
+    }
+  },
+  {
+    "label": "flg04",
+    "locale": {
+      "CNzh": "聒聒",
+      "EUde": "quak",
+      "EUen": "dribbit",
+      "EUes": "colega",
+      "EUfr": "braaaa",
+      "EUit": "girin",
+      "EUnl": "gozer",
+      "EUru": "бро",
+      "JPja": "ゲロゲロ",
+      "KRko": "개굴개굴",
+      "TWzh": "嘓嘓",
+      "USen": "dribbit",
+      "USes": "dribit",
+      "USfr": "braaaa"
+    }
+  },
+  {
+    "label": "flg05",
+    "locale": {
+      "CNzh": "山山",
+      "EUde": "grupap",
+      "EUen": "grr-ribbit",
+      "EUes": "grroac",
+      "EUfr": "croa-croa",
+      "EUit": "cracragnam",
+      "EUnl": "brulkikker",
+      "EUru": "ква-ква",
+      "JPja": "だぎゃ",
+      "KRko": "므흣",
+      "TWzh": "山山",
+      "USen": "grr-ribbit",
+      "USes": "grroac",
+      "USfr": "croa-croa"
+    }
+  },
+  {
+    "label": "flg06",
+    "locale": {
+      "CNzh": "石头",
+      "EUde": "platschi",
+      "EUen": "splish",
+      "EUes": "esplís",
+      "EUfr": "splufff",
+      "EUit": "splash",
+      "EUnl": "plons",
+      "EUru": "плюх",
+      "JPja": "っちゃ",
+      "KRko": "그랬쪄",
+      "TWzh": "石頭",
+      "USen": "splish",
+      "USes": "esplís",
+      "USfr": "splufff"
+    }
+  },
+  {
+    "label": "flg07",
+    "locale": {
+      "CNzh": "嚼嚼",
+      "EUde": "nidip",
+      "EUen": "nee-deep",
+      "EUes": "croc-croc",
+      "EUfr": "brooap",
+      "EUit": "fri fri",
+      "EUnl": "rikkekik",
+      "EUru": "буль-буль",
+      "JPja": "にゃむ",
+      "KRko": "딩동댕",
+      "TWzh": "嚼嚼",
+      "USen": "nee-deep",
+      "USes": "croc-croc",
+      "USfr": "brooap"
+    }
+  },
+  {
+    "label": "flg09",
+    "locale": {
+      "CNzh": "蝌蚪",
+      "EUde": "schlürpf",
+      "EUen": "sluuuurp",
+      "EUes": "zump",
+      "EUfr": "nénuf",
+      "EUit": "sluuuurp",
+      "EUnl": "sluuuurp",
+      "EUru": "жабррр",
+      "JPja": "だよん",
+      "KRko": "흐압",
+      "TWzh": "蝌蚪",
+      "USen": "sluuuurp",
+      "USes": "zump",
+      "USfr": "nénuf"
+    }
+  },
+  {
+    "label": "flg10",
+    "locale": {
+      "CNzh": "不客气",
+      "EUde": "oui, oui",
+      "EUen": "oui oui",
+      "EUes": "oui oui",
+      "EUfr": "bidule",
+      "EUit": "et voilà",
+      "EUnl": "oui oui",
+      "EUru": "уи-уи",
+      "JPja": "のことよ",
+      "KRko": "라이라이",
+      "TWzh": "不客氣",
+      "USen": "oui oui",
+      "USes": "oui oui",
+      "USfr": "bidule"
+    }
+  },
+  {
+    "label": "flg11",
+    "locale": {
+      "CNzh": "喝喝",
+      "EUde": "hops",
+      "EUen": "hopper",
+      "EUes": "grillito",
+      "EUfr": "nouille",
+      "EUit": "hophop",
+      "EUnl": "hophop",
+      "EUru": "скок",
+      "JPja": "とかー",
+      "KRko": "싸우자",
+      "TWzh": "喝喝",
+      "USen": "hopper",
+      "USes": "ajop",
+      "USfr": "nouille"
+    }
+  },
+  {
+    "label": "flg12",
+    "locale": {
+      "CNzh": "是的",
+      "EUde": "gurp",
+      "EUen": "burrup",
+      "EUes": "buuurp",
+      "EUfr": "boiiiiing",
+      "EUit": "berp",
+      "EUnl": "blurp",
+      "EUru": "квак-квак",
+      "JPja": "ですだ",
+      "KRko": "이리오슈",
+      "TWzh": "是的",
+      "USen": "burrup",
+      "USes": "buuurp",
+      "USfr": "boiiiiing"
+    }
+  },
+  {
+    "label": "flg13",
+    "locale": {
+      "CNzh": "是蛙",
+      "EUde": "quaacki",
+      "EUen": "croak-kay",
+      "EUes": "croac",
+      "EUfr": "quoi",
+      "EUit": "crok-ok",
+      "EUnl": "inderkwaak",
+      "EUru": "кво-кей",
+      "JPja": "ですわよ",
+      "KRko": "쪼오옥",
+      "TWzh": "是蛙",
+      "USen": "croak-kay",
+      "USes": "croac",
+      "USfr": "quoi"
+    }
+  },
+  {
+    "label": "flg15",
+    "locale": {
+      "CNzh": "哈啾",
+      "EUde": "tatü",
+      "EUen": "aaach—",
+      "EUes": "croaqui",
+      "EUfr": "kroah",
+      "EUit": "rrruuuak",
+      "EUnl": "kraah",
+      "EUru": "ах-ох",
+      "JPja": "へくしっ",
+      "KRko": "콜록",
+      "TWzh": "哈啾",
+      "USen": "aaach—",
+      "USes": "croaqui",
+      "USfr": "kroah"
+    }
+  },
+  {
+    "label": "flg16",
+    "locale": {
+      "CNzh": "宝贝",
+      "EUde": "quaki",
+      "EUen": "ribbette",
+      "EUes": "trebolito",
+      "EUfr": "crôazou",
+      "EUit": "gurghigù",
+      "EUnl": "kwaakette",
+      "EUru": "квакет",
+      "JPja": "ベイビィ",
+      "KRko": "베이비",
+      "TWzh": "寶貝",
+      "USen": "ribbette",
+      "USes": "croá-croá",
+      "USfr": "crôazou"
+    }
+  },
+  {
+    "label": "flg17",
+    "locale": {
+      "CNzh": "子曰",
+      "EUde": "schleck",
+      "EUen": "as if",
+      "EUes": "yastá",
+      "EUfr": "crapoupou",
+      "EUit": "umpf",
+      "EUnl": "ja dááág",
+      "EUru": "вроде того",
+      "JPja": "しからば",
+      "KRko": "툴툴",
+      "TWzh": "子曰",
+      "USen": "as if",
+      "USes": "yastá",
+      "USfr": "ouaoua"
+    }
+  },
+  {
+    "label": "flg18",
+    "locale": {
+      "CNzh": "蛤",
+      "EUde": "platsch",
+      "EUen": "ya know",
+      "EUes": "crocró",
+      "EUfr": "cuicuisse",
+      "EUit": "crabum",
+      "EUnl": "jeweetwel",
+      "EUru": "знаешь",
+      "JPja": "ハーン",
+      "KRko": "흐응",
+      "TWzh": "蛤",
+      "USen": "ya know",
+      "USes": "crocró",
+      "USfr": "cuicuisse"
+    }
+  },
+  {
+    "label": "flg19",
+    "locale": {
+      "CNzh": "滴咕",
+      "EUde": "quappi",
+      "EUen": "snoozit",
+      "EUes": "cruacruá",
+      "EUfr": "pustule",
+      "EUit": "croac",
+      "EUnl": "snurkwaak",
+      "EUru": "ква-храп",
+      "JPja": "むにゃ",
+      "KRko": "음냐음냐",
+      "TWzh": "滴咕",
+      "USen": "snoozit",
+      "USes": "cruacruá",
+      "USfr": "kôwa"
+    }
+  },
+  {
+    "label": "goa00",
+    "locale": {
+      "CNzh": "呗",
+      "EUde": "määääh",
+      "EUen": "la baa",
+      "EUes": "beee-beee",
+      "EUfr": "la baa",
+      "EUit": "beeello",
+      "EUnl": "la mèè",
+      "EUru": "ле ме-е-е",
+      "JPja": "っぺ",
+      "KRko": "맞아유",
+      "TWzh": "唄",
+      "USen": "la baa",
+      "USes": "beee-beee",
+      "USfr": "la baa"
+    }
+  },
+  {
+    "label": "goa01",
+    "locale": {
+      "CNzh": "书",
+      "EUde": "mekker",
+      "EUen": "kid",
+      "EUes": "peque",
+      "EUfr": "fromage",
+      "EUit": "bimbi",
+      "EUnl": "geitje",
+      "EUru": "козленок",
+      "JPja": "っしょ",
+      "KRko": "그랬슈",
+      "TWzh": "書",
+      "USen": "kid",
+      "USes": "bibi-bee",
+      "USfr": "fromage"
+    }
+  },
+  {
+    "label": "goa02",
+    "locale": {
+      "CNzh": "唷喏",
+      "EUde": "o-o-ja-a-a",
+      "EUen": "dagnaabit",
+      "EUes": "fenómeno",
+      "EUfr": "eh bââlèze",
+      "EUit": "sorbeeelli",
+      "EUnl": "nôh",
+      "EUru": "такие-сякие",
+      "JPja": "よのう",
+      "KRko": "알아줘",
+      "TWzh": "唷喏",
+      "USen": "dagnaabit",
+      "USes": "beerree",
+      "USfr": "bêê quoi"
+    }
+  },
+  {
+    "label": "goa04",
+    "locale": {
+      "CNzh": "耶",
+      "EUde": "mähmääh",
+      "EUen": "bleh eh eh",
+      "EUes": "zampoña",
+      "EUfr": "hé bêêê",
+      "EUit": "bleh eh",
+      "EUnl": "mekker",
+      "EUru": "ме-хе-хе",
+      "JPja": "イェーイ",
+      "KRko": "예이예",
+      "TWzh": "耶",
+      "USen": "bleh eh eh",
+      "USes": "meeeh",
+      "USfr": "hé bêêê"
+    }
+  },
+  {
+    "label": "goa06",
+    "locale": {
+      "CNzh": "起立",
+      "EUde": "mecker",
+      "EUen": "blih",
+      "EUes": "veráaas-tú",
+      "EUfr": "tu vois",
+      "EUit": "blip",
+      "EUnl": "meh",
+      "EUru": "ме-е-е",
+      "JPja": "ザーマス",
+      "KRko": "똑바로해",
+      "TWzh": "起立",
+      "USen": "blih",
+      "USes": "verááás-tú",
+      "USfr": "tu vois"
+    }
+  },
+  {
+    "label": "goa07",
+    "locale": {
+      "CNzh": "啊",
+      "EUde": "mehehe",
+      "EUen": "wut",
+      "EUes": "ein",
+      "EUfr": "mouhai",
+      "EUit": "balido",
+      "EUnl": "watte",
+      "EUru": "так",
+      "JPja": "はぁ～",
+      "KRko": "웁스",
+      "TWzh": "啊",
+      "USen": "wut",
+      "USes": "ein",
+      "USfr": "mouhai"
+    }
+  },
+  {
+    "label": "goa08",
+    "locale": {
+      "CNzh": "或许芭",
+      "EUde": "heckmeck",
+      "EUen": "kidders",
+      "EUes": "muy bieeen",
+      "EUfr": "mon moulin",
+      "EUit": "embeeeh",
+      "EUnl": "bokkig",
+      "EUru": "козлятки",
+      "JPja": "かな",
+      "KRko": "그러게",
+      "TWzh": "或許芭",
+      "USen": "kidders",
+      "USes": "ne-eh",
+      "USfr": "mon moulin"
+    }
+  },
+  {
+    "label": "goa09",
+    "locale": {
+      "CNzh": "轻飘",
+      "EUde": "schlummer",
+      "EUen": "bawwww",
+      "EUes": "bostezzz",
+      "EUfr": "bââââille",
+      "EUit": "beeewn",
+      "EUnl": "oefff",
+      "EUru": "мемеша",
+      "JPja": "ふわぁ",
+      "KRko": "흐아앙",
+      "TWzh": "輕飄",
+      "USen": "bawwww",
+      "USes": "bostezzz",
+      "USfr": "bââââille"
+    }
+  },
+  {
+    "label": "gor00",
+    "locale": {
+      "CNzh": "拍胸脯",
+      "EUde": "hoheit",
+      "EUen": "highness",
+      "EUes": "monigote",
+      "EUfr": "brutus",
+      "EUit": "dado",
+      "EUnl": "hoogheid",
+      "EUru": "высочество",
+      "JPja": "ウホウホ",
+      "KRko": "우갸우갸",
+      "TWzh": "拍胸脯",
+      "USen": "highness",
+      "USes": "ejeeem",
+      "USfr": "brutus"
+    }
+  },
+  {
+    "label": "gor01",
+    "locale": {
+      "CNzh": "高高",
+      "EUde": "zwerg",
+      "EUen": "li'l bitty baby",
+      "EUes": "cani",
+      "EUfr": "gadget",
+      "EUit": "baaanane",
+      "EUnl": "dwerg",
+      "EUru": "мелкота",
+      "JPja": "ガオ",
+      "KRko": "겉멋",
+      "TWzh": "高高",
+      "USen": "li'l bitty baby",
+      "USes": "cani",
+      "USfr": "gadget"
+    }
+  },
+  {
+    "label": "gor02",
+    "locale": {
+      "CNzh": "这家伙",
+      "EUde": "ugh",
+      "EUen": "baboom",
+      "EUes": "angaua",
+      "EUfr": "ma noix",
+      "EUit": "baboom",
+      "EUnl": "bavi-AAN",
+      "EUru": "бабум",
+      "JPja": "ウルトラ",
+      "KRko": "야임마",
+      "TWzh": "超級",
+      "USen": "baboom",
+      "USes": "angaua",
+      "USfr": "ma noix"
+    }
+  },
+  {
+    "label": "gor04",
+    "locale": {
+      "CNzh": "钢钢",
+      "EUde": "ugh-ugh",
+      "EUen": "hoo hoo ha",
+      "EUes": "gorilérico",
+      "EUfr": "tonneau",
+      "EUit": "bum bum",
+      "EUnl": "oe-oe-ah",
+      "EUru": "ух-ух-ах",
+      "JPja": "コング",
+      "KRko": "하압",
+      "TWzh": "鋼鋼",
+      "USen": "hoo hoo ha",
+      "USes": "gorilérico",
+      "USfr": "tonneau"
+    }
+  },
+  {
+    "label": "gor05",
+    "locale": {
+      "CNzh": "喔喔",
+      "EUde": "äffäff",
+      "EUen": "uh-oh",
+      "EUes": "unga",
+      "EUfr": "pelage",
+      "EUit": "bam bam",
+      "EUnl": "oh-oh",
+      "EUru": "ух-ох",
+      "JPja": "おうおう",
+      "KRko": "오우오우",
+      "TWzh": "喔喔",
+      "USen": "uh-oh",
+      "USes": "unga",
+      "USfr": "pelage"
+    }
+  },
+  {
+    "label": "gor07",
+    "locale": {
+      "CNzh": "唉呀",
+      "EUde": "auauauu",
+      "EUen": "sweetie",
+      "EUes": "canapé",
+      "EUfr": "gong",
+      "EUit": "tump tump",
+      "EUnl": "lieverd",
+      "EUru": "сластена",
+      "JPja": "アイヤ",
+      "KRko": "에그머닛",
+      "TWzh": "唉呀",
+      "USen": "sweetie",
+      "USes": "uh-uh",
+      "USfr": "gong"
+    }
+  },
+  {
+    "label": "gor08",
+    "locale": {
+      "CNzh": "呜呼",
+      "EUde": "uga-uga",
+      "EUen": "ayyyeee",
+      "EUes": "chocolate",
+      "EUfr": "ouba-oub",
+      "EUit": "bananao",
+      "EUnl": "aiaiai",
+      "EUru": "ух-ух-ух",
+      "JPja": "ウヒョッ",
+      "KRko": "부락",
+      "TWzh": "嗚呼",
+      "USen": "ayyyeee",
+      "USes": "juju-já",
+      "USfr": "ouba-oub"
+    }
+  },
+  {
+    "label": "gor09",
+    "locale": {
+      "CNzh": "煞啊",
+      "EUde": "brahaha",
+      "EUen": "vroom",
+      "EUes": "uga-uga",
+      "EUfr": "patouche",
+      "EUit": "uhatà",
+      "EUnl": "vroem",
+      "EUru": "на взлет",
+      "JPja": "そりゃっ",
+      "KRko": "끼얍",
+      "TWzh": "煞啊",
+      "USen": "vroom",
+      "USes": "uga-uga",
+      "USfr": "patouche"
+    }
+  },
+  {
+    "label": "gor10",
+    "locale": {
+      "CNzh": "同意",
+      "EUde": "kongkong",
+      "EUen": "groovy",
+      "EUes": "cungagún",
+      "EUfr": "tût tût",
+      "EUit": "entonces",
+      "EUnl": "groovy",
+      "EUru": "респект",
+      "JPja": "いえてる",
+      "KRko": "알만하다",
+      "TWzh": "同意",
+      "USen": "groovy",
+      "USes": "cungagún",
+      "USfr": "tût tût"
+    }
+  },
+  {
+    "label": "gor11",
+    "locale": {
+      "CNzh": "哈罗",
+      "EUde": "kittykong",
+      "EUen": "hello",
+      "EUes": "kittybún",
+      "EUfr": "rorille",
+      "EUit": "arrruuu",
+      "EUnl": "hello",
+      "EUru": "алло",
+      "JPja": "ハロー",
+      "KRko": "헬로",
+      "TWzh": "哈囉",
+      "USen": "hello",
+      "USes": "kittybún",
+      "USfr": "rorille"
+    }
+  },
+  {
+    "label": "ham00",
+    "locale": {
+      "CNzh": "火腿",
+      "EUde": "twirps",
+      "EUen": "hammie",
+      "EUes": "chucufá",
+      "EUfr": "chicots",
+      "EUit": "puff pant",
+      "EUnl": "hammie",
+      "EUru": "хомячок",
+      "JPja": "ハム",
+      "KRko": "햄햄",
+      "TWzh": "火腿",
+      "USen": "hammie",
+      "USes": "chucufá",
+      "USfr": "chicots"
+    }
+  },
+  {
+    "label": "ham01",
+    "locale": {
+      "CNzh": "转转",
+      "EUde": "fiep",
+      "EUen": "cheekers",
+      "EUes": "do-re-mi",
+      "EUfr": "bibille",
+      "EUit": "triplo uau",
+      "EUnl": "wangetjes",
+      "EUru": "щечки",
+      "JPja": "キュルン",
+      "KRko": "큐룽",
+      "TWzh": "轉轉",
+      "USen": "cheekers",
+      "USes": "do-re-mi",
+      "USfr": "bibille"
+    }
+  },
+  {
+    "label": "ham02",
+    "locale": {
+      "CNzh": "就是这样",
+      "EUde": "hähäm",
+      "EUen": "indeed",
+      "EUes": "ñisqui",
+      "EUfr": "au pif",
+      "EUit": "paella",
+      "EUnl": "inderdaad",
+      "EUru": "резонно",
+      "JPja": "ですぞ",
+      "KRko": "그렇다고",
+      "TWzh": "就是這樣",
+      "USen": "indeed",
+      "USes": "ñisqui",
+      "USfr": "au pif"
+    }
+  },
+  {
+    "label": "ham03",
+    "locale": {
+      "CNzh": "咻咻",
+      "EUde": "mjamjam",
+      "EUen": "le ham",
+      "EUes": "adoya",
+      "EUfr": "caries",
+      "EUit": "flop",
+      "EUnl": "le ham",
+      "EUru": "ле хом",
+      "JPja": "ヒュー",
+      "KRko": "휴우",
+      "TWzh": "咻咻",
+      "USen": "le ham",
+      "USes": "adoya",
+      "USfr": "yes sir"
+    }
+  },
+  {
+    "label": "ham04",
+    "locale": {
+      "CNzh": "相信我",
+      "EUde": "hümpf",
+      "EUen": "tarnation",
+      "EUes": "moflete",
+      "EUfr": "gnognotte",
+      "EUit": "vriiin",
+      "EUnl": "korenwolf",
+      "EUru": "о-хо-хо",
+      "JPja": "だってば",
+      "KRko": "파샤샤",
+      "TWzh": "相信我",
+      "USen": "tarnation",
+      "USes": "ñiqui-ñú",
+      "USfr": "ciel"
+    }
+  },
+  {
+    "label": "ham05",
+    "locale": {
+      "CNzh": "忐忑不安",
+      "EUde": "backi",
+      "EUen": "thump",
+      "EUes": "tucu-tucu",
+      "EUfr": "pindépice",
+      "EUit": "popomf",
+      "EUnl": "boink",
+      "EUru": "стук-стук",
+      "JPja": "どきどき",
+      "KRko": "둥게둥게",
+      "TWzh": "忐忑不安",
+      "USen": "thump",
+      "USes": "tucu-tucu",
+      "USfr": "pindépice"
+    }
+  },
+  {
+    "label": "ham06",
+    "locale": {
+      "CNzh": "对啊",
+      "EUde": "millimilli",
+      "EUen": "powderpuff",
+      "EUes": "nomnom",
+      "EUfr": "abajoujou",
+      "EUit": "fondue",
+      "EUnl": "donsbal",
+      "EUru": "пушистик",
+      "JPja": "なのです",
+      "KRko": "뽀드득",
+      "TWzh": "對啊",
+      "USen": "powderpuff",
+      "USes": "nomnom",
+      "USfr": "abajoujou"
+    }
+  },
+  {
+    "label": "ham07",
+    "locale": {
+      "CNzh": "怒",
+      "EUde": "squiep",
+      "EUen": "snort",
+      "EUes": "andaquenó",
+      "EUfr": "balivernes",
+      "EUit": "spatapumf",
+      "EUnl": "snuifsnuif",
+      "EUru": "фырк",
+      "JPja": "カーッ",
+      "KRko": "카악",
+      "TWzh": "怒",
+      "USen": "snort",
+      "USes": "noquenó",
+      "USfr": "gna gna"
+    }
+  },
+  {
+    "label": "ham09",
+    "locale": {
+      "CNzh": "所以喽",
+      "EUde": "sososo",
+      "EUen": "gabeesh",
+      "EUes": "pariente",
+      "EUfr": "capiche",
+      "EUit": "vossia",
+      "EUnl": "dusseh",
+      "EUru": "короче",
+      "JPja": "じゃけえ",
+      "KRko": "알겠냐",
+      "TWzh": "所以囉",
+      "USen": "gabeesh",
+      "USes": "capiche",
+      "USfr": "capiche"
+    }
+  },
+  {
+    "label": "hip00",
+    "locale": {
+      "CNzh": "觉得是啦",
+      "EUde": "pfffft",
+      "EUen": "hippie",
+      "EUes": "batracio",
+      "EUfr": "babi",
+      "EUit": "ipper",
+      "EUnl": "hippo",
+      "EUru": "гиппи",
+      "JPja": "だぎゃー",
+      "KRko": "그러마",
+      "TWzh": "覺得是啦",
+      "USen": "hippie",
+      "USes": "hiponó",
+      "USfr": "babi"
+    }
+  },
+  {
+    "label": "hip02",
+    "locale": {
+      "CNzh": "是是",
+      "EUde": "blupper",
+      "EUen": "hipster",
+      "EUes": "hippie",
+      "EUfr": "hip hop là",
+      "EUit": "hiippy",
+      "EUnl": "hipster",
+      "EUru": "хипстер",
+      "JPja": "でガンス",
+      "KRko": "히포포",
+      "TWzh": "是是",
+      "USen": "hipster",
+      "USes": "glop-glop",
+      "USfr": "hip hop là"
+    }
+  },
+  {
+    "label": "hip03",
+    "locale": {
+      "CNzh": "没错",
+      "EUde": "blubber",
+      "EUen": "bloop",
+      "EUes": "glub-glub",
+      "EUfr": "rololol",
+      "EUit": "blup",
+      "EUnl": "blubber",
+      "EUru": "бултых",
+      "JPja": "そうです",
+      "KRko": "맞습니다",
+      "TWzh": "沒錯",
+      "USen": "bloop",
+      "USes": "glub-glub",
+      "USfr": "gloups"
+    }
+  },
+  {
+    "label": "hip04",
+    "locale": {
+      "CNzh": "因为",
+      "EUde": "skwiirt",
+      "EUen": "squirt",
+      "EUes": "hipo-pipo",
+      "EUfr": "hips hips",
+      "EUit": "squirt",
+      "EUnl": "spetter",
+      "EUru": "малек",
+      "JPja": "じゃけん",
+      "KRko": "오도독",
+      "TWzh": "因為",
+      "USen": "squirt",
+      "USes": "hipo-pipo",
+      "USfr": "hips hips"
+    }
+  },
+  {
+    "label": "hip05",
+    "locale": {
+      "CNzh": "哔哔",
+      "EUde": "mei o mei",
+      "EUen": "my dear",
+      "EUes": "corassón",
+      "EUfr": "joli cœur",
+      "EUit": "bibù",
+      "EUnl": "liefje",
+      "EUru": "дорогуша",
+      "JPja": "だピー",
+      "KRko": "쩝쩝",
+      "TWzh": "嗶嗶",
+      "USen": "my dear",
+      "USes": "hipopop",
+      "USfr": "joli cœur"
+    }
+  },
+  {
+    "label": "hip08",
+    "locale": {
+      "CNzh": "世世",
+      "EUde": "höhöhö",
+      "EUen": "beach bum",
+      "EUes": "algas",
+      "EUfr": "mille",
+      "EUit": "uhuhuh",
+      "EUnl": "strandgast",
+      "EUru": "лежебока",
+      "JPja": "でっせ",
+      "KRko": "냉큼오슈",
+      "TWzh": "世世",
+      "USen": "beach bum",
+      "USes": "ho-hop",
+      "USfr": "mille"
+    }
+  },
+  {
+    "label": "hip09",
+    "locale": {
+      "CNzh": "Yes",
+      "EUde": "hipphipp",
+      "EUen": "natch",
+      "EUes": "chofchof",
+      "EUfr": "tam-tam",
+      "EUit": "vale",
+      "EUnl": "tuurlijk",
+      "EUru": "естессно",
+      "JPja": "イェス",
+      "KRko": "예스",
+      "TWzh": "Yes",
+      "USen": "natch",
+      "USes": "chofchof",
+      "USfr": "tam-tam"
+    }
+  },
+  {
+    "label": "hrs00",
+    "locale": {
+      "CNzh": "搞笑",
+      "EUde": "wiehie",
+      "EUen": "pardner",
+      "EUes": "zanahoria",
+      "EUfr": "taty",
+      "EUit": "cowboy",
+      "EUnl": "draver",
+      "EUru": "партнер",
+      "JPja": "なんちて",
+      "KRko": "농담",
+      "TWzh": "搞笑",
+      "USen": "pardner",
+      "USes": "jopop",
+      "USfr": "howdy"
+    }
+  },
+  {
+    "label": "hrs01",
+    "locale": {
+      "CNzh": "走哦",
+      "EUde": "gimazuka",
+      "EUen": "sugar cube",
+      "EUes": "terroncito",
+      "EUfr": "susucre",
+      "EUit": "zolletta",
+      "EUnl": "klontje",
+      "EUru": "сахарок",
+      "JPja": "いくわよ",
+      "KRko": "달리자",
+      "TWzh": "走囉",
+      "USen": "sugar cube",
+      "USes": "clic-cloc",
+      "USfr": "susucre"
+    }
+  },
+  {
+    "label": "hrs02",
+    "locale": {
+      "CNzh": "说到",
+      "EUde": "wichichi",
+      "EUen": "y'all",
+      "EUes": "azucarillo",
+      "EUfr": "wimbowé",
+      "EUit": "hip hip",
+      "EUnl": "pony",
+      "EUru": "и все",
+      "JPja": "ってば",
+      "KRko": "맞아요",
+      "TWzh": "說到",
+      "USen": "y'all",
+      "USes": "azuquita",
+      "USfr": "wimbowé"
+    }
+  },
+  {
+    "label": "hrs03",
+    "locale": {
+      "CNzh": "酥酥",
+      "EUde": "anfänger",
+      "EUen": "tenderfoot",
+      "EUes": "pezuñitas",
+      "EUfr": "mouuuuiii",
+      "EUit": "pinopino",
+      "EUnl": "jonkie",
+      "EUru": "жеребенок",
+      "JPja": "だヒヒン",
+      "KRko": "히히힝",
+      "TWzh": "酥酥",
+      "USen": "tenderfoot",
+      "USes": "hop-uah",
+      "USfr": "mouuuuiii"
+    }
+  },
+  {
+    "label": "hrs04",
+    "locale": {
+      "CNzh": "布鲁鲁",
+      "EUde": "galoppp",
+      "EUen": "nay",
+      "EUes": "bípedo",
+      "EUfr": "shérif",
+      "EUit": "nay",
+      "EUnl": "nihihiet",
+      "EUru": "не-е-ет",
+      "JPja": "ブルル",
+      "KRko": "부르르",
+      "TWzh": "布魯魯",
+      "USen": "nay",
+      "USes": "ñiii",
+      "USfr": "shérif"
+    }
+  },
+  {
+    "label": "hrs05",
+    "locale": {
+      "CNzh": "嘶嘶",
+      "EUde": "heu-ja",
+      "EUen": "hay-OK",
+      "EUes": "okeimakei",
+      "EUfr": "youp là",
+      "EUit": "biadina",
+      "EUnl": "knol",
+      "EUru": "тык-дык",
+      "JPja": "みゃあ",
+      "KRko": "당근당근",
+      "TWzh": "嘶嘶",
+      "USen": "hay-OK",
+      "USes": "okeimakei",
+      "USfr": "youp là"
+    }
+  },
+  {
+    "label": "hrs06",
+    "locale": {
+      "CNzh": "不是啦",
+      "EUde": "greenhorn",
+      "EUen": "greenhorn",
+      "EUes": "jo-joy",
+      "EUfr": "tagada",
+      "EUit": "pirulì",
+      "EUnl": "ju",
+      "EUru": "новичок",
+      "JPja": "じゃない",
+      "KRko": "게슴츠레",
+      "TWzh": "不是啦",
+      "USen": "greenhorn",
+      "USes": "jo-joy",
+      "USfr": "tagada"
+    }
+  },
+  {
+    "label": "hrs07",
+    "locale": {
+      "CNzh": "游游",
+      "EUde": "plätzchen",
+      "EUen": "sugar",
+      "EUes": "bomboncito",
+      "EUfr": "beauté",
+      "EUit": "dolcetto",
+      "EUnl": "snoepje",
+      "EUru": "рафинад",
+      "JPja": "あそばせ",
+      "KRko": "훗훗",
+      "TWzh": "遊遊",
+      "USen": "sugar",
+      "USes": "hop-puá",
+      "USfr": "beauté"
+    }
+  },
+  {
+    "label": "hrs08",
+    "locale": {
+      "CNzh": "蹦",
+      "EUde": "nachbar",
+      "EUen": "neighbor",
+      "EUes": "niiiih",
+      "EUfr": "mustang",
+      "EUit": "oh mamma",
+      "EUnl": "hinnik",
+      "EUru": "соседушка",
+      "JPja": "だポン",
+      "KRko": "몰라요",
+      "TWzh": "蹦",
+      "USen": "neighbor",
+      "USes": "niiiih",
+      "USfr": "mustang"
+    }
+  },
+  {
+    "label": "hrs09",
+    "locale": {
+      "CNzh": "舒服",
+      "EUde": "mausezahn",
+      "EUen": "nipper",
+      "EUes": "criatura",
+      "EUfr": "galapia",
+      "EUit": "palio",
+      "EUnl": "veulen",
+      "EUru": "кусь-кусь",
+      "JPja": "サヴァ",
+      "KRko": "봉쥬르",
+      "TWzh": "舒服",
+      "USen": "nipper",
+      "USes": "nih-nah",
+      "USfr": "hippique"
+    }
+  },
+  {
+    "label": "hrs10",
+    "locale": {
+      "CNzh": "吹卷卷",
+      "EUde": "schauder",
+      "EUen": "clip clawp",
+      "EUes": "troteras",
+      "EUfr": "mouh-ouh",
+      "EUit": "clop clop",
+      "EUnl": "klipklop",
+      "EUru": "цок-цок",
+      "JPja": "ぴろぴろ",
+      "KRko": "다그닥",
+      "TWzh": "吹捲捲",
+      "USen": "clip clawp",
+      "USes": "clip-clop",
+      "USfr": "mouh-ouh"
+    }
+  },
+  {
+    "label": "hrs11",
+    "locale": {
+      "CNzh": "请看",
+      "EUde": "hamham",
+      "EUen": "check it",
+      "EUes": "jia",
+      "EUfr": "hue hue",
+      "EUit": "hiii",
+      "EUnl": "hortsik",
+      "EUru": "глянь",
+      "JPja": "ごらんよ",
+      "KRko": "이거봐",
+      "TWzh": "請看",
+      "USen": "check it",
+      "USes": "jia",
+      "USfr": "hue hue"
+    }
+  },
+  {
+    "label": "hrs12",
+    "locale": {
+      "CNzh": "听说是",
+      "EUde": "nichja",
+      "EUen": "haaay",
+      "EUes": "quepassa",
+      "EUfr": "en selle",
+      "EUit": "clip clop",
+      "EUnl": "hooooi",
+      "EUru": "се-е-ено",
+      "JPja": "だっけ",
+      "KRko": "그런가",
+      "TWzh": "聽說是",
+      "USen": "haaay",
+      "USes": "cli-cló",
+      "USfr": "en selle"
+    }
+  },
+  {
+    "label": "hrs13",
+    "locale": {
+      "CNzh": "喂！你",
+      "EUde": "wihihihi",
+      "EUen": "glitter",
+      "EUes": "pinchito",
+      "EUfr": "trottoune",
+      "EUit": "vamos",
+      "EUnl": "glitter",
+      "EUru": "блеск",
+      "JPja": "ね、キミ",
+      "KRko": "그대여",
+      "TWzh": "喂！你",
+      "USen": "glitter",
+      "USes": "trotót",
+      "USfr": "western"
+    }
+  },
+  {
+    "label": "hrs16",
+    "locale": {
+      "CNzh": "哼",
+      "EUde": "tada",
+      "EUen": "ayup yup",
+      "EUes": "alehop",
+      "EUfr": "crincrin",
+      "EUit": "hiii-op",
+      "EUnl": "uhuh",
+      "EUru": "но-но",
+      "JPja": "スン",
+      "KRko": "쉬익",
+      "TWzh": "哼",
+      "USen": "ayup yup",
+      "USes": "juááá",
+      "USfr": "crincrin"
+    }
+  },
+  {
+    "label": "kal00",
+    "locale": {
+      "CNzh": "啊啦",
+      "EUde": "grins",
+      "EUen": "tsk tsk",
+      "EUes": "pues",
+      "EUfr": "tss tss",
+      "EUit": "tsé tsé",
+      "EUnl": "tss tss",
+      "EUru": "ц-ц",
+      "JPja": "アラ",
+      "KRko": "어맛",
+      "TWzh": "啊啦",
+      "USen": "tsk tsk",
+      "USes": "tsé tsé",
+      "USfr": "tss tss"
+    }
+  },
+  {
+    "label": "kal01",
+    "locale": {
+      "CNzh": "晶亮",
+      "EUde": "schnarchhh",
+      "EUen": "guvnor",
+      "EUes": "tú",
+      "EUfr": "chef",
+      "EUit": "tesorino",
+      "EUnl": "chef",
+      "EUru": "лидер",
+      "JPja": "キラリ",
+      "KRko": "반짝",
+      "TWzh": "晶亮",
+      "USen": "guvnor",
+      "USes": "eucaliup",
+      "USfr": "chef"
+    }
+  },
+  {
+    "label": "kal02",
+    "locale": {
+      "CNzh": "不得了",
+      "EUde": "zubba",
+      "EUen": "toasty",
+      "EUes": "tesoro",
+      "EUfr": "pêchou",
+      "EUit": "toasty",
+      "EUnl": "toastje",
+      "EUru": "хрустяшка",
+      "JPja": "とっても",
+      "KRko": "정말로요",
+      "TWzh": "不得了",
+      "USen": "toasty",
+      "USes": "pichú",
+      "USfr": "pêchou"
+    }
+  },
+  {
+    "label": "kal03",
+    "locale": {
+      "CNzh": "无尾熊",
+      "EUde": "sternchen",
+      "EUen": "sunshine",
+      "EUes": "súper",
+      "EUfr": "mon trésor",
+      "EUit": "calipto",
+      "EUnl": "zonnetje",
+      "EUru": "солнышко",
+      "JPja": "だコアラ",
+      "KRko": "발그레",
+      "TWzh": "無尾熊",
+      "USen": "sunshine",
+      "USes": "calipto",
+      "USfr": "mon trésor"
+    }
+  },
+  {
+    "label": "kal04",
+    "locale": {
+      "CNzh": "钱钱",
+      "EUde": "partner",
+      "EUen": "mate",
+      "EUes": "jorf-jorf",
+      "EUfr": "galopin",
+      "EUit": "dinamite",
+      "EUnl": "partner",
+      "EUru": "напарник",
+      "JPja": "だがや",
+      "KRko": "버텨",
+      "TWzh": "錢錢",
+      "USen": "mate",
+      "USes": "jorf-jorf",
+      "USfr": "calyptus"
+    }
+  },
+  {
+    "label": "kal05",
+    "locale": {
+      "CNzh": "颗颗",
+      "EUde": "altes Haus",
+      "EUen": "ol' bear",
+      "EUes": "osete",
+      "EUfr": "koa là là",
+      "EUit": "ulabadula",
+      "EUnl": "ouwe beer",
+      "EUru": "медведище",
+      "JPja": "ククッ",
+      "KRko": "큐큐",
+      "TWzh": "顆顆",
+      "USen": "ol' bear",
+      "USes": "koahhh",
+      "USfr": "koa là là"
+    }
+  },
+  {
+    "label": "kal07",
+    "locale": {
+      "CNzh": "香脆",
+      "EUde": "aloha",
+      "EUen": "aloha",
+      "EUes": "aloha",
+      "EUfr": "aloha",
+      "EUit": "aloha",
+      "EUnl": "mahalo",
+      "EUru": "алоха",
+      "JPja": "サクッ",
+      "KRko": "바삭",
+      "TWzh": "香脆",
+      "USen": "aloha",
+      "USes": "aloha",
+      "USfr": "aloha"
+    }
+  },
+  {
+    "label": "kal08",
+    "locale": {
+      "CNzh": "咦",
+      "EUde": "kolala",
+      "EUen": "nuh uh",
+      "EUes": "kolalá",
+      "EUfr": "zyva",
+      "EUit": "eurekalì",
+      "EUnl": "echnie",
+      "EUru": "ох-хо",
+      "JPja": "え～",
+      "KRko": "어어",
+      "TWzh": "咦～",
+      "USen": "nuh uh",
+      "USes": "koalalá",
+      "USfr": "zyva"
+    }
+  },
+  {
+    "label": "kal09",
+    "locale": {
+      "CNzh": "哇",
+      "EUde": "liptus",
+      "EUen": "chips",
+      "EUes": "trololó",
+      "EUfr": "sandwich",
+      "EUit": "ponzipò",
+      "EUnl": "chips",
+      "EUru": "ничего",
+      "JPja": "わ～い",
+      "KRko": "우와",
+      "TWzh": "哇～",
+      "USen": "chips",
+      "USes": "tralalá",
+      "USfr": "sandwich"
+    }
+  },
+  {
+    "label": "kal10",
+    "locale": {
+      "CNzh": "喂喂",
+      "EUde": "yeah",
+      "EUen": "yeah buddy",
+      "EUes": "ouyeah",
+      "EUfr": "yapaphoto",
+      "EUit": "koahola",
+      "EUnl": "yeah",
+      "EUru": "приятель",
+      "JPja": "おいおい",
+      "KRko": "야야야",
+      "TWzh": "喂喂",
+      "USen": "yeah buddy",
+      "USes": "ouyeah",
+      "USfr": "oh yeah"
+    }
+  },
+  {
+    "label": "kgr00",
+    "locale": {
+      "CNzh": "补补",
+      "EUde": "kindchen",
+      "EUen": "child",
+      "EUes": "mi alma",
+      "EUfr": "gamin",
+      "EUit": "cucciolo",
+      "EUnl": "kind",
+      "EUru": "детка",
+      "JPja": "ッポン",
+      "KRko": "폴짝",
+      "TWzh": "補補",
+      "USen": "child",
+      "USes": "chiquichí",
+      "USfr": "gamin"
+    }
+  },
+  {
+    "label": "kgr01",
+    "locale": {
+      "CNzh": "嘿",
+      "EUde": "knirps",
+      "EUen": "wee baby",
+      "EUes": "peso mosca",
+      "EUfr": "riquiqui",
+      "EUit": "oplà",
+      "EUnl": "ukkepuk",
+      "EUru": "малютка",
+      "JPja": "ッハ",
+      "KRko": "응",
+      "TWzh": "嘿",
+      "USen": "wee baby",
+      "USes": "ala-rorro",
+      "USfr": "riquiqui"
+    }
+  },
+  {
+    "label": "kgr02",
+    "locale": {
+      "CNzh": "亲亲",
+      "EUde": "beutel",
+      "EUen": "little one",
+      "EUes": "bebé",
+      "EUfr": "poupon",
+      "EUit": "gnegné",
+      "EUnl": "kleine",
+      "EUru": "дитятко",
+      "JPja": "だフン",
+      "KRko": "오롤로",
+      "TWzh": "親親",
+      "USen": "little one",
+      "USes": "arrorró",
+      "USfr": "mon pit"
+    }
+  },
+  {
+    "label": "kgr05",
+    "locale": {
+      "CNzh": "庞克",
+      "EUde": "schmusi",
+      "EUen": "my pet",
+      "EUes": "mascotita",
+      "EUfr": "mon étoile",
+      "EUit": "fagotto",
+      "EUnl": "troetel",
+      "EUru": "лапочка",
+      "JPja": "だパンク",
+      "KRko": "뭘봐",
+      "TWzh": "龐克",
+      "USen": "my pet",
+      "USes": "brillabrí",
+      "USfr": "mon étoile"
+    }
+  },
+  {
+    "label": "kgr06",
+    "locale": {
+      "CNzh": "对耶",
+      "EUde": "flottflott",
+      "EUen": "boing",
+      "EUes": "púgil",
+      "EUfr": "d'la balle",
+      "EUit": "saltolà",
+      "EUnl": "boing",
+      "EUru": "прыг",
+      "JPja": "よねー",
+      "KRko": "이자슥",
+      "TWzh": "對耶",
+      "USen": "boing",
+      "USes": "do-doing",
+      "USfr": "d'la balle"
+    }
+  },
+  {
+    "label": "kgr08",
+    "locale": {
+      "CNzh": "别装了",
+      "EUde": "boingboing",
+      "EUen": "pockets",
+      "EUes": "boing",
+      "EUfr": "popoche",
+      "EUit": "boing",
+      "EUnl": "zakkies",
+      "EUru": "карманчик",
+      "JPja": "じゃのう",
+      "KRko": "어험",
+      "TWzh": "別裝了",
+      "USen": "pockets",
+      "USes": "boing",
+      "USfr": "popoche"
+    }
+  },
+  {
+    "label": "kgr09",
+    "locale": {
+      "CNzh": "做就对了",
+      "EUde": "bonk",
+      "EUen": "punches",
+      "EUes": "chimpón",
+      "EUfr": "savate",
+      "EUit": "balz balz",
+      "EUnl": "boks",
+      "EUru": "хук",
+      "JPja": "やるぜ",
+      "KRko": "아자",
+      "TWzh": "做就對了",
+      "USen": "punches",
+      "USes": "chimpón",
+      "USfr": "savate"
+    }
+  },
+  {
+    "label": "kgr10",
+    "locale": {
+      "CNzh": "好唷",
+      "EUde": "hüpf",
+      "EUen": "pouches",
+      "EUes": "nainoná",
+      "EUfr": "wallaby",
+      "EUit": "me oui",
+      "EUnl": "buidels",
+      "EUru": "кармашек",
+      "JPja": "いいのよ",
+      "KRko": "조아요",
+      "TWzh": "好唷",
+      "USen": "pouches",
+      "USes": "nainoná",
+      "USfr": "wallaby"
+    }
+  },
+  {
+    "label": "lon00",
+    "locale": {
+      "CNzh": "男人",
+      "EUde": "kumpel",
+      "EUen": "shredded",
+      "EUes": "sabes",
+      "EUfr": "m'pote",
+      "EUit": "ruggi",
+      "EUnl": "maaaan",
+      "EUru": "че-е-ел",
+      "JPja": "メ～ン",
+      "KRko": "요～맨",
+      "TWzh": "男人",
+      "USen": "shredded",
+      "USes": "grrrau",
+      "USfr": "mon man"
+    }
+  },
+  {
+    "label": "lon01",
+    "locale": {
+      "CNzh": "听懂吧",
+      "EUde": "grolll",
+      "EUen": "unh-hunh",
+      "EUes": "groar",
+      "EUfr": "bébé",
+      "EUit": "unh-hunh",
+      "EUnl": "aloha",
+      "EUru": "буги-вуги",
+      "JPja": "ダロガ",
+      "KRko": "안그냐",
+      "TWzh": "聽懂吧",
+      "USen": "unh-hunh",
+      "USes": "groar",
+      "USfr": "bébé"
+    }
+  },
+  {
+    "label": "lon02",
+    "locale": {
+      "CNzh": "狮狮",
+      "EUde": "coolcat",
+      "EUen": "cool cat",
+      "EUes": "melenas",
+      "EUfr": "lionceau",
+      "EUit": "grrringo",
+      "EUnl": "coole kat",
+      "EUru": "спокойно",
+      "JPja": "だオン",
+      "KRko": "티라이온",
+      "TWzh": "獅獅",
+      "USen": "cool cat",
+      "USes": "grrreh",
+      "USfr": "lionceau"
+    }
+  },
+  {
+    "label": "lon04",
+    "locale": {
+      "CNzh": "上课了",
+      "EUde": "löwieh",
+      "EUen": "lion cub",
+      "EUes": "fiera",
+      "EUfr": "minus",
+      "EUit": "sonré",
+      "EUnl": "jong",
+      "EUru": "левушка",
+      "JPja": "よな",
+      "KRko": "졸지마",
+      "TWzh": "上課了",
+      "USen": "lion cub",
+      "USes": "gro-grau",
+      "USfr": "minus"
+    }
+  },
+  {
+    "label": "lon06",
+    "locale": {
+      "CNzh": "哈哈哈",
+      "EUde": "gröhl",
+      "EUen": "cagey",
+      "EUes": "sapristi",
+      "EUfr": "grif-grif",
+      "EUit": "groarrivo",
+      "EUnl": "rrrrrauw",
+      "EUru": "зоосад",
+      "JPja": "ハハハ",
+      "KRko": "하하하",
+      "TWzh": "哈哈哈",
+      "USen": "cagey",
+      "USes": "sapristi",
+      "USfr": "grif-grif"
+    }
+  },
+  {
+    "label": "lon07",
+    "locale": {
+      "CNzh": "哪哈",
+      "EUde": "graaah",
+      "EUen": "capital",
+      "EUes": "ticotaco",
+      "EUfr": "criniou",
+      "EUit": "roar",
+      "EUnl": "koninklijk",
+      "EUru": "капитально",
+      "JPja": "ナハッ",
+      "KRko": "크릉",
+      "TWzh": "哪哈",
+      "USen": "capital",
+      "USes": "ticotaco",
+      "USfr": "excellent"
+    }
+  },
+  {
+    "label": "lon08",
+    "locale": {
+      "CNzh": "正确",
+      "EUde": "grrroooh",
+      "EUen": "precisely",
+      "EUes": "picoplás",
+      "EUfr": "papatte",
+      "EUit": "ahora",
+      "EUnl": "exact",
+      "EUru": "честь имею",
+      "JPja": "まさしく",
+      "KRko": "옳거니",
+      "TWzh": "正確",
+      "USen": "precisely",
+      "USes": "picoplás",
+      "USfr": "papatte"
+    }
+  },
+  {
+    "label": "mnk01",
+    "locale": {
+      "CNzh": "唔唔",
+      "EUde": "spitzi",
+      "EUen": "po po",
+      "EUes": "monada",
+      "EUfr": "po po",
+      "EUit": "po po",
+      "EUnl": "banaan",
+      "EUru": "пу-пу",
+      "JPja": "ウキャ",
+      "KRko": "끼끼",
+      "TWzh": "唔唔",
+      "USen": "po po",
+      "USes": "ukiú",
+      "USfr": "po po"
+    }
+  },
+  {
+    "label": "mnk02",
+    "locale": {
+      "CNzh": "猿猿",
+      "EUde": "bannabanna",
+      "EUen": "zzzook",
+      "EUes": "chimpa",
+      "EUfr": "zzziik",
+      "EUit": "zzzook",
+      "EUnl": "zzzoeh oeh",
+      "EUru": "дружок",
+      "JPja": "でござる",
+      "KRko": "하옵니다",
+      "TWzh": "猿猿",
+      "USen": "zzzook",
+      "USes": "chimpa",
+      "USfr": "zzziik"
+    }
+  },
+  {
+    "label": "mnk03",
+    "locale": {
+      "CNzh": "哇呜",
+      "EUde": "agaga",
+      "EUen": "chimpy",
+      "EUes": "uki-uki",
+      "EUfr": "booof",
+      "EUit": "scimmietta",
+      "EUnl": "chimpie",
+      "EUru": "шимпатяга",
+      "JPja": "ワオ",
+      "KRko": "와우",
+      "TWzh": "哇嗚",
+      "USen": "chimpy",
+      "USes": "uki-uki",
+      "USfr": "booof"
+    }
+  },
+  {
+    "label": "mnk04",
+    "locale": {
+      "CNzh": "香蕉",
+      "EUde": "abbo",
+      "EUen": "g'tang",
+      "EUes": "uuuuh-ah",
+      "EUfr": "l'outang",
+      "EUit": "g'tang",
+      "EUnl": "orang",
+      "EUru": "ух-эх",
+      "JPja": "バナーナ",
+      "KRko": "바나나",
+      "TWzh": "香蕉",
+      "USen": "g'tang",
+      "USes": "uuuuh-ah",
+      "USfr": "l'outang"
+    }
+  },
+  {
+    "label": "mnk05",
+    "locale": {
+      "CNzh": "孟孟",
+      "EUde": "strebstreb",
+      "EUen": "puh-lease",
+      "EUes": "ricura",
+      "EUfr": "steup",
+      "EUit": "per favore",
+      "EUnl": "kom op zeg",
+      "EUru": "само собой",
+      "JPja": "だモン",
+      "KRko": "몽몽",
+      "TWzh": "孟孟",
+      "USen": "puh-lease",
+      "USes": "uh-lalá",
+      "USfr": "steup"
+    }
+  },
+  {
+    "label": "mnk06",
+    "locale": {
+      "CNzh": "差不多",
+      "EUde": "kikiki",
+      "EUen": "rerack",
+      "EUes": "afuá",
+      "EUfr": "oh hisse",
+      "EUit": "clap clap",
+      "EUnl": "oe-⁠a-⁠a",
+      "EUru": "у-у-у",
+      "JPja": "どっこい",
+      "KRko": "빠샤",
+      "TWzh": "差不多",
+      "USen": "rerack",
+      "USes": "afuá",
+      "USfr": "oh hisse"
+    }
+  },
+  {
+    "label": "mnk07",
+    "locale": {
+      "CNzh": "呜吱吱",
+      "EUde": "makimaki",
+      "EUen": "cheeky",
+      "EUes": "tunante",
+      "EUfr": "tavu",
+      "EUit": "babbuh",
+      "EUnl": "brutaaltje",
+      "EUru": "щекасто",
+      "JPja": "ウキキ",
+      "KRko": "우끼네",
+      "TWzh": "嗚吱吱",
+      "USen": "cheeky",
+      "USes": "babuí",
+      "USfr": "tavu"
+    }
+  },
+  {
+    "label": "mnk08",
+    "locale": {
+      "CNzh": "去吧",
+      "EUde": "miekmiek",
+      "EUen": "monch",
+      "EUes": "millón",
+      "EUfr": "liaaaane",
+      "EUit": "panzé",
+      "EUnl": "smak",
+      "EUru": "чавк-чавк",
+      "JPja": "だぜ",
+      "KRko": "흠냐리",
+      "TWzh": "去吧",
+      "USen": "monch",
+      "USes": "ñim-ñim",
+      "USfr": "liaaaane"
+    }
+  },
+  {
+    "label": "mnk09",
+    "locale": {
+      "CNzh": "好好",
+      "EUde": "wuwu",
+      "EUen": "wuwu",
+      "EUes": "wuwu",
+      "EUfr": "houhou",
+      "EUit": "wuwu",
+      "EUnl": "woewoe",
+      "EUru": "ву-ву",
+      "JPja": "ハオハオ",
+      "KRko": "긁적",
+      "TWzh": "好好",
+      "USen": "wuwu",
+      "USes": "wuwu",
+      "USfr": "houhou"
+    }
+  },
+  {
+    "label": "mus00",
+    "locale": {
+      "CNzh": "美吧",
+      "EUde": "quieek",
+      "EUen": "squeaky",
+      "EUes": "cuiqui",
+      "EUfr": "tatouille",
+      "EUit": "squiksquik",
+      "EUnl": "pieperig",
+      "EUru": "пип-пип",
+      "JPja": "だべ",
+      "KRko": "찍찍",
+      "TWzh": "美吧",
+      "USen": "squeaky",
+      "USes": "cuiqui",
+      "USfr": "coui-coui"
+    }
+  },
+  {
+    "label": "mus01",
+    "locale": {
+      "CNzh": "非也",
+      "EUde": "pfiffikus",
+      "EUen": "squinky",
+      "EUes": "caramba",
+      "EUfr": "scriiich",
+      "EUit": "squick",
+      "EUnl": "piepsels",
+      "EUru": "фью-фью",
+      "JPja": "てやんで",
+      "KRko": "긍가벼",
+      "TWzh": "非也",
+      "USen": "squinky",
+      "USes": "scroch",
+      "USfr": "scriiich"
+    }
+  },
+  {
+    "label": "mus02",
+    "locale": {
+      "CNzh": "嘎哈",
+      "EUde": "visavisa",
+      "EUen": "eeks",
+      "EUes": "petisú",
+      "EUfr": "hiiiii",
+      "EUit": "eeks",
+      "EUnl": "ieps",
+      "EUru": "пип",
+      "JPja": "ギャハッ",
+      "KRko": "캬학",
+      "TWzh": "嘎哈",
+      "USen": "eeks",
+      "USes": "petisú",
+      "USfr": "hiiiii"
+    }
+  },
+  {
+    "label": "mus03",
+    "locale": {
+      "CNzh": "说说的",
+      "EUde": "kicher",
+      "EUen": "cheeseball",
+      "EUes": "orejas",
+      "EUfr": "boulette",
+      "EUit": "formaggino",
+      "EUnl": "kaaskoekje",
+      "EUru": "сы-ы-ыр",
+      "JPja": "なーんて",
+      "KRko": "글치머",
+      "TWzh": "說說的",
+      "USen": "cheeseball",
+      "USes": "quesuá",
+      "USfr": "boulette"
+    }
+  },
+  {
+    "label": "mus04",
+    "locale": {
+      "CNzh": "吱",
+      "EUde": "pieeeps",
+      "EUen": "pipsqueak",
+      "EUes": "flojeras",
+      "EUfr": "scouic",
+      "EUit": "pisquak",
+      "EUnl": "piepklein",
+      "EUru": "ревушка",
+      "JPja": "チュー",
+      "KRko": "쪽",
+      "TWzh": "吱",
+      "USen": "pipsqueak",
+      "USes": "escuác",
+      "USfr": "scouic"
+    }
+  },
+  {
+    "label": "mus05",
+    "locale": {
+      "CNzh": "厉害",
+      "EUde": "boa-ey",
+      "EUen": "ace",
+      "EUes": "quesito",
+      "EUfr": "tip top",
+      "EUit": "flapflap",
+      "EUnl": "toppie",
+      "EUru": "мастерски",
+      "JPja": "すっげぇ",
+      "KRko": "무진장",
+      "TWzh": "厲害",
+      "USen": "ace",
+      "USes": "chopchop",
+      "USfr": "tip top"
+    }
+  },
+  {
+    "label": "mus08",
+    "locale": {
+      "CNzh": "滑滑",
+      "EUde": "schatzi",
+      "EUen": "sweetie",
+      "EUes": "yogurín",
+      "EUfr": "claquos",
+      "EUit": "squitto",
+      "EUnl": "zoetje",
+      "EUru": "сладость",
+      "JPja": "ですワ",
+      "KRko": "달짝지근",
+      "TWzh": "滑滑",
+      "USen": "sweetie",
+      "USes": "escuic",
+      "USfr": "claquos"
+    }
+  },
+  {
+    "label": "mus09",
+    "locale": {
+      "CNzh": "蹑蹑",
+      "EUde": "fieps",
+      "EUen": "squee",
+      "EUes": "ñiiiik",
+      "EUfr": "nouik",
+      "EUit": "squiii",
+      "EUnl": "piephoi",
+      "EUru": "пи-и-и",
+      "JPja": "がってん",
+      "KRko": "힐끔힐끔",
+      "TWzh": "躡躡",
+      "USen": "squee",
+      "USes": "ñiiiik",
+      "USfr": "nouik"
+    }
+  },
+  {
+    "label": "mus10",
+    "locale": {
+      "CNzh": "开心",
+      "EUde": "piepser",
+      "EUen": "cannoli",
+      "EUes": "cloricló",
+      "EUfr": "dis donc",
+      "EUit": "cippoli",
+      "EUnl": "cannoli",
+      "EUru": "канноли",
+      "JPja": "ルンルン",
+      "KRko": "룰룰",
+      "TWzh": "開心",
+      "USen": "cannoli",
+      "USes": "cloricló",
+      "USfr": "dis donc"
+    }
+  },
+  {
+    "label": "mus12",
+    "locale": {
+      "CNzh": "微微",
+      "EUde": "knabba",
+      "EUen": "eat it",
+      "EUes": "dientes",
+      "EUfr": "flim-flam",
+      "EUit": "squikko",
+      "EUnl": "smakelijk",
+      "EUru": "ням-ням",
+      "JPja": "ピコ",
+      "KRko": "앗차",
+      "TWzh": "微微",
+      "USen": "eat it",
+      "USes": "flinflán",
+      "USfr": "flim-flam"
+    }
+  },
+  {
+    "label": "mus14",
+    "locale": {
+      "CNzh": "可恶",
+      "EUde": "käääse",
+      "EUen": "shorty",
+      "EUes": "atiza",
+      "EUfr": "bééléé",
+      "EUit": "quink",
+      "EUnl": "kleintje",
+      "EUru": "коротышка",
+      "JPja": "にゃろ",
+      "KRko": "짜샤",
+      "TWzh": "可惡",
+      "USen": "shorty",
+      "USes": "atiza",
+      "USfr": "bééléé"
+    }
+  },
+  {
+    "label": "mus15",
+    "locale": {
+      "CNzh": "就说吧",
+      "EUde": "achja",
+      "EUen": "eekers",
+      "EUes": "piruleta",
+      "EUfr": "skouik-ik",
+      "EUit": "zink zink",
+      "EUnl": "piepers",
+      "EUru": "пи-пи-пи",
+      "JPja": "ですよね",
+      "KRko": "내말이요",
+      "TWzh": "就說吧",
+      "USen": "eekers",
+      "USes": "escui-cui",
+      "USfr": "skouik-ik"
+    }
+  },
+  {
+    "label": "mus16",
+    "locale": {
+      "CNzh": "呵呵呵",
+      "EUde": "nagnag",
+      "EUen": "yelp",
+      "EUes": "bocadito",
+      "EUfr": "téma",
+      "EUit": "rattaplan",
+      "EUnl": "piepzak",
+      "EUru": "писк",
+      "JPja": "おほほ",
+      "KRko": "오호호",
+      "TWzh": "呵呵呵",
+      "USen": "yelp",
+      "USes": "ñiñi-ñiá",
+      "USfr": "okka"
+    }
+  },
+  {
+    "label": "mus17",
+    "locale": {
+      "CNzh": "啾啾",
+      "EUde": "bling",
+      "EUen": "oh bow",
+      "EUes": "migas",
+      "EUfr": "grugru",
+      "EUit": "cheeese",
+      "EUnl": "strikje",
+      "EUru": "бантик",
+      "JPja": "でちゅの",
+      "KRko": "그러찍",
+      "TWzh": "啾啾",
+      "USen": "oh bow",
+      "USes": "brillilí",
+      "USfr": "grugru"
+    }
+  },
+  {
+    "label": "mus18",
+    "locale": {
+      "CNzh": "也是啦",
+      "EUde": "hoho",
+      "EUen": "fromage",
+      "EUes": "fundifún",
+      "EUfr": "frometon",
+      "EUit": "iiik",
+      "EUnl": "cheese",
+      "EUru": "сырок",
+      "JPja": "まあね",
+      "KRko": "꼬리꼬리",
+      "TWzh": "也是啦",
+      "USen": "fromage",
+      "USes": "fundifún",
+      "USfr": "cheese"
+    }
+  },
+  {
+    "label": "mus19",
+    "locale": {
+      "CNzh": "嗯啊",
+      "EUde": "tjöm",
+      "EUen": "mmmhmm",
+      "EUes": "eureka",
+      "EUfr": "eurêk",
+      "EUit": "accadueo",
+      "EUnl": "hmmhmm",
+      "EUru": "м-м-м",
+      "JPja": "ふむふむ",
+      "KRko": "흐으음",
+      "TWzh": "嗯啊",
+      "USen": "mmmhmm",
+      "USes": "eureka",
+      "USfr": "eurêk"
+    }
+  },
+  {
+    "label": "ocp00",
+    "locale": {
+      "CNzh": "章鱼",
+      "EUde": "schling",
+      "EUen": "sucker",
+      "EUes": "chupatinta",
+      "EUfr": "chenapan",
+      "EUit": "perdindi",
+      "EUnl": "zuignap",
+      "EUru": "все пропало",
+      "JPja": "タコ",
+      "KRko": "쭉쭉",
+      "TWzh": "章魚",
+      "USen": "sucker",
+      "USes": "glop-glop",
+      "USfr": "chenapan"
+    }
+  },
+  {
+    "label": "ocp01",
+    "locale": {
+      "CNzh": "咔",
+      "EUde": "blubblub",
+      "EUen": "blurp",
+      "EUes": "dospatas",
+      "EUfr": "beurp",
+      "EUit": "blurp",
+      "EUnl": "blorp",
+      "EUru": "хлюп",
+      "JPja": "きゃ",
+      "KRko": "캬캬",
+      "TWzh": "咔",
+      "USen": "blurp",
+      "USes": "bliup",
+      "USfr": "beurp"
+    }
+  },
+  {
+    "label": "ocp02",
+    "locale": {
+      "CNzh": "认同",
+      "EUde": "saug",
+      "EUen": "bloop",
+      "EUes": "churubú",
+      "EUfr": "sploush",
+      "EUit": "blub",
+      "EUnl": "bloep",
+      "EUru": "буль",
+      "JPja": "せやねん",
+      "KRko": "약히",
+      "TWzh": "認同",
+      "USen": "bloop",
+      "USes": "churubú",
+      "USfr": "sploush"
+    }
+  },
+  {
+    "label": "ocp04",
+    "locale": {
+      "CNzh": "发动",
+      "EUde": "klink-klonk",
+      "EUen": "donk donk",
+      "EUes": "clonc",
+      "EUfr": "bip bip",
+      "EUit": "clinkclank",
+      "EUnl": "tink-tonk",
+      "EUru": "динь-дон",
+      "JPja": "チュドン",
+      "KRko": "발사",
+      "TWzh": "發動",
+      "USen": "donk donk",
+      "USes": "clonc",
+      "USfr": "bip bip"
+    }
+  },
+  {
+    "label": "ost00",
+    "locale": {
+      "CNzh": "果然",
+      "EUde": "hühnchen",
+      "EUen": "chicken",
+      "EUes": "gallina",
+      "EUfr": "poupoule",
+      "EUit": "polpetta",
+      "EUnl": "kippie",
+      "EUru": "цыпленок",
+      "JPja": "やっぱし",
+      "KRko": "역시",
+      "TWzh": "果然",
+      "USen": "chicken",
+      "USes": "plumifá",
+      "USfr": "poupoule"
+    }
+  },
+  {
+    "label": "ost01",
+    "locale": {
+      "CNzh": "千岁",
+      "EUde": "ajajajjj",
+      "EUen": "stretch",
+      "EUes": "plumillas",
+      "EUfr": "codêt",
+      "EUit": "stretch",
+      "EUnl": "en strek",
+      "EUru": "растяжка",
+      "JPja": "ですの",
+      "KRko": "그렇지라",
+      "TWzh": "千歲",
+      "USen": "stretch",
+      "USes": "plumiplú",
+      "USfr": "codêt"
+    }
+  },
+  {
+    "label": "ost02",
+    "locale": {
+      "CNzh": "鸵鸟",
+      "EUde": "flottilda",
+      "EUen": "speedy",
+      "EUes": "fiuuun",
+      "EUfr": "euh quoi",
+      "EUit": "vruum",
+      "EUnl": "raprap",
+      "EUru": "быстро",
+      "JPja": "だチョー",
+      "KRko": "그렇다조",
+      "TWzh": "鴕鳥",
+      "USen": "speedy",
+      "USes": "fiuuun",
+      "USfr": "euh quoi"
+    }
+  },
+  {
+    "label": "ost03",
+    "locale": {
+      "CNzh": "机械",
+      "EUde": "affenzahn",
+      "EUen": "zort",
+      "EUes": "chiuuun",
+      "EUfr": "pik pik",
+      "EUit": "niiun",
+      "EUnl": "klik-kluk",
+      "EUru": "дзынь",
+      "JPja": "だメカ",
+      "KRko": "치지직",
+      "TWzh": "機械",
+      "USen": "zort",
+      "USes": "chiuuun",
+      "USfr": "pik pik"
+    }
+  },
+  {
+    "label": "ost04",
+    "locale": {
+      "CNzh": "铃铃",
+      "EUde": "küken",
+      "EUen": "li'l chick",
+      "EUes": "sambasamba",
+      "EUfr": "bon bref",
+      "EUit": "pasticcino",
+      "EUnl": "samba",
+      "EUru": "цып-цып",
+      "JPja": "リン",
+      "KRko": "네이루",
+      "TWzh": "鈴鈴",
+      "USen": "li'l chick",
+      "USes": "sambasamba",
+      "USfr": "bon bref"
+    }
+  },
+  {
+    "label": "ost05",
+    "locale": {
+      "CNzh": "吼唷",
+      "EUde": "püh",
+      "EUen": "dahling",
+      "EUes": "churri",
+      "EUfr": "trutruche",
+      "EUit": "blaaah",
+      "EUnl": "schatje",
+      "EUru": "дарлинг",
+      "JPja": "やだわね",
+      "KRko": "어머몰라",
+      "TWzh": "吼唷",
+      "USen": "dahling",
+      "USes": "churri",
+      "USfr": "trutruche"
+    }
+  },
+  {
+    "label": "ost06",
+    "locale": {
+      "CNzh": "哎呀呀",
+      "EUde": "happahappa",
+      "EUen": "sweatband",
+      "EUes": "gruqui",
+      "EUfr": "omelette",
+      "EUit": "boa",
+      "EUnl": "zweetband",
+      "EUru": "не потей",
+      "JPja": "およよ",
+      "KRko": "오요용",
+      "TWzh": "哎呀呀",
+      "USen": "sweatband",
+      "USes": "gruqui",
+      "USfr": "omelette"
+    }
+  },
+  {
+    "label": "ost07",
+    "locale": {
+      "CNzh": "轰隆隆",
+      "EUde": "zwoing",
+      "EUen": "hurk",
+      "EUes": "jurk",
+      "EUfr": "bécot",
+      "EUit": "tambien",
+      "EUnl": "struis",
+      "EUru": "хех",
+      "JPja": "ホロロ",
+      "KRko": "호롤로",
+      "TWzh": "轟隆隆",
+      "USen": "hurk",
+      "USes": "jurk",
+      "USfr": "bécot"
+    }
+  },
+  {
+    "label": "ost08",
+    "locale": {
+      "CNzh": "是嘛",
+      "EUde": "flaum",
+      "EUen": "quite so",
+      "EUes": "goticas",
+      "EUfr": "viiiite",
+      "EUit": "bien sur",
+      "EUnl": "juist ja",
+      "EUru": "вот так",
+      "JPja": "ですのね",
+      "KRko": "그랬구나",
+      "TWzh": "是嘛",
+      "USen": "quite so",
+      "USes": "igh-igh",
+      "USfr": "viiiite"
+    }
+  },
+  {
+    "label": "ost09",
+    "locale": {
+      "CNzh": "红鹤",
+      "EUde": "flappflapp",
+      "EUen": "pinky",
+      "EUes": "croqui",
+      "EUfr": "guiboles",
+      "EUit": "sivuplé",
+      "EUnl": "roze",
+      "EUru": "розочка",
+      "JPja": "だミン",
+      "KRko": "밍고밍고",
+      "TWzh": "紅鶴",
+      "USen": "pinky",
+      "USes": "croqui",
+      "USfr": "rosi rosa"
+    }
+  },
+  {
+    "label": "ost10",
+    "locale": {
+      "CNzh": "好热",
+      "EUde": "pieks",
+      "EUen": "sparky",
+      "EUes": "equilicuá",
+      "EUfr": "chanmé",
+      "EUit": "behmù",
+      "EUnl": "vonkje",
+      "EUru": "искорка",
+      "JPja": "アツイわ",
+      "KRko": "아뜨뜨",
+      "TWzh": "好熱",
+      "USen": "sparky",
+      "USes": "equilicuá",
+      "USfr": "chanmé"
+    }
+  },
+  {
+    "label": "pbr00",
+    "locale": {
+      "CNzh": "唔咿",
+      "EUde": "ahhh",
+      "EUen": "pah",
+      "EUes": "rapaz",
+      "EUfr": "trraaaa",
+      "EUit": "pah",
+      "EUnl": "poeh",
+      "EUru": "пф-ф",
+      "JPja": "だワイ",
+      "KRko": "다꿇어",
+      "TWzh": "唔咿",
+      "USen": "pah",
+      "USes": "rapahhh",
+      "USfr": "trraaaa"
+    }
+  },
+  {
+    "label": "pbr01",
+    "locale": {
+      "CNzh": "卡拉卡拉",
+      "EUde": "adlerauge",
+      "EUen": "cuz",
+      "EUes": "chinchilla",
+      "EUfr": "croooa",
+      "EUit": "mini mini",
+      "EUnl": "broeder",
+      "EUru": "вот",
+      "JPja": "カラカラ",
+      "KRko": "엄멈머",
+      "TWzh": "卡拉卡拉",
+      "USen": "cuz",
+      "USes": "cro-ah",
+      "USfr": "croooa"
+    }
+  },
+  {
+    "label": "pbr02",
+    "locale": {
+      "CNzh": "啪沙啪沙",
+      "EUde": "schwinge",
+      "EUen": "hawkeye",
+      "EUes": "aguililla",
+      "EUfr": "œil agile",
+      "EUit": "pronti via",
+      "EUnl": "arendsoog",
+      "EUru": "глаз-алмаз",
+      "JPja": "バサバサ",
+      "KRko": "퍼덕퍼덕",
+      "TWzh": "啪沙啪沙",
+      "USen": "hawkeye",
+      "USes": "aguilííí",
+      "USfr": "tout vu"
+    }
+  },
+  {
+    "label": "pbr03",
+    "locale": {
+      "CNzh": "继继",
+      "EUde": "käpten",
+      "EUen": "captain",
+      "EUes": "cadete",
+      "EUfr": "flap flap",
+      "EUit": "capo",
+      "EUnl": "kaptein",
+      "EUru": "капитан",
+      "JPja": "ッキーッ",
+      "KRko": "짜란～",
+      "TWzh": "繼繼",
+      "USen": "captain",
+      "USes": "capííí",
+      "USfr": "flap flap"
+    }
+  },
+  {
+    "label": "pbr05",
+    "locale": {
+      "CNzh": "溜溜",
+      "EUde": "flapp",
+      "EUen": "skree-haw",
+      "EUes": "grrraak",
+      "EUfr": "phélès",
+      "EUit": "gawk",
+      "EUnl": "kra-hoe",
+      "EUru": "курлы",
+      "JPja": "アリョイ",
+      "KRko": "내놔",
+      "TWzh": "溜溜",
+      "USen": "skree-haw",
+      "USes": "grrraak",
+      "USfr": "grrraak"
+    }
+  },
+  {
+    "label": "pbr06",
+    "locale": {
+      "CNzh": "多谢",
+      "EUde": "kriiieck",
+      "EUen": "crushy",
+      "EUes": "vulanico",
+      "EUfr": "maaaarre",
+      "EUit": "rapaciao",
+      "EUnl": "pletter",
+      "EUru": "красава",
+      "JPja": "ダンケ",
+      "KRko": "크헐",
+      "TWzh": "多謝",
+      "USen": "crushy",
+      "USes": "vulanico",
+      "USfr": "maaaarre"
+    }
+  },
+  {
+    "label": "pbr07",
+    "locale": {
+      "CNzh": "呀啊",
+      "EUde": "krahkrah",
+      "EUen": "skraaaaw",
+      "EUes": "mancuernas",
+      "EUfr": "kaputt",
+      "EUit": "chicchirò",
+      "EUnl": "havik",
+      "EUru": "клекот",
+      "JPja": "やあッ",
+      "KRko": "호옷",
+      "TWzh": "呀啊",
+      "USen": "skraaaaw",
+      "USes": "escróóó",
+      "USfr": "kaputt"
+    }
+  },
+  {
+    "label": "pbr08",
+    "locale": {
+      "CNzh": "是",
+      "EUde": "kiiiiiih",
+      "EUen": "wingo",
+      "EUes": "flopflop",
+      "EUfr": "royaaaal",
+      "EUit": "baila",
+      "EUnl": "vleugels",
+      "EUru": "крыло",
+      "JPja": "でーッス",
+      "KRko": "수리수리",
+      "TWzh": "是",
+      "USen": "wingo",
+      "USes": "flopflop",
+      "USfr": "royaaaal"
+    }
+  },
+  {
+    "label": "pbr09",
+    "locale": {
+      "CNzh": "是呢",
+      "EUde": "kraaack",
+      "EUen": "feathers",
+      "EUes": "plumis",
+      "EUfr": "bebec",
+      "EUit": "ah bon",
+      "EUnl": "pluimpje",
+      "EUru": "перышко",
+      "JPja": "そうね",
+      "KRko": "그래맞아",
+      "TWzh": "是呢",
+      "USen": "feathers",
+      "USes": "plumí",
+      "USfr": "bebec"
+    }
+  },
+  {
+    "label": "pbr10",
+    "locale": {
+      "CNzh": "好好做",
+      "EUde": "hirro",
+      "EUen": "proper",
+      "EUes": "nobi",
+      "EUfr": "nickel",
+      "EUit": "forzasù",
+      "EUnl": "grondig",
+      "EUru": "аккуратно",
+      "JPja": "しっかり",
+      "KRko": "확실히",
+      "TWzh": "好好做",
+      "USen": "proper",
+      "USes": "picuá",
+      "USfr": "nickel"
+    }
+  },
+  {
+    "label": "pgn00",
+    "locale": {
+      "CNzh": "若",
+      "EUde": "b-bestens",
+      "EUen": "b-b-baby",
+      "EUes": "pescadito",
+      "EUfr": "b-b-bébé",
+      "EUit": "b-b-baby",
+      "EUnl": "b-b-baby",
+      "EUru": "к-к-крошка",
+      "JPja": "だジョー",
+      "KRko": "랄라",
+      "TWzh": "若",
+      "USen": "b-b-baby",
+      "USes": "pescadí",
+      "USfr": "b-b-bébé"
+    }
+  },
+  {
+    "label": "pgn01",
+    "locale": {
+      "CNzh": "企鹅",
+      "EUde": "k-k-kumpel",
+      "EUen": "b-b-buddy",
+      "EUes": "titirito",
+      "EUfr": "pépépère",
+      "EUit": "br-br-brr",
+      "EUnl": "m-m-maatje",
+      "EUru": "д-дружище",
+      "JPja": "だペン",
+      "KRko": "팽팽",
+      "TWzh": "企鵝",
+      "USen": "b-b-buddy",
+      "USes": "titirito",
+      "USfr": "pépépère"
+    }
+  },
+  {
+    "label": "pgn02",
+    "locale": {
+      "CNzh": "十字",
+      "EUde": "d-d-dude",
+      "EUen": "brainfreeze",
+      "EUes": "waap",
+      "EUfr": "cococopain",
+      "EUit": "brivido",
+      "EUnl": "k-k-kerel",
+      "EUru": "ч-чубрик",
+      "JPja": "ペンペン",
+      "KRko": "땡땡",
+      "TWzh": "十字",
+      "USen": "brainfreeze",
+      "USes": "waap",
+      "USfr": "cococopain"
+    }
+  },
+  {
+    "label": "pgn03",
+    "locale": {
+      "CNzh": "禅",
+      "EUde": "slaschi",
+      "EUen": "slushie",
+      "EUes": "esploch",
+      "EUfr": "manette",
+      "EUit": "sguish",
+      "EUnl": "ĳsje",
+      "EUru": "ледок",
+      "JPja": "ちぅねん",
+      "KRko": "아따",
+      "TWzh": "禪",
+      "USen": "slushie",
+      "USes": "esploch",
+      "USfr": "manette"
+    }
+  },
+  {
+    "label": "pgn04",
+    "locale": {
+      "CNzh": "滑溜溜",
+      "EUde": "grrmpf",
+      "EUen": "brrrmph",
+      "EUes": "heladito",
+      "EUfr": "bourfff",
+      "EUit": "brrrumf",
+      "EUnl": "brrrhmpf",
+      "EUru": "брр-хм",
+      "JPja": "ツルルン",
+      "KRko": "으쓱",
+      "TWzh": "滑溜溜",
+      "USen": "brrrmph",
+      "USes": "urfff",
+      "USfr": "bourfff"
+    }
+  },
+  {
+    "label": "pgn05",
+    "locale": {
+      "CNzh": "唔呼呼",
+      "EUde": "sssweetie",
+      "EUen": "h-h-h-hon",
+      "EUes": "crustáceo",
+      "EUfr": "h-h-h-hon",
+      "EUit": "a-a-amor",
+      "EUnl": "d-d-duifje",
+      "EUru": "м-милашка",
+      "JPja": "ウフフ",
+      "KRko": "우훗훗",
+      "TWzh": "唔呼呼",
+      "USen": "h-h-h-hon",
+      "USes": "ki-ki-kiú",
+      "USfr": "h-h-h-hon"
+    }
+  },
+  {
+    "label": "pgn06",
+    "locale": {
+      "CNzh": "候补",
+      "EUde": "brrrrrrrrr",
+      "EUen": "brrrrrrrrr",
+      "EUes": "sardinilla",
+      "EUfr": "brrrrrrrrr",
+      "EUit": "brrrrrrrrr",
+      "EUnl": "brrrrrrrrr",
+      "EUru": "брр",
+      "JPja": "さぶー",
+      "KRko": "엣취",
+      "TWzh": "候補",
+      "USen": "brrrrrrrrr",
+      "USes": "brrr-uah",
+      "USfr": "brrrrrrrrr"
+    }
+  },
+  {
+    "label": "pgn07",
+    "locale": {
+      "CNzh": "嘟哝",
+      "EUde": "mömömö",
+      "EUen": "blargh",
+      "EUes": "refunfú",
+      "EUfr": "maiheu",
+      "EUit": "uffifu",
+      "EUnl": "zucht",
+      "EUru": "бу-бу-бу",
+      "JPja": "ブツブツ",
+      "KRko": "중얼중얼",
+      "TWzh": "嘟噥",
+      "USen": "blargh",
+      "USes": "refunfú",
+      "USfr": "maiheu"
+    }
+  },
+  {
+    "label": "pgn09",
+    "locale": {
+      "CNzh": "所以啦",
+      "EUde": "wackel",
+      "EUen": "so it goes",
+      "EUes": "personaje",
+      "EUfr": "blanbec",
+      "EUit": "uhiii uuuh",
+      "EUnl": "zo is 't",
+      "EUru": "вот так вот",
+      "JPja": "だからね",
+      "KRko": "뒤집어",
+      "TWzh": "所以啦",
+      "USen": "so it goes",
+      "USes": "espoink",
+      "USfr": "blanbec"
+    }
+  },
+  {
+    "label": "pgn10",
+    "locale": {
+      "CNzh": "轧轧",
+      "EUde": "menschlein",
+      "EUen": "human",
+      "EUes": "humanoide",
+      "EUfr": "boudiou",
+      "EUit": "glacius",
+      "EUnl": "mens",
+      "EUru": "человек",
+      "JPja": "ツーツツ",
+      "KRko": "에헴헴",
+      "TWzh": "軋軋",
+      "USen": "human",
+      "USes": "glaciux",
+      "USfr": "humanoïde"
+    }
+  },
+  {
+    "label": "pgn11",
+    "locale": {
+      "CNzh": "卷卷",
+      "EUde": "plitsch",
+      "EUen": "waddler",
+      "EUes": "chirpi",
+      "EUfr": "zozio",
+      "EUit": "tubi tubi",
+      "EUnl": "waggelaar",
+      "EUru": "ластошлеп",
+      "JPja": "クルクル",
+      "KRko": "펭글펭글",
+      "TWzh": "捲捲",
+      "USen": "waddler",
+      "USes": "chirpi",
+      "USfr": "zozio"
+    }
+  },
+  {
+    "label": "pgn12",
+    "locale": {
+      "CNzh": "宝宝",
+      "EUde": "watschl",
+      "EUen": "picante",
+      "EUes": "siclaro",
+      "EUfr": "gla gla",
+      "EUit": "frio",
+      "EUnl": "picante",
+      "EUru": "огонек",
+      "JPja": "ベイベッ",
+      "KRko": "베이베",
+      "TWzh": "寶寶",
+      "USen": "picante",
+      "USes": "siclaro",
+      "USfr": "gla gla"
+    }
+  },
+  {
+    "label": "pgn13",
+    "locale": {
+      "CNzh": "这样唷",
+      "EUde": "flatsch",
+      "EUen": "cha",
+      "EUes": "fresqui",
+      "EUfr": "golri",
+      "EUit": "iglù",
+      "EUnl": "duh",
+      "EUru": "чхи",
+      "JPja": "じゃんよ",
+      "KRko": "맞잖아",
+      "TWzh": "這樣唷",
+      "USen": "cha",
+      "USes": "fresqui",
+      "USfr": "frigogo"
+    }
+  },
+  {
+    "label": "pgn14",
+    "locale": {
+      "CNzh": "凉爽",
+      "EUde": "bibib",
+      "EUen": "frappe",
+      "EUes": "esmoquin",
+      "EUfr": "mon glaçon",
+      "EUit": "unz unz",
+      "EUnl": "frappé",
+      "EUru": "пенка",
+      "JPja": "ヒヤリ",
+      "KRko": "꽁꽁",
+      "TWzh": "涼爽",
+      "USen": "frappe",
+      "USes": "frapé",
+      "USfr": "mon glaçon"
+    }
+  },
+  {
+    "label": "pig00",
+    "locale": {
+      "CNzh": "感谢",
+      "EUde": "oinkoink",
+      "EUen": "nyoink",
+      "EUes": "ñoink",
+      "EUfr": "coink",
+      "EUit": "niooink",
+      "EUnl": "hupsaknor",
+      "EUru": "хряк-бряк",
+      "JPja": "どもども",
+      "KRko": "꿀꿀",
+      "TWzh": "感謝",
+      "USen": "nyoink",
+      "USes": "ñoink",
+      "USfr": "coink"
+    }
+  },
+  {
+    "label": "pig01",
+    "locale": {
+      "CNzh": "哇赛",
+      "EUde": "schnauzie",
+      "EUen": "snoutie",
+      "EUes": "oink-oink",
+      "EUfr": "jambon",
+      "EUit": "ficcanaso",
+      "EUnl": "snuiter",
+      "EUru": "хрюша",
+      "JPja": "だわさ",
+      "KRko": "거라예",
+      "TWzh": "哇賽",
+      "USen": "snoutie",
+      "USes": "oink-oink",
+      "USfr": "jambon"
+    }
+  },
+  {
+    "label": "pig02",
+    "locale": {
+      "CNzh": "万年",
+      "EUde": "gronk",
+      "EUen": "swine",
+      "EUes": "porcino",
+      "EUfr": "porcelet",
+      "EUit": "snoooink",
+      "EUnl": "big",
+      "EUru": "хряк",
+      "JPja": "まんねん",
+      "KRko": "꾸엑",
+      "TWzh": "萬年",
+      "USen": "swine",
+      "USes": "esnoink",
+      "USfr": "porcelet"
+    }
+  },
+  {
+    "label": "pig03",
+    "locale": {
+      "CNzh": "懒懒",
+      "EUde": "schniff",
+      "EUen": "snortle",
+      "EUes": "groink",
+      "EUfr": "cuick",
+      "EUit": "snort",
+      "EUnl": "snuif",
+      "EUru": "хрюк-хрюк",
+      "JPja": "とかね",
+      "KRko": "아님말구",
+      "TWzh": "懶懶",
+      "USen": "snortle",
+      "USes": "groink",
+      "USfr": "cuick"
+    }
+  },
+  {
+    "label": "pig04",
+    "locale": {
+      "CNzh": "唷",
+      "EUde": "schnoink",
+      "EUen": "snoooink",
+      "EUes": "cochín",
+      "EUfr": "groingroin",
+      "EUit": "snoink",
+      "EUnl": "knorrie",
+      "EUru": "хрю-ю-ю",
+      "JPja": "よぅ",
+      "KRko": "예예",
+      "TWzh": "唷",
+      "USen": "snoooink",
+      "USes": "cochín",
+      "USfr": "groingroin"
+    }
+  },
+  {
+    "label": "pig05",
+    "locale": {
+      "CNzh": "噗",
+      "EUde": "grunz",
+      "EUen": "snork",
+      "EUes": "pork",
+      "EUfr": "diantre",
+      "EUit": "snork",
+      "EUnl": "snurk",
+      "EUru": "хрю",
+      "JPja": "だブー",
+      "KRko": "꼬르륵",
+      "TWzh": "噗",
+      "USen": "snork",
+      "USes": "pork",
+      "USfr": "diantre"
+    }
+  },
+  {
+    "label": "pig08",
+    "locale": {
+      "CNzh": "公亩",
+      "EUde": "würstel",
+      "EUen": "hot dog",
+      "EUes": "saperlipop",
+      "EUfr": "andouille",
+      "EUit": "salsicce",
+      "EUnl": "knakker",
+      "EUru": "сосиска",
+      "JPja": "でアール",
+      "KRko": "이노라",
+      "TWzh": "公畝",
+      "USen": "hot dog",
+      "USes": "saperlipop",
+      "USfr": "andouille"
+    }
+  },
+  {
+    "label": "pig09",
+    "locale": {
+      "CNzh": "噗嘻",
+      "EUde": "quiek",
+      "EUen": "schnort",
+      "EUes": "oink",
+      "EUfr": "minot",
+      "EUit": "sgrunf",
+      "EUnl": "oink",
+      "EUru": "хрю-хряк",
+      "JPja": "ブヒッ",
+      "KRko": "쌀",
+      "TWzh": "噗嘻",
+      "USen": "schnort",
+      "USes": "oink",
+      "USfr": "minot"
+    }
+  },
+  {
+    "label": "pig10",
+    "locale": {
+      "CNzh": "嗯",
+      "EUde": "kringel",
+      "EUen": "schep",
+      "EUes": "girasol",
+      "EUfr": "grouik",
+      "EUit": "sissì",
+      "EUnl": "knor-knor",
+      "EUru": "хрюля",
+      "JPja": "うん",
+      "KRko": "유후",
+      "TWzh": "嗯",
+      "USen": "schep",
+      "USes": "oinki",
+      "USfr": "grouik"
+    }
+  },
+  {
+    "label": "pig11",
+    "locale": {
+      "CNzh": "弹弹",
+      "EUde": "glotz",
+      "EUen": "shweetie",
+      "EUes": "trufita",
+      "EUfr": "fleur",
+      "EUit": "oink",
+      "EUnl": "knorrelief",
+      "EUru": "хрюмпатяга",
+      "JPja": "ぷるる",
+      "KRko": "아앙",
+      "TWzh": "彈彈",
+      "USen": "shweetie",
+      "USes": "trufits",
+      "USfr": "fleur"
+    }
+  },
+  {
+    "label": "pig13",
+    "locale": {
+      "CNzh": "当啷",
+      "EUde": "lächel",
+      "EUen": "snortie",
+      "EUes": "chanchi",
+      "EUfr": "tigroin",
+      "EUit": "gruffeffè",
+      "EUnl": "snufferd",
+      "EUru": "хрюк",
+      "JPja": "ちゃりん",
+      "KRko": "땡그랑",
+      "TWzh": "噹啷",
+      "USen": "snortie",
+      "USes": "chanchi",
+      "USfr": "tigroin"
+    }
+  },
+  {
+    "label": "pig14",
+    "locale": {
+      "CNzh": "豚",
+      "EUde": "borsti",
+      "EUen": "zoink",
+      "EUes": "zoink",
+      "EUfr": "lardon",
+      "EUit": "oinc",
+      "EUnl": "moddervet",
+      "EUru": "хряк-с",
+      "JPja": "だトン",
+      "KRko": "떼끼에로",
+      "TWzh": "豚",
+      "USen": "zoink",
+      "USes": "zoink",
+      "USfr": "lardon"
+    }
+  },
+  {
+    "label": "pig15",
+    "locale": {
+      "CNzh": "比利比利",
+      "EUde": "quiiiek",
+      "EUen": "weeweewee",
+      "EUes": "bidoink",
+      "EUfr": "toutébon",
+      "EUit": "boink",
+      "EUnl": "ieieieie",
+      "EUru": "уи-и-и",
+      "JPja": "ウリウリ",
+      "KRko": "냠냠",
+      "TWzh": "比利比利",
+      "USen": "weeweewee",
+      "USes": "bidoink",
+      "USfr": "toutébon"
+    }
+  },
+  {
+    "label": "pig16",
+    "locale": {
+      "CNzh": "讨厌啦",
+      "EUde": "grubbel",
+      "EUen": "sooey",
+      "EUes": "morrito",
+      "EUfr": "sabots",
+      "EUit": "grufidù",
+      "EUnl": "kom kom",
+      "EUru": "хрюшка",
+      "JPja": "やだも～",
+      "KRko": "어우야",
+      "TWzh": "討厭啦",
+      "USen": "sooey",
+      "USes": "cuinoink",
+      "USfr": "sabots"
+    }
+  },
+  {
+    "label": "pig17",
+    "locale": {
+      "CNzh": "噗呼呼",
+      "EUde": "schnorrz",
+      "EUen": "snuffle",
+      "EUes": "dindoink",
+      "EUfr": "sauciflard",
+      "EUit": "splosh",
+      "EUnl": "snuffelaar",
+      "EUru": "хрю-хрю",
+      "JPja": "ブフフ",
+      "KRko": "꿀꾸루",
+      "TWzh": "噗呼呼",
+      "USen": "snuffle",
+      "USes": "dindoink",
+      "USfr": "sauciflard"
+    }
+  },
+  {
+    "label": "rbt00",
+    "locale": {
+      "CNzh": "好像喔",
+      "EUde": "tiihii",
+      "EUen": "tee-hee",
+      "EUes": "oy-oy-oy",
+      "EUfr": "hé hé hé",
+      "EUit": "tiptap",
+      "EUnl": "hihi",
+      "EUru": "хи-хи",
+      "JPja": "みたいな",
+      "KRko": "그렇지뭐",
+      "TWzh": "好像喔",
+      "USen": "tee-hee",
+      "USes": "oy-oy-oy",
+      "USfr": "hé hé hé"
+    }
+  },
+  {
+    "label": "rbt01",
+    "locale": {
+      "CNzh": "啷",
+      "EUde": "uiui",
+      "EUen": "wee one",
+      "EUes": "trompis",
+      "EUfr": "lapinou",
+      "EUit": "caroté",
+      "EUnl": "lamprei",
+      "EUru": "малыш",
+      "JPja": "ラン",
+      "KRko": "룰루랄라",
+      "TWzh": "啷",
+      "USen": "wee one",
+      "USes": "toini",
+      "USfr": "lapinou"
+    }
+  },
+  {
+    "label": "rbt02",
+    "locale": {
+      "CNzh": "土俑",
+      "EUde": "hoppsa",
+      "EUen": "doyoing",
+      "EUes": "toin-toin",
+      "EUfr": "touloulou",
+      "EUit": "evviva",
+      "EUnl": "bojoing",
+      "EUru": "прыг-скок",
+      "JPja": "はにょ",
+      "KRko": "삐용",
+      "TWzh": "土俑",
+      "USen": "doyoing",
+      "USes": "toin-toin",
+      "USfr": "touloulou"
+    }
+  },
+  {
+    "label": "rbt03",
+    "locale": {
+      "CNzh": "忍忍",
+      "EUde": "hopplahopp",
+      "EUen": "bunyip",
+      "EUes": "boin-boing",
+      "EUfr": "mon lapin",
+      "EUit": "bun bun",
+      "EUnl": "ninja",
+      "EUru": "заяссс",
+      "JPja": "ニンニン",
+      "KRko": "닌닌",
+      "TWzh": "忍忍",
+      "USen": "bunyip",
+      "USes": "boin-boing",
+      "USfr": "mon lapin"
+    }
+  },
+  {
+    "label": "rbt04",
+    "locale": {
+      "CNzh": "唔贺",
+      "EUde": "herzblatt",
+      "EUen": "mon chou",
+      "EUes": "mon chou",
+      "EUfr": "cahuète",
+      "EUit": "cherie",
+      "EUnl": "mon amour",
+      "EUru": "мон зайшу",
+      "JPja": "ムホッ",
+      "KRko": "쿨럭",
+      "TWzh": "唔賀",
+      "USen": "mon chou",
+      "USes": "mon chou",
+      "USfr": "cahuète"
+    }
+  },
+  {
+    "label": "rbt05",
+    "locale": {
+      "CNzh": "琪他",
+      "EUde": "liebling",
+      "EUen": "honeybun",
+      "EUes": "mari",
+      "EUfr": "mon lièvre",
+      "EUit": "mielito",
+      "EUnl": "honnepon",
+      "EUru": "зайчик мой",
+      "JPja": "だっち",
+      "KRko": "꺄오",
+      "TWzh": "琪他",
+      "USen": "honeybun",
+      "USes": "reboing",
+      "USfr": "mon lièvre"
+    }
+  },
+  {
+    "label": "rbt06",
+    "locale": {
+      "CNzh": "就这样啦",
+      "EUde": "hihi",
+      "EUen": "li'l hare",
+      "EUes": "pipita",
+      "EUfr": "ti’ lièvre",
+      "EUit": "gnaf",
+      "EUnl": "haasje",
+      "EUru": "зайчишка",
+      "JPja": "なのサ",
+      "KRko": "울랄라",
+      "TWzh": "就這樣啦",
+      "USen": "li'l hare",
+      "USes": "requeboing",
+      "USfr": "ti’ lièvre"
+    }
+  },
+  {
+    "label": "rbt07",
+    "locale": {
+      "CNzh": "我说呀",
+      "EUde": "öhrchen",
+      "EUen": "bunbun",
+      "EUes": "pompón",
+      "EUfr": "pinpin",
+      "EUit": "bunbun",
+      "EUnl": "knijnelijn",
+      "EUru": "зайчонок",
+      "JPja": "ってさ",
+      "KRko": "라던데",
+      "TWzh": "我說呀",
+      "USen": "bunbun",
+      "USes": "toin-lalá",
+      "USfr": "pinpin"
+    }
+  },
+  {
+    "label": "rbt08",
+    "locale": {
+      "CNzh": "臣",
+      "EUde": "goseimas",
+      "EUen": "mochi",
+      "EUes": "mochi",
+      "EUfr": "mochi",
+      "EUit": "mochi",
+      "EUnl": "mochi",
+      "EUru": "зайпончик",
+      "JPja": "まろ",
+      "KRko": "땡글",
+      "TWzh": "臣",
+      "USen": "mochi",
+      "USes": "mochi",
+      "USfr": "mochi"
+    }
+  },
+  {
+    "label": "rbt09",
+    "locale": {
+      "CNzh": "普通",
+      "EUde": "paffpaff",
+      "EUen": "li'l ears",
+      "EUes": "orejitas",
+      "EUfr": "n'oreille",
+      "EUit": "orecchine",
+      "EUnl": "hangoor",
+      "EUru": "ушки",
+      "JPja": "フツーに",
+      "KRko": "보통이지",
+      "TWzh": "普通",
+      "USen": "li'l ears",
+      "USes": "orejí",
+      "USfr": "n'oreille"
+    }
+  },
+  {
+    "label": "rbt10",
+    "locale": {
+      "CNzh": "是啦",
+      "EUde": "hasi",
+      "EUen": "old bunny",
+      "EUes": "y tal",
+      "EUfr": "morbleu",
+      "EUit": "soufflé",
+      "EUnl": "ouwe reus",
+      "EUru": "зайчище",
+      "JPja": "ですね",
+      "KRko": "그렇잖아",
+      "TWzh": "是啦",
+      "USen": "old bunny",
+      "USes": "bingboing",
+      "USfr": "tout bleu"
+    }
+  },
+  {
+    "label": "rbt11",
+    "locale": {
+      "CNzh": "酸酸",
+      "EUde": "hüpfauf",
+      "EUen": "hopalong",
+      "EUes": "hópala",
+      "EUfr": "sans rire",
+      "EUit": "hoppela",
+      "EUnl": "hopsala",
+      "EUru": "скок-поскок",
+      "JPja": "ぶいぶい",
+      "KRko": "아으셔",
+      "TWzh": "酸酸",
+      "USen": "hopalong",
+      "USes": "hópala",
+      "USfr": "sans rire"
+    }
+  },
+  {
+    "label": "rbt12",
+    "locale": {
+      "CNzh": "噜啦啦",
+      "EUde": "hey man",
+      "EUen": "karat",
+      "EUes": "kaninchen",
+      "EUfr": "carotte",
+      "EUit": "lulalà",
+      "EUnl": "wortels",
+      "EUru": "морковка",
+      "JPja": "ルララ",
+      "KRko": "쇼봉",
+      "TWzh": "嚕啦啦",
+      "USen": "karat",
+      "USes": "kaninchen",
+      "USfr": "carotte"
+    }
+  },
+  {
+    "label": "rbt13",
+    "locale": {
+      "CNzh": "哩啦啦",
+      "EUde": "knuddl",
+      "EUen": "sparkles",
+      "EUes": "mimomimo",
+      "EUfr": "hop",
+      "EUit": "lilalà",
+      "EUnl": "sprankel",
+      "EUru": "золотце",
+      "JPja": "リララ",
+      "KRko": "샤방",
+      "TWzh": "哩啦啦",
+      "USen": "sparkles",
+      "USes": "mimomimo",
+      "USfr": "hop"
+    }
+  },
+  {
+    "label": "rbt14",
+    "locale": {
+      "CNzh": "风",
+      "EUde": "puschel",
+      "EUen": "thumper",
+      "EUes": "vida extra",
+      "EUfr": "pfui",
+      "EUit": "siiigh",
+      "EUnl": "stamper",
+      "EUru": "топ-топ",
+      "JPja": "ぷぅ",
+      "KRko": "뿌우",
+      "TWzh": "風",
+      "USen": "thumper",
+      "USes": "fiiiiú",
+      "USfr": "pfui"
+    }
+  },
+  {
+    "label": "rbt15",
+    "locale": {
+      "CNzh": "朋友",
+      "EUde": "amigo",
+      "EUen": "amigo",
+      "EUes": "tralarí",
+      "EUfr": "pécaïre",
+      "EUit": "aquesí",
+      "EUnl": "amigo",
+      "EUru": "амиго",
+      "JPja": "アミーゴ",
+      "KRko": "아미고",
+      "TWzh": "朋友",
+      "USen": "amigo",
+      "USes": "tralarí",
+      "USfr": "amigo"
+    }
+  },
+  {
+    "label": "rbt16",
+    "locale": {
+      "CNzh": "真的",
+      "EUde": "langohr",
+      "EUen": "nougat",
+      "EUes": "arcoíris",
+      "EUfr": "pinou-nou",
+      "EUit": "gnuf gnuf",
+      "EUnl": "noga",
+      "EUru": "карамелька",
+      "JPja": "まじで",
+      "KRko": "진짜진짜",
+      "TWzh": "真的",
+      "USen": "nougat",
+      "USes": "nufinuf",
+      "USfr": "nougat"
+    }
+  },
+  {
+    "label": "rbt17",
+    "locale": {
+      "CNzh": "不妙",
+      "EUde": "hüppi",
+      "EUen": "deelish",
+      "EUes": "oh lalá",
+      "EUfr": "nananère",
+      "EUit": "hurrah",
+      "EUnl": "heer-lijk",
+      "EUru": "вкусняшка",
+      "JPja": "ヤバッ",
+      "KRko": "어뜨케",
+      "TWzh": "不妙",
+      "USen": "deelish",
+      "USes": "oh lalá",
+      "USfr": "nananère"
+    }
+  },
+  {
+    "label": "rbt18",
+    "locale": {
+      "CNzh": "就是如此",
+      "EUde": "mümml",
+      "EUen": "coooooool",
+      "EUes": "muyayo",
+      "EUfr": "chaaauuud",
+      "EUit": "niglio",
+      "EUnl": "gaaast",
+      "EUru": "зайчелло",
+      "JPja": "そうさね",
+      "KRko": "나도나도",
+      "TWzh": "就是如此",
+      "USen": "coooooool",
+      "USes": "muyayo",
+      "USfr": "chaaauuud"
+    }
+  },
+  {
+    "label": "rbt19",
+    "locale": {
+      "CNzh": "月球",
+      "EUde": "jahopp",
+      "EUen": "cottontail",
+      "EUes": "muesli",
+      "EUfr": "auch auch",
+      "EUit": "baffoplà",
+      "EUnl": "staartje",
+      "EUru": "зайцехвост",
+      "JPja": "だムーン",
+      "KRko": "거봐라",
+      "TWzh": "月球",
+      "USen": "cottontail",
+      "USes": "hep-hep",
+      "USfr": "zip zip"
+    }
+  },
+  {
+    "label": "rbt20",
+    "locale": {
+      "CNzh": "蛙蛙",
+      "EUde": "kerokero",
+      "EUen": "ribbit",
+      "EUes": "keroppi",
+      "EUfr": "kérocarot",
+      "EUit": "kerokero",
+      "EUnl": "kikk'r",
+      "EUru": "зайцеквак",
+      "JPja": "けろけろ",
+      "KRko": "케로케로",
+      "TWzh": "蛙蛙",
+      "USen": "ribbit",
+      "USes": "keroppi",
+      "USfr": "kérocarot"
+    }
+  },
+  {
+    "label": "rbt21",
+    "locale": {
+      "CNzh": "妹妹头",
+      "EUde": "hobbli",
+      "EUen": "hoppity",
+      "EUes": "neutrino",
+      "EUfr": "boing",
+      "EUit": "hoppihop",
+      "EUnl": "huppekee",
+      "EUru": "попрыгайка",
+      "JPja": "くりりん",
+      "KRko": "동글",
+      "TWzh": "妹妹頭",
+      "USen": "hoppity",
+      "USes": "jopijop",
+      "USfr": "boing"
+    }
+  },
+  {
+    "label": "rhn00",
+    "locale": {
+      "CNzh": "犀犀",
+      "EUde": "rumpel",
+      "EUen": "kerPOW",
+      "EUes": "tapumba",
+      "EUfr": "kaboum",
+      "EUit": "zamperù",
+      "EUnl": "klaBAM",
+      "EUru": "бабах",
+      "JPja": "ですサイ",
+      "KRko": "아뿔소",
+      "TWzh": "犀犀",
+      "USen": "kerPOW",
+      "USes": "tapumba",
+      "USfr": "kaboum"
+    }
+  },
+  {
+    "label": "rhn01",
+    "locale": {
+      "CNzh": "嗯噗",
+      "EUde": "stampf",
+      "EUen": "bigfoot",
+      "EUes": "jip-jip",
+      "EUfr": "grand pied",
+      "EUit": "piedone",
+      "EUnl": "grootvoet",
+      "EUru": "босс",
+      "JPja": "ンフ",
+      "KRko": "훗",
+      "TWzh": "嗯噗",
+      "USen": "bigfoot",
+      "USes": "jip-jip",
+      "USfr": "grand pied"
+    }
+  },
+  {
+    "label": "rhn02",
+    "locale": {
+      "CNzh": "混混",
+      "EUde": "punk",
+      "EUen": "punk",
+      "EUes": "granuja",
+      "EUfr": "saperlotte",
+      "EUit": "pachi",
+      "EUnl": "schelm",
+      "EUru": "бродяга",
+      "JPja": "でヤンキ",
+      "KRko": "빠직",
+      "TWzh": "混混",
+      "USen": "punk",
+      "USes": "papúm",
+      "USfr": "groumph"
+    }
+  },
+  {
+    "label": "rhn04",
+    "locale": {
+      "CNzh": "念念",
+      "EUde": "schneuzel",
+      "EUen": "schnozzle",
+      "EUes": "narigón",
+      "EUfr": "euh",
+      "EUit": "splush",
+      "EUnl": "sneuzel",
+      "EUru": "шнобель",
+      "JPja": "のネン",
+      "KRko": "뿔뿔",
+      "TWzh": "念念",
+      "USen": "schnozzle",
+      "USes": "kaplut",
+      "USfr": "euh"
+    }
+  },
+  {
+    "label": "rhn05",
+    "locale": {
+      "CNzh": "谢谢",
+      "EUde": "wumpa",
+      "EUen": "merci",
+      "EUes": "merci",
+      "EUfr": "pistil",
+      "EUit": "pistil",
+      "EUnl": "merci",
+      "EUru": "мерси",
+      "JPja": "メルシー",
+      "KRko": "세봉",
+      "TWzh": "謝謝",
+      "USen": "merci",
+      "USes": "floriflú",
+      "USfr": "brindille"
+    }
+  },
+  {
+    "label": "rhn07",
+    "locale": {
+      "CNzh": "糖糖",
+      "EUde": "trarapp",
+      "EUen": "shortcake",
+      "EUes": "fresitas",
+      "EUfr": "ma fraise",
+      "EUit": "rien",
+      "EUnl": "schuimpje",
+      "EUru": "кексик",
+      "JPja": "でシュガ",
+      "KRko": "베리베리",
+      "TWzh": "糖糖",
+      "USen": "shortcake",
+      "USes": "fruti",
+      "USfr": "confiture"
+    }
+  },
+  {
+    "label": "rhn08",
+    "locale": {
+      "CNzh": "超强",
+      "EUde": "bomm",
+      "EUen": "yo yo yo",
+      "EUes": "purrum",
+      "EUfr": "badaboum",
+      "EUit": "stomp",
+      "EUnl": "yo yo yo",
+      "EUru": "йоу",
+      "JPja": "パネェ",
+      "KRko": "킁킁",
+      "TWzh": "超強",
+      "USen": "yo yo yo",
+      "USes": "purrum",
+      "USfr": "badaboum"
+    }
+  },
+  {
+    "label": "shp00",
+    "locale": {
+      "CNzh": "就这样呀",
+      "EUde": "bäääh",
+      "EUen": "baaaffo",
+      "EUes": "beeeibi",
+      "EUfr": "pupull",
+      "EUit": "beeeby",
+      "EUnl": "bèèè",
+      "EUru": "бе-е",
+      "JPja": "なのね",
+      "KRko": "쩝",
+      "TWzh": "就這樣呀",
+      "USen": "baaaffo",
+      "USes": "beeeibi",
+      "USfr": "foulââârd"
+    }
+  },
+  {
+    "label": "shp01",
+    "locale": {
+      "CNzh": "一二三",
+      "EUde": "däääää",
+      "EUen": "daahling",
+      "EUes": "peeelusa",
+      "EUfr": "chêêêri",
+      "EUit": "breeezza",
+      "EUnl": "schaaaapje",
+      "EUru": "мила-ашка",
+      "JPja": "アンドゥ",
+      "KRko": "앤쥬",
+      "TWzh": "一二三",
+      "USen": "daahling",
+      "USes": "peluuusas",
+      "USfr": "chêêêri"
+    }
+  },
+  {
+    "label": "shp02",
+    "locale": {
+      "CNzh": "咩",
+      "EUde": "la-a-amm",
+      "EUen": "lambchop",
+      "EUes": "veeenga",
+      "EUfr": "bêbêêêêh",
+      "EUit": "laaagna",
+      "EUnl": "krulletje",
+      "EUru": "ребрышко",
+      "JPja": "メェー",
+      "KRko": "메에에",
+      "TWzh": "咩",
+      "USen": "lambchop",
+      "USes": "yupitiii",
+      "USfr": "bêbêêêêh"
+    }
+  },
+  {
+    "label": "shp03",
+    "locale": {
+      "CNzh": "羊毛",
+      "EUde": "badabing",
+      "EUen": "baa-dabing",
+      "EUes": "no veeeas",
+      "EUfr": "mon agneau",
+      "EUit": "beeene",
+      "EUnl": "mèèèh",
+      "EUru": "бэ-дабинь",
+      "JPja": "ウール",
+      "KRko": "울",
+      "TWzh": "羊毛",
+      "USen": "baa-dabing",
+      "USes": "baa-bii",
+      "USfr": "mon agneau"
+    }
+  },
+  {
+    "label": "shp04",
+    "locale": {
+      "CNzh": "爱",
+      "EUde": "bäääby",
+      "EUen": "baaaby",
+      "EUes": "peeeque",
+      "EUfr": "bêllissime",
+      "EUit": "beensì",
+      "EUnl": "bè-⁠ste",
+      "EUru": "бэ-эби",
+      "JPja": "ありんす",
+      "KRko": "포근포근",
+      "TWzh": "愛",
+      "USen": "baaaby",
+      "USes": "baaa-buá",
+      "USfr": "bêllissime"
+    }
+  },
+  {
+    "label": "shp07",
+    "locale": {
+      "CNzh": "是的唷",
+      "EUde": "blö-ö-ök",
+      "EUen": "bo peep",
+      "EUes": "babeeebí",
+      "EUfr": "tourni",
+      "EUit": "babeeebí",
+      "EUnl": "wollebol",
+      "EUru": "пасемся",
+      "JPja": "ですのよ",
+      "KRko": "됐거든",
+      "TWzh": "是的唷",
+      "USen": "bo peep",
+      "USes": "babeeebí",
+      "USfr": "tourni"
+    }
+  },
+  {
+    "label": "shp08",
+    "locale": {
+      "CNzh": "北鼻",
+      "EUde": "zottel",
+      "EUen": "shearly",
+      "EUes": "lanitas",
+      "EUfr": "toison",
+      "EUit": "hermoso",
+      "EUnl": "scheerlijk",
+      "EUru": "завитушка",
+      "JPja": "ベイビー",
+      "KRko": "자기야",
+      "TWzh": "北鼻",
+      "USen": "shearly",
+      "USes": "laaaná",
+      "USfr": "toison"
+    }
+  },
+  {
+    "label": "shp09",
+    "locale": {
+      "CNzh": "一丝丝",
+      "EUde": "wuschel",
+      "EUen": "lambkins",
+      "EUes": "joyita",
+      "EUfr": "bê-bê-bê",
+      "EUit": "beee-ehi",
+      "EUnl": "lammetje",
+      "EUru": "овечка",
+      "JPja": "イシシ",
+      "KRko": "꺄르르",
+      "TWzh": "一絲絲",
+      "USen": "lambkins",
+      "USes": "bee-biis",
+      "USfr": "bê-bê-bê"
+    }
+  },
+  {
+    "label": "shp10",
+    "locale": {
+      "CNzh": "等啊",
+      "EUde": "bwäääh",
+      "EUen": "pine nut",
+      "EUes": "yalovéees",
+      "EUfr": "barbiche",
+      "EUit": "pecoramè",
+      "EUnl": "denappel",
+      "EUru": "сосенка",
+      "JPja": "まつわ",
+      "KRko": "달려",
+      "TWzh": "等啊",
+      "USen": "pine nut",
+      "USes": "yalovééés",
+      "USfr": "barbiche"
+    }
+  },
+  {
+    "label": "shp11",
+    "locale": {
+      "CNzh": "薯薯",
+      "EUde": "knuddel",
+      "EUen": "oh ewe",
+      "EUes": "berebé",
+      "EUfr": "mouêêê",
+      "EUit": "beee la la",
+      "EUnl": "ooi zeg",
+      "EUru": "мутончик",
+      "JPja": "だポテ",
+      "KRko": "포테토",
+      "TWzh": "薯薯",
+      "USen": "oh ewe",
+      "USes": "berebé",
+      "USfr": "mouêêê"
+    }
+  },
+  {
+    "label": "shp12",
+    "locale": {
+      "CNzh": "辛苦了",
+      "EUde": "knuffi",
+      "EUen": "nightshade",
+      "EUes": "lanas",
+      "EUfr": "tricoti",
+      "EUit": "lanadà",
+      "EUnl": "nachtvacht",
+      "EUru": "травинка",
+      "JPja": "おつかれ",
+      "KRko": "수고",
+      "TWzh": "辛苦了",
+      "USen": "nightshade",
+      "USes": "lanavá",
+      "USfr": "tricoti"
+    }
+  },
+  {
+    "label": "shp13",
+    "locale": {
+      "CNzh": "丑丑",
+      "EUde": "helau",
+      "EUen": "honk honk",
+      "EUes": "moquimoqui",
+      "EUfr": "bamboche",
+      "EUit": "peco peco",
+      "EUnl": "alaaf",
+      "EUru": "бе-бе",
+      "JPja": "グフフ",
+      "KRko": "므흐흐",
+      "TWzh": "丑丑",
+      "USen": "honk honk",
+      "USes": "moquimoqui",
+      "USfr": "hahaha"
+    }
+  },
+  {
+    "label": "shp14",
+    "locale": {
+      "CNzh": "毛茸茸",
+      "EUde": "kikilala",
+      "EUen": "fuzzy",
+      "EUes": "kikilala",
+      "EUfr": "mohair",
+      "EUit": "ovinin",
+      "EUnl": "kikilala",
+      "EUru": "мягенько",
+      "JPja": "ふわもこ",
+      "KRko": "폭신폭신",
+      "TWzh": "毛茸茸",
+      "USen": "fuzzy",
+      "USes": "kikilala",
+      "USfr": "mohair"
+    }
+  },
+  {
+    "label": "shp15",
+    "locale": {
+      "CNzh": "哇耶",
+      "EUde": "jau",
+      "EUen": "indeedaroo",
+      "EUes": "diiigo yo",
+      "EUfr": "broutille",
+      "EUit": "veronò",
+      "EUnl": "precies",
+      "EUru": "точно-точно",
+      "JPja": "ふんふん",
+      "KRko": "뿜뿜",
+      "TWzh": "哇耶",
+      "USen": "indeedaroo",
+      "USes": "digoyó",
+      "USfr": "broutille"
+    }
+  },
+  {
+    "label": "squ00",
+    "locale": {
+      "CNzh": "就是唷",
+      "EUde": "faulenzer",
+      "EUen": "slacker",
+      "EUes": "almendrita",
+      "EUfr": "noisette",
+      "EUit": "sgronch",
+      "EUnl": "luilak",
+      "EUru": "лень",
+      "JPja": "なのよ",
+      "KRko": "거얌",
+      "TWzh": "就是唷",
+      "USen": "slacker",
+      "USes": "esñik",
+      "USfr": "noisette"
+    }
+  },
+  {
+    "label": "squ01",
+    "locale": {
+      "CNzh": "哼哼",
+      "EUde": "knack",
+      "EUen": "nutlet",
+      "EUes": "bayita",
+      "EUfr": "coquille",
+      "EUit": "scrick",
+      "EUnl": "notendop",
+      "EUru": "крошка",
+      "JPja": "ふふん",
+      "KRko": "헤헤헤",
+      "TWzh": "哼哼",
+      "USen": "nutlet",
+      "USes": "ñicuá",
+      "USfr": "coquille"
+    }
+  },
+  {
+    "label": "squ02",
+    "locale": {
+      "CNzh": "是哦",
+      "EUde": "manno",
+      "EUen": "bucko",
+      "EUes": "guirlache",
+      "EUfr": "gogo",
+      "EUit": "gnic gnic",
+      "EUnl": "vent",
+      "EUru": "дружище",
+      "JPja": "でしゅ",
+      "KRko": "예용",
+      "TWzh": "是囉",
+      "USen": "bucko",
+      "USes": "guirlache",
+      "USfr": "gogo"
+    }
+  },
+  {
+    "label": "squ03",
+    "locale": {
+      "CNzh": "正经",
+      "EUde": "spatzl",
+      "EUen": "chipmunk",
+      "EUes": "piñoncito",
+      "EUfr": "fouloulou",
+      "EUit": "cipì",
+      "EUnl": "eekhoorn",
+      "EUru": "бурундук",
+      "JPja": "つんっ",
+      "KRko": "쯧쯧",
+      "TWzh": "正經",
+      "USen": "chipmunk",
+      "USes": "piñoní",
+      "USfr": "fouloulou"
+    }
+  },
+  {
+    "label": "squ04",
+    "locale": {
+      "CNzh": "咯吱咯吱",
+      "EUde": "knusper",
+      "EUen": "niblet",
+      "EUes": "bellotita",
+      "EUfr": "nunuche",
+      "EUit": "truciolo",
+      "EUnl": "knabbel",
+      "EUru": "орешек",
+      "JPja": "ガジガジ",
+      "KRko": "송송",
+      "TWzh": "咯吱咯吱",
+      "USen": "niblet",
+      "USes": "trocitrí",
+      "USfr": "grignotte"
+    }
+  },
+  {
+    "label": "squ05",
+    "locale": {
+      "CNzh": "嘿唷",
+      "EUde": "strampl",
+      "EUen": "sidekick",
+      "EUes": "piñita",
+      "EUfr": "poto",
+      "EUit": "spalla",
+      "EUnl": "sidekick",
+      "EUru": "коллега",
+      "JPja": "せいやっ",
+      "KRko": "흠냐",
+      "TWzh": "嘿唷",
+      "USen": "sidekick",
+      "USes": "hai-ááá",
+      "USfr": "haï-ya"
+    }
+  },
+  {
+    "label": "squ06",
+    "locale": {
+      "CNzh": "你",
+      "EUde": "hulaaaa",
+      "EUen": "hulaaaa",
+      "EUes": "ulaaaa",
+      "EUfr": "houlaaaa",
+      "EUit": "ehilaaà",
+      "EUnl": "hoelaaa",
+      "EUru": "уа-а-а",
+      "JPja": "ユー",
+      "KRko": "휴",
+      "TWzh": "你",
+      "USen": "hulaaaa",
+      "USes": "ulaaaa",
+      "USfr": "houlaaaa"
+    }
+  },
+  {
+    "label": "squ07",
+    "locale": {
+      "CNzh": "要是",
+      "EUde": "muskat",
+      "EUen": "nutmeg",
+      "EUes": "ramita",
+      "EUfr": "tac",
+      "EUit": "nocciolina",
+      "EUnl": "muskaatje",
+      "EUru": "мускатик",
+      "JPja": "ったら",
+      "KRko": "까꿍",
+      "TWzh": "要是",
+      "USen": "nutmeg",
+      "USes": "raminí",
+      "USfr": "tac"
+    }
+  },
+  {
+    "label": "squ08",
+    "locale": {
+      "CNzh": "闪闪",
+      "EUde": "krazz",
+      "EUen": "krzzt",
+      "EUes": "avería",
+      "EUfr": "krzzt",
+      "EUit": "sguscio",
+      "EUnl": "bliksems",
+      "EUru": "вж-ж-ж",
+      "JPja": "ピカッ",
+      "KRko": "콰광",
+      "TWzh": "閃閃",
+      "USen": "krzzt",
+      "USes": "kreee",
+      "USfr": "krzzt"
+    }
+  },
+  {
+    "label": "squ09",
+    "locale": {
+      "CNzh": "喔哼",
+      "EUde": "knabber",
+      "EUen": "ahhhhhh",
+      "EUes": "bichito",
+      "EUfr": "ahhhhhh",
+      "EUit": "squercia",
+      "EUnl": "ahhhhhh",
+      "EUru": "ах-ах",
+      "JPja": "うっふん",
+      "KRko": "우훗",
+      "TWzh": "喔哼",
+      "USen": "ahhhhhh",
+      "USes": "bellotuá",
+      "USfr": "ahhhhhh"
+    }
+  },
+  {
+    "label": "squ10",
+    "locale": {
+      "CNzh": "炯炯",
+      "EUde": "knorz",
+      "EUen": "nutcase",
+      "EUes": "cáscaras",
+      "EUfr": "dingo",
+      "EUit": "nocciola",
+      "EUnl": "mafnoot",
+      "EUru": "арахис",
+      "JPja": "キッ",
+      "KRko": "사각사각",
+      "TWzh": "炯炯",
+      "USen": "nutcase",
+      "USes": "crac-crac",
+      "USfr": "dingo"
+    }
+  },
+  {
+    "label": "squ11",
+    "locale": {
+      "CNzh": "啦啦",
+      "EUde": "huiii",
+      "EUen": "WHEE",
+      "EUes": "macadamia",
+      "EUfr": "yeeeees",
+      "EUit": "SCRUNCH",
+      "EUnl": "cashew",
+      "EUru": "ух ты",
+      "JPja": "ララー",
+      "KRko": "랄랄라",
+      "TWzh": "啦啦",
+      "USen": "WHEE",
+      "USes": "ñip-ñip",
+      "USfr": "cacahuète"
+    }
+  },
+  {
+    "label": "squ13",
+    "locale": {
+      "CNzh": "做得好",
+      "EUde": "tjaja",
+      "EUen": "nice nice",
+      "EUes": "pincel",
+      "EUfr": "ptigri",
+      "EUit": "munch",
+      "EUnl": "jaja",
+      "EUru": "ладно",
+      "JPja": "やるわね",
+      "KRko": "굿굿",
+      "TWzh": "做得好",
+      "USen": "nice nice",
+      "USes": "bi-buá",
+      "USfr": "ptigri"
+    }
+  },
+  {
+    "label": "squ14",
+    "locale": {
+      "CNzh": "咻",
+      "EUde": "jammi",
+      "EUen": "hubbub",
+      "EUes": "caldito",
+      "EUfr": "grignote",
+      "EUit": "sgranocc",
+      "EUnl": "jammie",
+      "EUru": "хрум",
+      "JPja": "ひゅん",
+      "KRko": "퓨우",
+      "TWzh": "咻",
+      "USen": "hubbub",
+      "USes": "yupip",
+      "USfr": "grignote"
+    }
+  },
+  {
+    "label": "squ15",
+    "locale": {
+      "CNzh": "甜甜",
+      "EUde": "nussi",
+      "EUen": "nutty",
+      "EUes": "albricias",
+      "EUfr": "scratchy",
+      "EUit": "squittole",
+      "EUnl": "nootje",
+      "EUru": "чок-чок",
+      "JPja": "デス",
+      "KRko": "도톨도톨",
+      "TWzh": "甜甜",
+      "USen": "nutty",
+      "USes": "nutinú",
+      "USfr": "abajoue"
+    }
+  },
+  {
+    "label": "squ16",
+    "locale": {
+      "CNzh": "鼓栗鼓栗",
+      "EUde": "hoppi",
+      "EUen": "cardio",
+      "EUes": "zasca",
+      "EUfr": "toutouffe",
+      "EUit": "flash",
+      "EUnl": "topfit",
+      "EUru": "треники",
+      "JPja": "クリクリ",
+      "KRko": "땡글땡글",
+      "TWzh": "鼓栗鼓栗",
+      "USen": "cardio",
+      "USes": "zasca",
+      "USfr": "pacane"
+    }
+  },
+  {
+    "label": "squ17",
+    "locale": {
+      "CNzh": "不管怎样",
+      "EUde": "huschhusch",
+      "EUen": "sulky",
+      "EUes": "tecuén",
+      "EUfr": "nanache",
+      "EUit": "ardillà",
+      "EUnl": "knorrepot",
+      "EUru": "тихоня",
+      "JPja": "あながち",
+      "KRko": "어차피",
+      "TWzh": "不管怎樣",
+      "USen": "sulky",
+      "USes": "tecuén",
+      "USfr": "carpe diem"
+    }
+  },
+  {
+    "label": "squ18",
+    "locale": {
+      "CNzh": "当然哦",
+      "EUde": "kekeke",
+      "EUen": "uni-wow",
+      "EUes": "castaña",
+      "EUfr": "tac tac",
+      "EUit": "blink",
+      "EUnl": "brauw",
+      "EUru": "фундук",
+      "JPja": "だもんね",
+      "KRko": "알아알아",
+      "TWzh": "當然囉",
+      "USen": "uni-wow",
+      "USes": "tac-tac",
+      "USfr": "tac tac"
+    }
+  },
+  {
+    "label": "squ19",
+    "locale": {
+      "CNzh": "就鲨这样",
+      "EUde": "beute",
+      "EUen": "drip ink",
+      "EUes": "cosmegan",
+      "EUfr": "requinou",
+      "EUit": "sec-sec-sec-sec",
+      "EUnl": "zinkt",
+      "EUru": "красим",
+      "JPja": "どすなぁ",
+      "KRko": "아이가",
+      "TWzh": "就鯊這樣",
+      "USen": "drip ink",
+      "USes": "cosmegan",
+      "USfr": "requinou"
+    }
+  },
+  {
+    "label": "squ20",
+    "locale": {
+      "CNzh": "鳗好的",
+      "EUde": "surimi",
+      "EUen": "lip-synch",
+      "EUes": "cosangie",
+      "EUfr": "murmurène",
+      "EUit": "in playback",
+      "EUnl": "lipsync",
+      "EUru": "суши в уши",
+      "JPja": "なのじゃ",
+      "KRko": "이니라",
+      "TWzh": "鰻好的",
+      "USen": "lip-synch",
+      "USes": "cosangie",
+      "USfr": "murmurène"
+    }
+  },
+  {
+    "label": "squ21",
+    "locale": {
+      "CNzh": "亮晶晶",
+      "EUde": "knibbi",
+      "EUen": "gleam",
+      "EUes": "destello",
+      "EUfr": "albedou",
+      "EUit": "brillbrill",
+      "EUnl": "twinkel",
+      "EUru": "сияние",
+      "JPja": "キラキラ",
+      "KRko": "빤짝",
+      "TWzh": "亮晶晶",
+      "USen": "gleam",
+      "USes": "blinguiblín",
+      "USfr": "albedou"
+    }
+  },
+  {
+    "label": "tig00",
+    "locale": {
+      "CNzh": "王",
+      "EUde": "brüll",
+      "EUen": "grrrolf",
+      "EUes": "grooorf",
+      "EUfr": "grrrufff",
+      "EUit": "grrrolf",
+      "EUnl": "grrrolf",
+      "EUru": "гр-р-рольф",
+      "JPja": "だガー",
+      "KRko": "근데",
+      "TWzh": "王",
+      "USen": "grrrolf",
+      "USes": "grooorf",
+      "USfr": "grrrufff"
+    }
+  },
+  {
+    "label": "tig01",
+    "locale": {
+      "CNzh": "完全",
+      "EUde": "mango",
+      "EUen": "mango",
+      "EUes": "turista",
+      "EUfr": "banane",
+      "EUit": "mango",
+      "EUnl": "mango",
+      "EUru": "манго",
+      "JPja": "まったく",
+      "KRko": "내참",
+      "TWzh": "完全",
+      "USen": "mango",
+      "USes": "gurruf",
+      "USfr": "banane"
+    }
+  },
+  {
+    "label": "tig02",
+    "locale": {
+      "CNzh": "虎虎",
+      "EUde": "grrrummel",
+      "EUen": "grrrRAH",
+      "EUes": "bengala",
+      "EUfr": "grouaaah",
+      "EUit": "grrrRAH",
+      "EUnl": "brrrrulll",
+      "EUru": "р-рык",
+      "JPja": "だトラ",
+      "KRko": "으르렁",
+      "TWzh": "虎虎",
+      "USen": "grrrRAH",
+      "USes": "raaarruf",
+      "USfr": "grouaaah"
+    }
+  },
+  {
+    "label": "tig03",
+    "locale": {
+      "CNzh": "是喔",
+      "EUde": "schnurf",
+      "EUen": "growf",
+      "EUes": "mi vida",
+      "EUfr": "ma souris",
+      "EUit": "grouf",
+      "EUnl": "grommf",
+      "EUru": "р-р-рф",
+      "JPja": "なのぉー",
+      "KRko": "쪼옥쪽",
+      "TWzh": "是喔",
+      "USen": "growf",
+      "USes": "gri-gruá",
+      "USfr": "ma souris"
+    }
+  },
+  {
+    "label": "tig04",
+    "locale": {
+      "CNzh": "但是",
+      "EUde": "krrrrrr",
+      "EUen": "flexin'",
+      "EUes": "macoque",
+      "EUfr": "rebelote",
+      "EUit": "joggingrrr",
+      "EUnl": "flex",
+      "EUru": "р-разминка",
+      "JPja": "じゃが",
+      "KRko": "어흥",
+      "TWzh": "但是",
+      "USen": "flexin'",
+      "USes": "macoque",
+      "USfr": "mes abdos"
+    }
+  },
+  {
+    "label": "tig05",
+    "locale": {
+      "CNzh": "啊哈",
+      "EUde": "kchhh",
+      "EUen": "ooh la la",
+      "EUes": "mindundi",
+      "EUfr": "grou grou",
+      "EUit": "smack",
+      "EUnl": "olala",
+      "EUru": "о-ля-ля",
+      "JPja": "アハ～ン",
+      "KRko": "잇힝",
+      "TWzh": "啊哈",
+      "USen": "ooh la la",
+      "USes": "mindundi",
+      "USfr": "grou grou"
+    }
+  },
+  {
+    "label": "tig06",
+    "locale": {
+      "CNzh": "雪豹",
+      "EUde": "prrr",
+      "EUen": "glimmer",
+      "EUes": "guiñito",
+      "EUfr": "croky",
+      "EUit": "yeppa",
+      "EUnl": "witje",
+      "EUru": "хлоп-хлоп",
+      "JPja": "でヒョウ",
+      "KRko": "그래호",
+      "TWzh": "雪豹",
+      "USen": "glimmer",
+      "USes": "ruarri",
+      "USfr": "la vie"
+    }
+  },
+  {
+    "label": "wol00",
+    "locale": {
+      "CNzh": "不是嘛",
+      "EUde": "harrumff",
+      "EUen": "harrumph",
+      "EUes": "ejem",
+      "EUfr": "mmmph",
+      "EUit": "arrrgh",
+      "EUnl": "huil",
+      "EUru": "фыр-р-рф",
+      "JPja": "やんか",
+      "KRko": "그렇잖여",
+      "TWzh": "不是嘛",
+      "USen": "harrumph",
+      "USes": "ejem",
+      "USfr": "mmmph"
+    }
+  },
+  {
+    "label": "wol01",
+    "locale": {
+      "CNzh": "不然呢",
+      "EUde": "auuuuuu",
+      "EUen": "ah-rooooo",
+      "EUes": "auuuh",
+      "EUfr": "ah rooooo",
+      "EUit": "etchuuuu",
+      "EUnl": "aooooeee",
+      "EUru": "ау-у-у",
+      "JPja": "だぜよ",
+      "KRko": "봐봐",
+      "TWzh": "不然呢",
+      "USen": "ah-rooooo",
+      "USes": "auuuh",
+      "USfr": "ah rooooo"
+    }
+  },
+  {
+    "label": "wol02",
+    "locale": {
+      "CNzh": "罗罗",
+      "EUde": "knurrr",
+      "EUen": "snarrrl",
+      "EUes": "grauuuh",
+      "EUfr": "snurffff",
+      "EUit": "zanna",
+      "EUnl": "snauw",
+      "EUru": "ау-рр",
+      "JPja": "のな",
+      "KRko": "거봐",
+      "TWzh": "羅羅",
+      "USen": "snarrrl",
+      "USes": "grauuuh",
+      "USfr": "snurffff"
+    }
+  },
+  {
+    "label": "wol03",
+    "locale": {
+      "CNzh": "漂亮",
+      "EUde": "jaulll",
+      "EUen": "snappy",
+      "EUes": "auf-auf",
+      "EUfr": "sbam",
+      "EUit": "snappy",
+      "EUnl": "hap",
+      "EUru": "цап",
+      "JPja": "ステキね",
+      "KRko": "멋져",
+      "TWzh": "漂亮",
+      "USen": "snappy",
+      "USes": "auf-auf",
+      "USfr": "bing bang"
+    }
+  },
+  {
+    "label": "wol04",
+    "locale": {
+      "CNzh": "咳呵",
+      "EUde": "heuuul",
+      "EUen": "ohmmm",
+      "EUes": "ooomm",
+      "EUfr": "peuchère",
+      "EUit": "gnams",
+      "EUnl": "eh",
+      "EUru": "ом-м-м",
+      "JPja": "ゴホゴホ",
+      "KRko": "음음",
+      "TWzh": "咳呵",
+      "USen": "ohmmm",
+      "USes": "ooomm",
+      "USfr": "loudonc"
+    }
+  },
+  {
+    "label": "wol05",
+    "locale": {
+      "CNzh": "就是说哇",
+      "EUde": "ähmmm",
+      "EUen": "uff da",
+      "EUes": "auuuff",
+      "EUfr": "mon loulou",
+      "EUit": "uuuff",
+      "EUnl": "fjord",
+      "EUru": "хрусть",
+      "JPja": "なのだわ",
+      "KRko": "유행이야",
+      "TWzh": "就是說哇",
+      "USen": "uff da",
+      "USes": "auuuff",
+      "USfr": "mon loulou"
+    }
+  },
+  {
+    "label": "wol06",
+    "locale": {
+      "CNzh": "这倒是",
+      "EUde": "braul",
+      "EUen": "cha-chomp",
+      "EUes": "en-ñac",
+      "EUfr": "sagouin",
+      "EUit": "fabuuula",
+      "EUnl": "knauw",
+      "EUru": "грызь",
+      "JPja": "ですダス",
+      "KRko": "콜록콜록",
+      "TWzh": "這倒是",
+      "USen": "cha-chomp",
+      "USes": "en-ñac",
+      "USfr": "sagouin"
+    }
+  },
+  {
+    "label": "wol08",
+    "locale": {
+      "CNzh": "喔呵呵",
+      "EUde": "scholli",
+      "EUen": "piffle",
+      "EUes": "aú-aú",
+      "EUfr": "crocroque",
+      "EUit": "arruuu",
+      "EUnl": "nonsens",
+      "EUru": "вздор",
+      "JPja": "だわよ",
+      "KRko": "그러하다",
+      "TWzh": "喔呵呵",
+      "USen": "piffle",
+      "USes": "aú-aú",
+      "USfr": "crocroque"
+    }
+  },
+  {
+    "label": "wol09",
+    "locale": {
+      "CNzh": "花花",
+      "EUde": "ahiii",
+      "EUen": "airmail",
+      "EUes": "auuu",
+      "EUfr": "mumuseau",
+      "EUit": "uuuhlalà",
+      "EUnl": "luchtpost",
+      "EUru": "пилот",
+      "JPja": "フワワ",
+      "KRko": "후와와",
+      "TWzh": "花花",
+      "USen": "airmail",
+      "USes": "auuu",
+      "USfr": "mumuseau"
+    }
+  },
+  {
+    "label": "wol10",
+    "locale": {
+      "CNzh": "喔耶",
+      "EUde": "ahuuu",
+      "EUen": "alpha",
+      "EUes": "aujujú",
+      "EUfr": "garooouuu",
+      "EUit": "sgnack",
+      "EUnl": "alfa",
+      "EUru": "вожак",
+      "JPja": "オゥイェ",
+      "KRko": "오우예",
+      "TWzh": "喔耶",
+      "USen": "alpha",
+      "USes": "aujujú",
+      "USfr": "garooouuu"
+    }
+  },
+  {
+    "label": "wol12",
+    "locale": {
+      "CNzh": "呀哈",
+      "EUde": "foxtrott",
+      "EUen": "foxtrot",
+      "EUes": "maravilla",
+      "EUfr": "trottine",
+      "EUit": "foxtrot",
+      "EUnl": "foxtrot",
+      "EUru": "фокстрот",
+      "JPja": "アハッ",
+      "KRko": "아하핫",
+      "TWzh": "呀哈",
+      "USen": "foxtrot",
+      "USes": "ulalilá",
+      "USfr": "trottine"
+    }
+  }
+]

@@ -1,0 +1,1294 @@
+﻿[
+  {
+    "label": "ant_F",
+    "locale": {
+      "CNzh": "食蚁兽",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Ameisenbär{{wordCase nom=\"\" acc=\"en\" dat=\"en\" gen=\"en\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}anteater",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}osa hormiguera",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}fourmilier",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}formichiere",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}miereneter",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}муравьед{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "アリクイ",
+      "KRko": "개미핥기",
+      "TWzh": "食蟻獸",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}anteater",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}osa hormiguera",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}fourmilier"
+    }
+  },
+  {
+    "label": "ant_M",
+    "locale": {
+      "CNzh": "食蚁兽",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Ameisenbär{{wordCase nom=\"\" acc=\"en\" dat=\"en\" gen=\"en\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}anteater",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}oso hormiguero",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}fourmilier",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}formichiere",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}miereneter",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}муравьед{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "アリクイ",
+      "KRko": "개미핥기",
+      "TWzh": "食蟻獸",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}anteater",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}oso hormiguero",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}fourmilier"
+    }
+  },
+  {
+    "label": "bea_F",
+    "locale": {
+      "CNzh": "熊",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Bär{{wordCase nom=\"\" acc=\"en\" dat=\"en\" gen=\"en\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bear",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}osa",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"5\"}}ourse",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"4\" defArticle=\"8\"}}orsa",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}beer",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}медведиц{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "クマ",
+      "KRko": "곰",
+      "TWzh": "熊",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bear",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}osa",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"5\"}}ourse"
+    }
+  },
+  {
+    "label": "bea_M",
+    "locale": {
+      "CNzh": "熊",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Bär{{wordCase nom=\"\" acc=\"en\" dat=\"en\" gen=\"en\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bear",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}oso",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}ours",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"8\"}}orso",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}beer",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}медвед{{wordCase nom=\"ь\" acc=\"я\" dat=\"ю\" gen=\"я\"}}",
+      "JPja": "クマ",
+      "KRko": "곰",
+      "TWzh": "熊",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bear",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}oso",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}ours"
+    }
+  },
+  {
+    "label": "brd_F",
+    "locale": {
+      "CNzh": "鸟",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Vogel{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bird",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"1\" defArticle=\"3\"}}ave",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}oiseau",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"8\"}}uccello",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}vogel",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}птиц{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "トリ",
+      "KRko": "새",
+      "TWzh": "鳥",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bird",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"1\" defArticle=\"3\"}}ave",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}oiseau"
+    }
+  },
+  {
+    "label": "brd_M",
+    "locale": {
+      "CNzh": "鸟",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Vogel{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bird",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}pájaro",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}oiseau",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"8\"}}uccello",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}vogel",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}птиц{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "トリ",
+      "KRko": "새",
+      "TWzh": "鳥",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bird",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}pájaro",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}oiseau"
+    }
+  },
+  {
+    "label": "bul_M",
+    "locale": {
+      "CNzh": "公牛",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Stier{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bull",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}toro",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}taureau",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}toro",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}stier",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}бык{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "オウシ",
+      "KRko": "수소",
+      "TWzh": "公牛",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bull",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}toro",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}taureau"
+    }
+  },
+  {
+    "label": "cat_F",
+    "locale": {
+      "CNzh": "猫",
+      "EUde": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}Katze",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}cat",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}gata",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}chatte",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}gatta",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}kat",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}кошк{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "ネコ",
+      "KRko": "고양이",
+      "TWzh": "貓",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}cat",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}gatita",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}chatte"
+    }
+  },
+  {
+    "label": "cat_M",
+    "locale": {
+      "CNzh": "猫",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Kater{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}cat",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}gato",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}chat",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}gatto",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}kat",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}кот{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ネコ",
+      "KRko": "고양이",
+      "TWzh": "貓",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}cat",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}gatito",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}chat"
+    }
+  },
+  {
+    "label": "cbr_F",
+    "locale": {
+      "CNzh": "小熊",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Jungbär{{wordCase nom=\"\" acc=\"en\" dat=\"en\" gen=\"en\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bear cub",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}osezna",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"5\"}}oursonne",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"4\" defArticle=\"8\"}}orsetta",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}berenjong",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}медвежон{{wordCase nom=\"ок\" acc=\"ка\" dat=\"ку\" gen=\"ка\"}}",
+      "JPja": "コグマ",
+      "KRko": "꼬마곰",
+      "TWzh": "小熊",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bear cub",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}osezna",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"5\"}}oursonne"
+    }
+  },
+  {
+    "label": "cbr_M",
+    "locale": {
+      "CNzh": "小熊",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Jungbär{{wordCase nom=\"\" acc=\"en\" dat=\"en\" gen=\"en\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bear cub",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}osezno",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}ourson",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"8\"}}orsetto",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}berenjong",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}медвежон{{wordCase nom=\"ок\" acc=\"ка\" dat=\"ку\" gen=\"ка\"}}",
+      "JPja": "コグマ",
+      "KRko": "꼬마곰",
+      "TWzh": "小熊",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}bear cub",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}osezno",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}ourson"
+    }
+  },
+  {
+    "label": "chn_F",
+    "locale": {
+      "CNzh": "鸡",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Huhn{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}chicken",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}gallina",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}poule",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}gallina",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}hen",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}куриц{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "ニワトリ",
+      "KRko": "닭",
+      "TWzh": "雞",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}chicken",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}gallina",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}poule"
+    }
+  },
+  {
+    "label": "chn_M",
+    "locale": {
+      "CNzh": "鸡",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Hahn{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}chicken",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}pollo",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}poulet",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}pollo",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}haan",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}петух{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ニワトリ",
+      "KRko": "닭",
+      "TWzh": "雞",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}chicken",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}pollo",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}poulet"
+    }
+  },
+  {
+    "label": "cow_F",
+    "locale": {
+      "CNzh": "母牛",
+      "EUde": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}Kuh",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}cow",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}vaca",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}vache",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}mucca",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}koe",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}коров{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "メウシ",
+      "KRko": "암소",
+      "TWzh": "母牛",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}cow",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}vaca",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}vache"
+    }
+  },
+  {
+    "label": "crd_F",
+    "locale": {
+      "CNzh": "鳄鱼",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Krokodil{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}alligator",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}cocodrila",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}alligator",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}coccodrillo",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}krokodil",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}крокодилиц{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "ワニ",
+      "KRko": "악어",
+      "TWzh": "鱷魚",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}alligator",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}cocodrila",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}alligator"
+    }
+  },
+  {
+    "label": "crd_M",
+    "locale": {
+      "CNzh": "鳄鱼",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Krokodil{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}alligator",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}cocodrilo",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}alligator",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}coccodrillo",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}krokodil",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}крокодил{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ワニ",
+      "KRko": "악어",
+      "TWzh": "鱷魚",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}alligator",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}cocodrilo",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}alligator"
+    }
+  },
+  {
+    "label": "der_F",
+    "locale": {
+      "CNzh": "小鹿",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Hirsch{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}deer",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}cierva",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}biche",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}cerva",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}hert",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}олених{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "コジカ",
+      "KRko": "사슴",
+      "TWzh": "小鹿",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}deer",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}cierva",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}biche"
+    }
+  },
+  {
+    "label": "der_M",
+    "locale": {
+      "CNzh": "小鹿",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Hirsch{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}deer",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}ciervo",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}cerf",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}cervo",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}hert",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}олен{{wordCase nom=\"ь\" acc=\"я\" dat=\"ю\" gen=\"я\"}}",
+      "JPja": "コジカ",
+      "KRko": "사슴",
+      "TWzh": "小鹿",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}deer",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}ciervo",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}cerf"
+    }
+  },
+  {
+    "label": "dog_F",
+    "locale": {
+      "CNzh": "狗",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Hund{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}dog",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}perra",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}chienne",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}cane",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}hond",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}собак{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "イヌ",
+      "KRko": "개",
+      "TWzh": "狗",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}dog",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}perrita",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}chienne"
+    }
+  },
+  {
+    "label": "dog_M",
+    "locale": {
+      "CNzh": "狗",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Hund{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}dog",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}perro",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}chien",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}cane",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}hond",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}п{{wordCase nom=\"ес\" acc=\"са\" dat=\"су\" gen=\"са\"}}",
+      "JPja": "イヌ",
+      "KRko": "개",
+      "TWzh": "狗",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}dog",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}perrito",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}chien"
+    }
+  },
+  {
+    "label": "duk_F",
+    "locale": {
+      "CNzh": "鸭子",
+      "EUde": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}Ente",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}duck",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}pata",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}cane",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"4\" defArticle=\"8\"}}anatra",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}eend",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}утк{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "アヒル",
+      "KRko": "오리",
+      "TWzh": "鴨子",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}duck",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}pata",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}cane"
+    }
+  },
+  {
+    "label": "duk_M",
+    "locale": {
+      "CNzh": "鸭子",
+      "EUde": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}Ente",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}duck",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}pato",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}canard",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"4\" defArticle=\"8\"}}anatra",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}eend",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}селез{{wordCase nom=\"ень\" acc=\"ня\" dat=\"ню\" gen=\"ня\"}}",
+      "JPja": "アヒル",
+      "KRko": "오리",
+      "TWzh": "鴨子",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}duck",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}pato",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}canard"
+    }
+  },
+  {
+    "label": "elp_F",
+    "locale": {
+      "CNzh": "大象",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Elefant{{wordCase nom=\"\" acc=\"en\" dat=\"en\" gen=\"en\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}elephant",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}elefanta",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"5\"}}éléphante",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"4\" defArticle=\"8\"}}elefantessa",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}olifant",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}слоних{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "ゾウ",
+      "KRko": "코끼리",
+      "TWzh": "大象",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}elephant",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}elefanta",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"5\"}}éléphante"
+    }
+  },
+  {
+    "label": "elp_M",
+    "locale": {
+      "CNzh": "大象",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Elefant{{wordCase nom=\"\" acc=\"en\" dat=\"en\" gen=\"en\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}elephant",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}elefante",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}éléphant",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"8\"}}elefante",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}olifant",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}слон{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ゾウ",
+      "KRko": "코끼리",
+      "TWzh": "大象",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}elephant",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}elefante",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}éléphant"
+    }
+  },
+  {
+    "label": "flg_F",
+    "locale": {
+      "CNzh": "青蛙",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Frosch{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}frog",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}rana",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}grenouille",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}rana",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}kikker",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}лягушк{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "カエル",
+      "KRko": "개구리",
+      "TWzh": "青蛙",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}frog",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}rana",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}grenouille"
+    }
+  },
+  {
+    "label": "flg_M",
+    "locale": {
+      "CNzh": "青蛙",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Frosch{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}frog",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}sapo",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}grenouille",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}rana",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}kikker",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}лягушк{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "カエル",
+      "KRko": "개구리",
+      "TWzh": "青蛙",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}frog",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}sapo",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}grenouille"
+    }
+  },
+  {
+    "label": "goa_F",
+    "locale": {
+      "CNzh": "山羊",
+      "EUde": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}Ziege",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}goat",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}cabra",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}chèvre",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}capra",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}geit",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}коз{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "ヤギ",
+      "KRko": "염소",
+      "TWzh": "山羊",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}goat",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}cabra",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}chèvre"
+    }
+  },
+  {
+    "label": "goa_M",
+    "locale": {
+      "CNzh": "山羊",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Ziegenbock{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}goat",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}chivo",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}bouc",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}capra",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}geit",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}коз{{wordCase nom=\"ел\" acc=\"ла\" dat=\"лу\" gen=\"ла\"}}",
+      "JPja": "ヤギ",
+      "KRko": "염소",
+      "TWzh": "山羊",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}goat",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}chivo",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}bouc"
+    }
+  },
+  {
+    "label": "gor_F",
+    "locale": {
+      "CNzh": "猩猩",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Gorilla{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}gorilla",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}gorila",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}gorille",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}gorilla",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}gorilla",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}горилл{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "ゴリラ",
+      "KRko": "고릴라",
+      "TWzh": "猩猩",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}gorilla",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}gorila",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}gorille"
+    }
+  },
+  {
+    "label": "gor_M",
+    "locale": {
+      "CNzh": "猩猩",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Gorilla{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}gorilla",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}gorila",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}gorille",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}gorilla",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}gorilla",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}горилл{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "ゴリラ",
+      "KRko": "고릴라",
+      "TWzh": "猩猩",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}gorilla",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}gorila",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}gorille"
+    }
+  },
+  {
+    "label": "ham_F",
+    "locale": {
+      "CNzh": "仓鼠",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Hamster{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}hamster",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}hámster",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}hamster",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}criceto",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}hamster",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}хомяк{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ハムスター",
+      "KRko": "햄스터",
+      "TWzh": "倉鼠",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}hamster",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}hámster",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}hamster"
+    }
+  },
+  {
+    "label": "ham_M",
+    "locale": {
+      "CNzh": "仓鼠",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Hamster{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}hamster",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}hámster",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}hamster",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}criceto",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}hamster",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}хомяк{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ハムスター",
+      "KRko": "햄스터",
+      "TWzh": "倉鼠",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}hamster",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}hámster",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}hamster"
+    }
+  },
+  {
+    "label": "hip_F",
+    "locale": {
+      "CNzh": "河马",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Nilpferd{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}hippo",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}hipopótama",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}hippopotame",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"8\"}}ippopotamo",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}nijlpaard",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}бегемотих{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "カバ",
+      "KRko": "하마",
+      "TWzh": "河馬",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}hippo",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}hipopótama",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}hippopotame"
+    }
+  },
+  {
+    "label": "hip_M",
+    "locale": {
+      "CNzh": "河马",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Nilpferd{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}hippo",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}hipopótamo",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}hippopotame",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"8\"}}ippopotamo",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}nijlpaard",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}бегемот{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "カバ",
+      "KRko": "하마",
+      "TWzh": "河馬",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}hippo",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}hipopótamo",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}hippopotame"
+    }
+  },
+  {
+    "label": "hrs_F",
+    "locale": {
+      "CNzh": "马",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Pferd{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}horse",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}yegua",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}jument",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}cavalla",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}paard",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}лошад{{wordCase nom=\"ь\" acc=\"ь\" dat=\"и\" gen=\"и\"}}",
+      "JPja": "ウマ",
+      "KRko": "말",
+      "TWzh": "馬",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}horse",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}yegua",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}jument"
+    }
+  },
+  {
+    "label": "hrs_M",
+    "locale": {
+      "CNzh": "马",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Pferd{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}horse",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}caballo",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}cheval",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}cavallo",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}paard",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}кон{{wordCase nom=\"ь\" acc=\"я\" dat=\"ю\" gen=\"я\"}}",
+      "JPja": "ウマ",
+      "KRko": "말",
+      "TWzh": "馬",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}horse",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}caballo",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}cheval"
+    }
+  },
+  {
+    "label": "kal_F",
+    "locale": {
+      "CNzh": "树袋熊",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Koala{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}koala",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}koala",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}koala",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}koala",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}koala",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}коал{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "コアラ",
+      "KRko": "코알라",
+      "TWzh": "無尾熊",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}koala",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}koala",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}koala"
+    }
+  },
+  {
+    "label": "kal_M",
+    "locale": {
+      "CNzh": "树袋熊",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Koala{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}koala",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}koala",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}koala",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}koala",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}koala",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}коал{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "コアラ",
+      "KRko": "코알라",
+      "TWzh": "無尾熊",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}koala",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}koala",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}koala"
+    }
+  },
+  {
+    "label": "kgr_F",
+    "locale": {
+      "CNzh": "袋鼠",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Känguru{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}kangaroo",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}cangura",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}kangourou",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}canguro",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}kangoeroe",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}кенгуру",
+      "JPja": "カンガルー",
+      "KRko": "캥거루",
+      "TWzh": "袋鼠",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}kangaroo",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}cangura",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}kangourou"
+    }
+  },
+  {
+    "label": "kgr_M",
+    "locale": {
+      "CNzh": "袋鼠",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Känguru{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}kangaroo",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}canguro",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}kangourou",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}canguro",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}kangoeroe",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}кенгуру",
+      "JPja": "カンガルー",
+      "KRko": "캥거루",
+      "TWzh": "袋鼠",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}kangaroo",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}canguro",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}kangourou"
+    }
+  },
+  {
+    "label": "lon_F",
+    "locale": {
+      "CNzh": "狮子",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Löwe{{wordCase nom=\"\" acc=\"n\" dat=\"n\" gen=\"n\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}lion",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}leona",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}lionne",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}leonessa",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}leeuwin",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}львиц{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "ライオン",
+      "KRko": "사자",
+      "TWzh": "獅子",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}lion",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}leona",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}lionne"
+    }
+  },
+  {
+    "label": "lon_M",
+    "locale": {
+      "CNzh": "狮子",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Löwe{{wordCase nom=\"\" acc=\"n\" dat=\"n\" gen=\"n\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}lion",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}león",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}lion",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}leone",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}leeuw",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}л{{wordCase nom=\"ев\" acc=\"ьва\" dat=\"ьву\" gen=\"ьва\"}}",
+      "JPja": "ライオン",
+      "KRko": "사자",
+      "TWzh": "獅子",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}lion",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}león",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}lion"
+    }
+  },
+  {
+    "label": "mnk_F",
+    "locale": {
+      "CNzh": "猴子",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Affe{{wordCase nom=\"\" acc=\"n\" dat=\"n\" gen=\"n\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}monkey",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}mona",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}guenon",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}scimmia",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}aap",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}обезьян{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "サル",
+      "KRko": "원숭이",
+      "TWzh": "猴子",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}monkey",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}mona",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}guenon"
+    }
+  },
+  {
+    "label": "mnk_M",
+    "locale": {
+      "CNzh": "猴子",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Affe{{wordCase nom=\"\" acc=\"n\" dat=\"n\" gen=\"n\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}monkey",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}mono",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}singe",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}scimmia",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}aap",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}обезьян{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "サル",
+      "KRko": "원숭이",
+      "TWzh": "猴子",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}monkey",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}mono",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}singe"
+    }
+  },
+  {
+    "label": "mus_F",
+    "locale": {
+      "CNzh": "老鼠",
+      "EUde": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}Maus",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}mouse",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}ratona",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}souris",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}topo",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}muis",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}мыш{{wordCase nom=\"ь\" acc=\"ь\" dat=\"и\" gen=\"и\"}}",
+      "JPja": "マウス",
+      "KRko": "생쥐",
+      "TWzh": "老鼠",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}mouse",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}ratona",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}souris"
+    }
+  },
+  {
+    "label": "mus_M",
+    "locale": {
+      "CNzh": "老鼠",
+      "EUde": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}Maus",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}mouse",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}ratón",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}souris",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}topo",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}muis",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}мыш{{wordCase nom=\"ь\" acc=\"ь\" dat=\"и\" gen=\"и\"}}",
+      "JPja": "マウス",
+      "KRko": "생쥐",
+      "TWzh": "老鼠",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}mouse",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}ratón",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}souris"
+    }
+  },
+  {
+    "label": "ocp_F",
+    "locale": {
+      "CNzh": "章鱼",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Krake{{wordCase nom=\"\" acc=\"n\" dat=\"n\" gen=\"n\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}octopus",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}octópoda",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}pieuvre",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}piovra",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}octopus",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}осьминог{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "タコ",
+      "KRko": "문어",
+      "TWzh": "章魚",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}octopus",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}octópoda",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}pieuvre"
+    }
+  },
+  {
+    "label": "ocp_M",
+    "locale": {
+      "CNzh": "章鱼",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Krake{{wordCase nom=\"\" acc=\"n\" dat=\"n\" gen=\"n\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}octopus",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}pulpo",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}pieuvre",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}piovra",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}octopus",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}осьминог{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "タコ",
+      "KRko": "문어",
+      "TWzh": "章魚",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}octopus",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}pulpo",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}pieuvre"
+    }
+  },
+  {
+    "label": "ost_F",
+    "locale": {
+      "CNzh": "鸵鸟",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Strauß{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"es\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}ostrich",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}avestruz",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"5\"}}autruche",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"2\" defArticle=\"6\"}}struzzo",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}struisvogel",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}страусих{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "ダチョウ",
+      "KRko": "타조",
+      "TWzh": "鴕鳥",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}ostrich",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}avestruz",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"5\"}}autruche"
+    }
+  },
+  {
+    "label": "ost_M",
+    "locale": {
+      "CNzh": "鸵鸟",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Strauß{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"es\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}ostrich",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}avestruz",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"5\"}}autruche",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"2\" defArticle=\"6\"}}struzzo",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}struisvogel",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}страус{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ダチョウ",
+      "KRko": "타조",
+      "TWzh": "鴕鳥",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}ostrich",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}avestruz",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"5\"}}autruche"
+    }
+  },
+  {
+    "label": "pbr_F",
+    "locale": {
+      "CNzh": "雕",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Adler{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}eagle",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"1\" defArticle=\"3\"}}águila",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"5\"}}aigle",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"4\" defArticle=\"8\"}}aquila",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}adelaar",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}орлиц{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "ワシ",
+      "KRko": "독수리",
+      "TWzh": "鵰",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}eagle",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"1\" defArticle=\"3\"}}águila",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"5\"}}aigle"
+    }
+  },
+  {
+    "label": "pbr_M",
+    "locale": {
+      "CNzh": "雕",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Adler{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}eagle",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"1\" defArticle=\"3\"}}águila",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}aigle",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"4\" defArticle=\"8\"}}aquila",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}adelaar",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}ор{{wordCase nom=\"ел\" acc=\"ла\" dat=\"лу\" gen=\"ла\"}}",
+      "JPja": "ワシ",
+      "KRko": "독수리",
+      "TWzh": "鵰",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"2\" defArticle=\"3\"}}eagle",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"1\" defArticle=\"3\"}}águila",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}aigle"
+    }
+  },
+  {
+    "label": "pgn_F",
+    "locale": {
+      "CNzh": "企鹅",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Pinguin{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}penguin",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}pingüina",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}manchot",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}pinguino",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}pinguïn",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}пингвин{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ペンギン",
+      "KRko": "펭귄",
+      "TWzh": "企鵝",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}penguin",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}pingüina",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}manchot"
+    }
+  },
+  {
+    "label": "pgn_M",
+    "locale": {
+      "CNzh": "企鹅",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Pinguin{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}penguin",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}pingüino",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}manchot",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}pinguino",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}pinguïn",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}пингвин{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ペンギン",
+      "KRko": "펭귄",
+      "TWzh": "企鵝",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}penguin",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}pingüino",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}manchot"
+    }
+  },
+  {
+    "label": "pig_F",
+    "locale": {
+      "CNzh": "猪",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Schwein{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}pig",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}cerda",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}truie",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}maiale",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}varken",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}свинк{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "ブタ",
+      "KRko": "돼지",
+      "TWzh": "豬",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}pig",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}cerda",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}truie"
+    }
+  },
+  {
+    "label": "pig_M",
+    "locale": {
+      "CNzh": "猪",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Schwein{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}pig",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}cerdo",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}cochon",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}maiale",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}varken",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}поросен{{wordCase nom=\"ок\" acc=\"ка\" dat=\"ку\" gen=\"ка\"}}",
+      "JPja": "ブタ",
+      "KRko": "돼지",
+      "TWzh": "豬",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}pig",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}cerdo",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}cochon"
+    }
+  },
+  {
+    "label": "rbt_F",
+    "locale": {
+      "CNzh": "兔子",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Hase{{wordCase nom=\"\" acc=\"n\" dat=\"n\" gen=\"n\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}rabbit",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}coneja",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}lapine",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}coniglio",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}konijn",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}крольчих{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "ウサギ",
+      "KRko": "토끼",
+      "TWzh": "兔子",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}rabbit",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}coneja",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}lapine"
+    }
+  },
+  {
+    "label": "rbt_M",
+    "locale": {
+      "CNzh": "兔子",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Hase{{wordCase nom=\"\" acc=\"n\" dat=\"n\" gen=\"n\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}rabbit",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}conejo",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}lapin",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}coniglio",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}konijn",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}кролик{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ウサギ",
+      "KRko": "토끼",
+      "TWzh": "兔子",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}rabbit",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}conejo",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}lapin"
+    }
+  },
+  {
+    "label": "rhn_F",
+    "locale": {
+      "CNzh": "犀牛",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Nashorn{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}rhinoceros",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}rinoceronta",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}rhinocéros",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}rinoceronte",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}neushoorn",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}носорог{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "サイ",
+      "KRko": "코뿔소",
+      "TWzh": "犀牛",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}rhinoceros",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}rinoceronta",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}rhinocéros"
+    }
+  },
+  {
+    "label": "rhn_M",
+    "locale": {
+      "CNzh": "犀牛",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Nashorn{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}rhinoceros",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}rinoceronte",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}rhinocéros",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}rinoceronte",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}neushoorn",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}носорог{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "サイ",
+      "KRko": "코뿔소",
+      "TWzh": "犀牛",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}rhinoceros",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}rinoceronte",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}rhinocéros"
+    }
+  },
+  {
+    "label": "shp_F",
+    "locale": {
+      "CNzh": "绵羊",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Schaf{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}sheep",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}oveja",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}brebis",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}pecora",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}schaap",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}овц{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "ヒツジ",
+      "KRko": "양",
+      "TWzh": "綿羊",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}sheep",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}oveja",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}brebis"
+    }
+  },
+  {
+    "label": "shp_M",
+    "locale": {
+      "CNzh": "绵羊",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Schaf{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}sheep",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}carnero",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}mouton",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}montone",
+      "EUnl": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"4\"}}schaap",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}баран{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ヒツジ",
+      "KRko": "양",
+      "TWzh": "綿羊",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}sheep",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}carnero",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}mouton"
+    }
+  },
+  {
+    "label": "squ_F",
+    "locale": {
+      "CNzh": "松鼠",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Eichhörnchen{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}squirrel",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}ardilla",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}écureuil",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"2\" defArticle=\"6\"}}scoiattolo",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}eekhoorn",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}белк{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "リス",
+      "KRko": "다람쥐",
+      "TWzh": "松鼠",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}squirrel",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}ardilla",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}écureuil"
+    }
+  },
+  {
+    "label": "squ_M",
+    "locale": {
+      "CNzh": "松鼠",
+      "EUde": "{{wordInfo gender=\"3\" indefArticle=\"1\" defArticle=\"5\"}}Eichhörnchen{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}squirrel",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}ardilla",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}écureuil",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"2\" defArticle=\"6\"}}scoiattolo",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}eekhoorn",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}белк{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "リス",
+      "KRko": "다람쥐",
+      "TWzh": "松鼠",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}squirrel",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}ardilla",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}écureuil"
+    }
+  },
+  {
+    "label": "tig_F",
+    "locale": {
+      "CNzh": "老虎",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Tiger{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}tiger",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}tigresa",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}tigresse",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}tigre",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}tijger",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}тигриц{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "トラ",
+      "KRko": "호랑이",
+      "TWzh": "老虎",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}tiger",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}tigresa",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}tigresse"
+    }
+  },
+  {
+    "label": "tig_M",
+    "locale": {
+      "CNzh": "老虎",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Tiger{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}tiger",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}tigre",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}tigre",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}tigre",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}tijger",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}тигр{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "トラ",
+      "KRko": "호랑이",
+      "TWzh": "老虎",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}tiger",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}tigre",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}tigre"
+    }
+  },
+  {
+    "label": "wol_F",
+    "locale": {
+      "CNzh": "狼",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Wolf{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}wolf",
+      "EUes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}loba",
+      "EUfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}louve",
+      "EUit": "{{wordInfo gender=\"2\" indefArticle=\"3\" defArticle=\"7\"}}lupa",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}wolf",
+      "EUru": "{{wordInfo gender=\"2\" indefArticle=\"0\" defArticle=\"0\"}}волчиц{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "オオカミ",
+      "KRko": "늑대",
+      "TWzh": "狼",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}wolf",
+      "USes": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}loba",
+      "USfr": "{{wordInfo gender=\"2\" indefArticle=\"2\" defArticle=\"4\"}}louve"
+    }
+  },
+  {
+    "label": "wol_M",
+    "locale": {
+      "CNzh": "狼",
+      "EUde": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}Wolf{{wordCase nom=\"\" acc=\"\" dat=\"\" gen=\"s\"}}",
+      "EUen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}wolf",
+      "EUes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}lobo",
+      "EUfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}loup",
+      "EUit": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"5\"}}lupo",
+      "EUnl": "{{wordInfo gender=\"4\" indefArticle=\"1\" defArticle=\"3\"}}wolf",
+      "EUru": "{{wordInfo gender=\"1\" indefArticle=\"0\" defArticle=\"0\"}}волк{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "オオカミ",
+      "KRko": "늑대",
+      "TWzh": "狼",
+      "USen": "{{wordInfo gender=\"0\" indefArticle=\"1\" defArticle=\"3\"}}wolf",
+      "USes": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}lobo",
+      "USfr": "{{wordInfo gender=\"1\" indefArticle=\"1\" defArticle=\"3\"}}loup"
+    }
+  }
+]
