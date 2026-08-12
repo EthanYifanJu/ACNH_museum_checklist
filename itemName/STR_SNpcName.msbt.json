@@ -1,0 +1,1408 @@
+﻿[
+  {
+    "label": "alp",
+    "locale": {
+      "CNzh": "健兆",
+      "EUde": "Björn",
+      "EUen": "Cyrus",
+      "EUes": "Al",
+      "EUfr": "Serge",
+      "EUit": "Merino",
+      "EUnl": "Cyrus",
+      "EUru": "Сайрус{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "カイゾー",
+      "KRko": "리포",
+      "TWzh": "健兆",
+      "USen": "Cyrus",
+      "USes": "Al",
+      "USfr": "Serge"
+    }
+  },
+  {
+    "label": "alw",
+    "locale": {
+      "CNzh": "莉咏",
+      "EUde": "Rosina",
+      "EUen": "Reese",
+      "EUes": "Paca",
+      "EUfr": "Risette",
+      "EUit": "Alpaca",
+      "EUnl": "Reese",
+      "EUru": "Риз",
+      "JPja": "リサ",
+      "KRko": "리사",
+      "TWzh": "莉詠",
+      "USen": "Reese",
+      "USes": "Paca",
+      "USfr": "Risette"
+    }
+  },
+  {
+    "label": "bev",
+    "locale": {
+      "CNzh": "俞正",
+      "EUde": "Bartholo",
+      "EUen": "Chip",
+      "EUes": "Martín",
+      "EUfr": "Castor",
+      "EUit": "Castore",
+      "EUnl": "Chip",
+      "EUru": "Чип{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "うおまさ",
+      "KRko": "뚱달",
+      "TWzh": "俞正",
+      "USen": "Chip",
+      "USes": "Martín",
+      "USfr": "Castor"
+    }
+  },
+  {
+    "label": "bey",
+    "locale": {
+      "CNzh": "俞司廷",
+      "EUde": "Lomeus",
+      "EUen": "C.J.",
+      "EUes": "CJ",
+      "EUfr": "Pollux",
+      "EUit": "Castorino",
+      "EUnl": "C.J.",
+      "EUru": "Си-Дже{{wordCase nom=\"й\" acc=\"я\" dat=\"ю\" gen=\"я\"}}",
+      "JPja": "ジャスティン",
+      "KRko": "저스틴",
+      "TWzh": "俞司廷",
+      "USen": "C.J.",
+      "USes": "CJ",
+      "USfr": "Pollux"
+    }
+  },
+  {
+    "label": "boa",
+    "locale": {
+      "CNzh": "曹谷",
+      "EUde": "Sigrid",
+      "EUen": "Joan",
+      "EUes": "Juana",
+      "EUfr": "Porcella",
+      "EUit": "Nella",
+      "EUnl": "Joan",
+      "EUru": "Джоан",
+      "JPja": "カブリバ",
+      "KRko": "무파라",
+      "TWzh": "曹谷",
+      "USen": "Joan",
+      "USes": "Juana",
+      "USfr": "Porcella"
+    }
+  },
+  {
+    "label": "boc",
+    "locale": {
+      "CNzh": "曹卖",
+      "EUde": "Jorna",
+      "EUen": "Daisy Mae",
+      "EUes": "Juliana",
+      "EUfr": "Porcelette",
+      "EUit": "Brunella",
+      "EUnl": "Daisy Mae",
+      "EUru": "Дейзи-Мей",
+      "JPja": "ウリ",
+      "KRko": "무파니",
+      "TWzh": "曹賣",
+      "USen": "Daisy Mae",
+      "USes": "Juliana",
+      "USfr": "Porcelette"
+    }
+  },
+  {
+    "label": "bpt",
+    "locale": {
+      "CNzh": "星薇",
+      "EUde": "Smeralda",
+      "EUen": "Katrina",
+      "EUes": "Katrina",
+      "EUfr": "Astrid",
+      "EUit": "Vanda",
+      "EUnl": "Katrina",
+      "EUru": "Катрин{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "ハッケミィ",
+      "KRko": "마추릴라",
+      "TWzh": "星薇",
+      "USen": "Katrina",
+      "USes": "Katrina",
+      "USfr": "Astrid"
+    }
+  },
+  {
+    "label": "chm",
+    "locale": {
+      "CNzh": "龙山先生",
+      "EUde": "Carleon",
+      "EUen": "Nat",
+      "EUes": "Papilo",
+      "EUfr": "Djarod",
+      "EUit": "Gustavo",
+      "EUnl": "Nat",
+      "EUru": "Нат{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "カメヤマさん",
+      "KRko": "멜레옹",
+      "TWzh": "龍山先生",
+      "USen": "Nat",
+      "USes": "Papilo",
+      "USfr": "Djarod"
+    }
+  },
+  {
+    "label": "chy",
+    "locale": {
+      "CNzh": "龙克斯",
+      "EUde": "Carlson",
+      "EUen": "Flick",
+      "EUes": "Kamilo",
+      "EUfr": "Djason",
+      "EUit": "Ivano",
+      "EUnl": "Flick",
+      "EUru": "Флик{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "レックス",
+      "KRko": "레온",
+      "TWzh": "龍克斯",
+      "USen": "Flick",
+      "USes": "Kamilo",
+      "USfr": "Djason"
+    }
+  },
+  {
+    "label": "cml",
+    "locale": {
+      "CNzh": "骆岚",
+      "EUde": "Aziza",
+      "EUen": "Saharah",
+      "EUes": "Alcatifa",
+      "EUfr": "Sarah",
+      "EUit": "Sahara",
+      "EUnl": "Saharah",
+      "EUru": "Сахар{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "ローラン",
+      "KRko": "사하라",
+      "TWzh": "駱嵐",
+      "USen": "Saharah",
+      "USes": "Alcatifa",
+      "USfr": "Sarah"
+    }
+  },
+  {
+    "label": "cmlB",
+    "locale": {
+      "CNzh": "骆岚",
+      "EUde": "Aziza",
+      "EUen": "Saharah",
+      "EUes": "Alcatifa",
+      "EUfr": "Sarah",
+      "EUit": "Sahara",
+      "EUnl": "Saharah",
+      "EUru": "Сахар{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "ローラン",
+      "KRko": "사하라",
+      "TWzh": "駱嵐",
+      "USen": "Saharah",
+      "USes": "Alcatifa",
+      "USfr": "Sarah"
+    }
+  },
+  {
+    "label": "dga",
+    "locale": {
+      "CNzh": "警察叔叔",
+      "EUde": "Harry",
+      "EUen": "Copper",
+      "EUes": "Vigilio",
+      "EUfr": "Maret",
+      "EUit": "Birro",
+      "EUnl": "Copper",
+      "EUru": "Коппер{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "おまわりさん",
+      "KRko": "경찰관",
+      "TWzh": "警察叔叔",
+      "USen": "Copper",
+      "USes": "Vigilio",
+      "USfr": "Maret"
+    }
+  },
+  {
+    "label": "dgb",
+    "locale": {
+      "CNzh": "警察叔叔",
+      "EUde": "Wuff",
+      "EUen": "Booker",
+      "EUes": "Nocencio",
+      "EUfr": "Chausset",
+      "EUit": "Fido",
+      "EUnl": "Booker",
+      "EUru": "Букер{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "おまわりさん",
+      "KRko": "경찰관",
+      "TWzh": "警察叔叔",
+      "USen": "Booker",
+      "USes": "Nocencio",
+      "USfr": "Chausset"
+    }
+  },
+  {
+    "label": "doc",
+    "locale": {
+      "CNzh": "陆德里",
+      "EUde": "Udo",
+      "EUen": "Wilbur",
+      "EUes": "Rodri",
+      "EUfr": "Rodrigue",
+      "EUit": "Dodoardo",
+      "EUnl": "Wilbur",
+      "EUru": "Уилбур{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ロドリー",
+      "KRko": "로드리",
+      "TWzh": "陸德里",
+      "USen": "Wilbur",
+      "USes": "Rodri",
+      "USfr": "Rodrigue"
+    }
+  },
+  {
+    "label": "dod",
+    "locale": {
+      "CNzh": "莫里",
+      "EUde": "Bodo",
+      "EUen": "Orville",
+      "EUes": "Rafa",
+      "EUfr": "Morris",
+      "EUit": "Dodobaldo",
+      "EUnl": "Orville",
+      "EUru": "Орвилл{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "モーリー",
+      "KRko": "모리",
+      "TWzh": "莫里",
+      "USen": "Orville",
+      "USes": "Rafa",
+      "USfr": "Morris"
+    }
+  },
+  {
+    "label": "fox",
+    "locale": {
+      "CNzh": "狐利",
+      "EUde": "Reiner",
+      "EUen": "Redd",
+      "EUes": "Ladino",
+      "EUfr": "Rounard",
+      "EUit": "Volpolo",
+      "EUnl": "Redd",
+      "EUru": "Рэдд{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "つねきち",
+      "KRko": "여욱",
+      "TWzh": "狐利",
+      "USen": "Redd",
+      "USes": "Ladino",
+      "USfr": "Rounard"
+    }
+  },
+  {
+    "label": "fsl",
+    "locale": {
+      "CNzh": "博陆恩",
+      "EUde": "Helios",
+      "EUen": "Phineas",
+      "EUes": "Elio",
+      "EUfr": "Hélium",
+      "EUit": "Elio",
+      "EUnl": "Phineas",
+      "EUru": "Финеас{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "パロンチーノ",
+      "KRko": "파론티노",
+      "TWzh": "博陸恩",
+      "USen": "Phineas",
+      "USes": "Elio",
+      "USfr": "Hélium"
+    }
+  },
+  {
+    "label": "grf",
+    "locale": {
+      "CNzh": "葛瑞斯",
+      "EUde": "Grazia",
+      "EUen": "Gracie",
+      "EUes": "Graciela",
+      "EUfr": "Carla",
+      "EUit": "Griffa",
+      "EUnl": "Gracie",
+      "EUru": "Грейси",
+      "JPja": "グレース",
+      "KRko": "그레이스",
+      "TWzh": "葛瑞斯",
+      "USen": "Gracie",
+      "USes": "Graciela",
+      "USfr": "Carla"
+    }
+  },
+  {
+    "label": "gstA",
+    "locale": {
+      "CNzh": "幽幽",
+      "EUde": "Buhu",
+      "EUen": "Wisp",
+      "EUes": "Buh",
+      "EUfr": "Follet",
+      "EUit": "Spirideo",
+      "EUnl": "Wisp",
+      "EUru": "Уисп{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ゆうたろう",
+      "KRko": "깨빈",
+      "TWzh": "幽幽",
+      "USen": "Wisp",
+      "USes": "Buh",
+      "USfr": "Follet"
+    }
+  },
+  {
+    "label": "gstB",
+    "locale": {
+      "CNzh": "幽幽",
+      "EUde": "Buhu",
+      "EUen": "Wisp",
+      "EUes": "Buh",
+      "EUfr": "Follet",
+      "EUit": "Spirideo",
+      "EUnl": "Wisp",
+      "EUru": "Уисп{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ゆうたろう",
+      "KRko": "깨빈",
+      "TWzh": "幽幽",
+      "USen": "Wisp",
+      "USes": "Buh",
+      "USfr": "Follet"
+    }
+  },
+  {
+    "label": "gul",
+    "locale": {
+      "CNzh": "吕游",
+      "EUde": "Gulliver",
+      "EUen": "Gulliver",
+      "EUes": "Gulliver",
+      "EUfr": "Gulliver",
+      "EUit": "Gulliver",
+      "EUnl": "Gulliver",
+      "EUru": "Гулливер{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ジョニー",
+      "KRko": "죠니",
+      "TWzh": "呂遊",
+      "USen": "Gulliver",
+      "USes": "Gulliver",
+      "USfr": "Gulliver"
+    }
+  },
+  {
+    "label": "gulB",
+    "locale": {
+      "CNzh": "海盗",
+      "EUde": "Gullivarrr",
+      "EUen": "Gullivarrr",
+      "EUes": "Gullivarrr",
+      "EUfr": "Gullivarrr",
+      "EUit": "Gullivarrr",
+      "EUnl": "Gullivarrr",
+      "EUru": "Гулливарр{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "かいぞく",
+      "KRko": "해적",
+      "TWzh": "海盜",
+      "USen": "Gullivarrr",
+      "USes": "Gullivarrr",
+      "USfr": "Gullivarrr"
+    }
+  },
+  {
+    "label": "hgc",
+    "locale": {
+      "CNzh": "绵儿",
+      "EUde": "Minna",
+      "EUen": "Label",
+      "EUes": "Tili",
+      "EUfr": "Tiquette",
+      "EUit": "Beatrice",
+      "EUnl": "Label",
+      "EUru": "Лэйбл",
+      "JPja": "ことの",
+      "KRko": "고숙이",
+      "TWzh": "綿兒",
+      "USen": "Label",
+      "USes": "Tili",
+      "USfr": "Tiquette"
+    }
+  },
+  {
+    "label": "hgh",
+    "locale": {
+      "CNzh": "绢儿",
+      "EUde": "Tina",
+      "EUen": "Mabel",
+      "EUes": "Pili",
+      "EUfr": "Layette",
+      "EUit": "Agostina",
+      "EUnl": "Mabel",
+      "EUru": "Мэйбл",
+      "JPja": "きぬよ",
+      "KRko": "고순이",
+      "TWzh": "絹兒",
+      "USen": "Mabel",
+      "USes": "Pili",
+      "USfr": "Layette"
+    }
+  },
+  {
+    "label": "hgs",
+    "locale": {
+      "CNzh": "麻儿",
+      "EUde": "Sina",
+      "EUen": "Sable",
+      "EUes": "Mili",
+      "EUfr": "Cousette",
+      "EUit": "Filomena",
+      "EUnl": "Sable",
+      "EUru": "Сэйбл",
+      "JPja": "あさみ",
+      "KRko": "고옥이",
+      "TWzh": "麻兒",
+      "USen": "Sable",
+      "USes": "Mili",
+      "USfr": "Cousette"
+    }
+  },
+  {
+    "label": "kpg",
+    "locale": {
+      "CNzh": "阿玉婆婆",
+      "EUde": "Bonnie",
+      "EUen": "Grams",
+      "EUes": "Rosauria",
+      "EUfr": "Mamiral",
+      "EUit": "Remigia",
+      "EUnl": "Grams",
+      "EUru": "Грэмс",
+      "JPja": "ゲコ",
+      "KRko": "귀녀",
+      "TWzh": "阿玉婆婆",
+      "USen": "Grams",
+      "USes": "Rosauria",
+      "USfr": "Mamiral"
+    }
+  },
+  {
+    "label": "kpgB",
+    "locale": {
+      "CNzh": "阿玉婆婆",
+      "EUde": "Bonnie",
+      "EUen": "Grams",
+      "EUes": "Rosauria",
+      "EUfr": "Mamiral",
+      "EUit": "Remigia",
+      "EUnl": "Grams",
+      "EUru": "Грэмс",
+      "JPja": "ゲコ",
+      "KRko": "귀녀",
+      "TWzh": "阿玉婆婆",
+      "USen": "Grams",
+      "USes": "Rosauria",
+      "USfr": "Mamiral"
+    }
+  },
+  {
+    "label": "kpm",
+    "locale": {
+      "CNzh": "沽玉",
+      "EUde": "Lore",
+      "EUen": "Leilani",
+      "EUes": "Marimar",
+      "EUfr": "Liliane",
+      "EUit": "Ramona",
+      "EUnl": "Leilani",
+      "EUru": "Лейлани",
+      "JPja": "クーコ",
+      "KRko": "갑순",
+      "TWzh": "沽玉",
+      "USen": "Leilani",
+      "USes": "Marimar",
+      "USfr": "Liliane"
+    }
+  },
+  {
+    "label": "kpmB",
+    "locale": {
+      "CNzh": "沽玉",
+      "EUde": "Lore",
+      "EUen": "Leilani",
+      "EUes": "Marimar",
+      "EUfr": "Liliane",
+      "EUit": "Ramona",
+      "EUnl": "Leilani",
+      "EUru": "Лейлани",
+      "JPja": "クーコ",
+      "KRko": "갑순",
+      "TWzh": "沽玉",
+      "USen": "Leilani",
+      "USes": "Marimar",
+      "USfr": "Liliane"
+    }
+  },
+  {
+    "label": "kpp",
+    "locale": {
+      "CNzh": "航平",
+      "EUde": "Käpten",
+      "EUen": "Kapp'n",
+      "EUes": "Capitán",
+      "EUfr": "Amiral",
+      "EUit": "Remo",
+      "EUnl": "Kapp'n",
+      "EUru": "Кэпн{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "かっぺい",
+      "KRko": "갑돌",
+      "TWzh": "航平",
+      "USen": "Kapp'n",
+      "USes": "Capitán",
+      "USfr": "Amiral"
+    }
+  },
+  {
+    "label": "kppB",
+    "locale": {
+      "CNzh": "航平",
+      "EUde": "Käpten",
+      "EUen": "Kapp'n",
+      "EUes": "Capitán",
+      "EUfr": "Amiral",
+      "EUit": "Remo",
+      "EUnl": "Kapp'n",
+      "EUru": "Кэпн{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "かっぺい",
+      "KRko": "갑돌",
+      "TWzh": "航平",
+      "USen": "Kapp'n",
+      "USes": "Capitán",
+      "USfr": "Amiral"
+    }
+  },
+  {
+    "label": "kps",
+    "locale": {
+      "CNzh": "沽沽",
+      "EUde": "Lotte",
+      "EUen": "Leila",
+      "EUes": "Conchita",
+      "EUfr": "Lila",
+      "EUit": "Romina",
+      "EUnl": "Leila",
+      "EUru": "Лейл{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "クク",
+      "KRko": "꼬미",
+      "TWzh": "沽沽",
+      "USen": "Leila",
+      "USes": "Conchita",
+      "USfr": "Lila"
+    }
+  },
+  {
+    "label": "kpsB",
+    "locale": {
+      "CNzh": "沽沽",
+      "EUde": "Lotte",
+      "EUen": "Leila",
+      "EUes": "Conchita",
+      "EUfr": "Lila",
+      "EUit": "Romina",
+      "EUnl": "Leila",
+      "EUru": "Лейл{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "クク",
+      "KRko": "꼬미",
+      "TWzh": "沽沽",
+      "USen": "Leila",
+      "USes": "Conchita",
+      "USfr": "Lila"
+    }
+  },
+  {
+    "label": "lom",
+    "locale": {
+      "CNzh": "咪露",
+      "EUde": "Katja",
+      "EUen": "Katie",
+      "EUes": "Cati",
+      "EUfr": "Cathie",
+      "EUit": "Micetta",
+      "EUnl": "Katie",
+      "EUru": "Кейти",
+      "JPja": "まいこちゃん",
+      "KRko": "미야",
+      "TWzh": "咪露",
+      "USen": "Katie",
+      "USes": "Cati",
+      "USfr": "Cathie"
+    }
+  },
+  {
+    "label": "man",
+    "locale": {
+      "CNzh": "纳提",
+      "EUde": "Sigmar",
+      "EUen": "Wardell",
+      "EUes": "Matías",
+      "EUfr": "Mantin",
+      "EUit": "Gedeone",
+      "EUnl": "Wardell",
+      "EUru": "Ворделл{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ナッティー",
+      "KRko": "너티",
+      "TWzh": "納提",
+      "USen": "Wardell",
+      "USes": "Matías",
+      "USfr": "Mantin"
+    }
+  },
+  {
+    "label": "mka",
+    "locale": {
+      "CNzh": "无脸猫",
+      "EUde": "Blanka",
+      "EUen": "Blanca",
+      "EUes": "Blanca",
+      "EUfr": "Blanca",
+      "EUit": "Blanca",
+      "EUnl": "Blanca",
+      "EUru": "Бланк{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"и\"}}",
+      "JPja": "あやしいネコ",
+      "KRko": "아트고양이",
+      "TWzh": "無臉貓",
+      "USen": "Blanca",
+      "USes": "Blanca",
+      "USfr": "Blanca"
+    }
+  },
+  {
+    "label": "mnc",
+    "locale": {
+      "CNzh": "尼可",
+      "EUde": "Bono",
+      "EUen": "Niko",
+      "EUes": "Miko",
+      "EUfr": "Gratien",
+      "EUit": "Gilbertuccio",
+      "EUnl": "Niko",
+      "EUru": "Нико",
+      "JPja": "ニコ",
+      "KRko": "방글",
+      "TWzh": "尼可",
+      "USen": "Niko",
+      "USes": "Miko",
+      "USfr": "Gratien"
+    }
+  },
+  {
+    "label": "mnk",
+    "locale": {
+      "CNzh": "车长叔叔",
+      "EUde": "Flip",
+      "EUen": "Porter",
+      "EUes": "Estasio",
+      "EUfr": "Lazare",
+      "EUit": "Ciufciuf",
+      "EUnl": "Porter",
+      "EUru": "Портер{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "えきいんさん",
+      "KRko": "역무원",
+      "TWzh": "車長叔叔",
+      "USen": "Porter",
+      "USes": "Estasio",
+      "USfr": "Lazare"
+    }
+  },
+  {
+    "label": "mob",
+    "locale": {
+      "CNzh": "开关叔叔",
+      "EUde": "Don",
+      "EUen": "Don",
+      "EUes": "Forma T.",
+      "EUfr": "Don",
+      "EUit": "Don",
+      "EUnl": "Don",
+      "EUru": "Дон{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ラケットさん",
+      "KRko": "오루묵씨",
+      "TWzh": "開關叔叔",
+      "USen": "Don",
+      "USes": "Forma T.",
+      "USfr": "Don"
+    }
+  },
+  {
+    "label": "mol",
+    "locale": {
+      "CNzh": "电源叔叔",
+      "EUde": "Resetti",
+      "EUen": "Resetti",
+      "EUes": "Rese T.",
+      "EUfr": "Resetti",
+      "EUit": "Resetti",
+      "EUnl": "Resetti",
+      "EUru": "Ресетти",
+      "JPja": "リセットさん",
+      "KRko": "도루묵씨",
+      "TWzh": "電源叔叔",
+      "USen": "Resetti",
+      "USes": "Rese T.",
+      "USfr": "Resetti"
+    }
+  },
+  {
+    "label": "otg",
+    "locale": {
+      "CNzh": "巧美",
+      "EUde": "Karlotta",
+      "EUen": "Lottie",
+      "EUes": "Nuria",
+      "EUfr": "Lou",
+      "EUit": "Casimira",
+      "EUnl": "Lottie",
+      "EUru": "Лотти",
+      "JPja": "タクミ",
+      "KRko": "솜이",
+      "TWzh": "巧美",
+      "USen": "Lottie",
+      "USes": "Nuria",
+      "USfr": "Lou"
+    }
+  },
+  {
+    "label": "otgB",
+    "locale": {
+      "CNzh": "巧美",
+      "EUde": "Karlotta",
+      "EUen": "Lottie",
+      "EUes": "Nuria",
+      "EUfr": "Lou",
+      "EUit": "Casimira",
+      "EUnl": "Lottie",
+      "EUru": "Лотти",
+      "JPja": "タクミ",
+      "KRko": "솜이",
+      "TWzh": "巧美",
+      "USen": "Lottie",
+      "USes": "Nuria",
+      "USfr": "Lou"
+    }
+  },
+  {
+    "label": "ott",
+    "locale": {
+      "CNzh": "阿本先生",
+      "EUde": "Fred",
+      "EUen": "Lyle",
+      "EUes": "Sisebuto",
+      "EUfr": "Lionel",
+      "EUit": "Frodolo",
+      "EUnl": "Lyle",
+      "EUru": "Лайл{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ホンマさん",
+      "KRko": "안심해씨",
+      "TWzh": "阿本先生",
+      "USen": "Lyle",
+      "USes": "Sisebuto",
+      "USfr": "Lionel"
+    }
+  },
+  {
+    "label": "owl",
+    "locale": {
+      "CNzh": "傅达",
+      "EUde": "Eugen",
+      "EUen": "Blathers",
+      "EUes": "Sócrates",
+      "EUfr": "Thibou",
+      "EUit": "Blatero",
+      "EUnl": "Blathers",
+      "EUru": "Блезерс{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "フータ",
+      "KRko": "부엉",
+      "TWzh": "傅達",
+      "USen": "Blathers",
+      "USes": "Sócrates",
+      "USfr": "Thibou"
+    }
+  },
+  {
+    "label": "ows",
+    "locale": {
+      "CNzh": "傅珂",
+      "EUde": "Eufemia",
+      "EUen": "Celeste",
+      "EUes": "Estela",
+      "EUfr": "Céleste",
+      "EUit": "Celeste",
+      "EUnl": "Celeste",
+      "EUru": "Селест{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "フーコ",
+      "KRko": "부옥",
+      "TWzh": "傅珂",
+      "USen": "Celeste",
+      "USes": "Estela",
+      "USfr": "Céleste"
+    }
+  },
+  {
+    "label": "pck",
+    "locale": {
+      "CNzh": "阿欢",
+      "EUde": "Pavo",
+      "EUen": "Pavé",
+      "EUes": "Conga",
+      "EUfr": "Roberto",
+      "EUit": "Pavão",
+      "EUnl": "Pavé",
+      "EUru": "Паве",
+      "JPja": "ベルリーナ",
+      "KRko": "베르리나",
+      "TWzh": "阿歡",
+      "USen": "Pavé",
+      "USes": "Conga",
+      "USfr": "Roberto"
+    }
+  },
+  {
+    "label": "pge",
+    "locale": {
+      "CNzh": "老板",
+      "EUde": "Kofi",
+      "EUen": "Brewster",
+      "EUes": "Fígaro",
+      "EUfr": "Robusto",
+      "EUit": "Bartolo",
+      "EUnl": "Brewster",
+      "EUru": "Брюстер{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "マスター",
+      "KRko": "마스터",
+      "TWzh": "老闆",
+      "USen": "Brewster",
+      "USes": "Fígaro",
+      "USfr": "Robusto"
+    }
+  },
+  {
+    "label": "pgeB",
+    "locale": {
+      "CNzh": "老板",
+      "EUde": "Kofi",
+      "EUen": "Brewster",
+      "EUes": "Fígaro",
+      "EUfr": "Robusto",
+      "EUit": "Bartolo",
+      "EUnl": "Brewster",
+      "EUru": "Брюстер{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "マスター",
+      "KRko": "마스터",
+      "TWzh": "老闆",
+      "USen": "Brewster",
+      "USes": "Fígaro",
+      "USfr": "Robusto"
+    }
+  },
+  {
+    "label": "pkn",
+    "locale": {
+      "CNzh": "南瓜王",
+      "EUde": "Jakob",
+      "EUen": "Jack",
+      "EUes": "Soponcio",
+      "EUfr": "Jacqu'O",
+      "EUit": "Fifonio",
+      "EUnl": "Jack",
+      "EUru": "Джек{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "パンプキング",
+      "KRko": "펌킹",
+      "TWzh": "南瓜王",
+      "USen": "Jack",
+      "USes": "Soponcio",
+      "USfr": "Jacqu'O"
+    }
+  },
+  {
+    "label": "plk",
+    "locale": {
+      "CNzh": "宋信子",
+      "EUde": "Pelly",
+      "EUen": "Pelly",
+      "EUes": "Sol",
+      "EUfr": "Opélie",
+      "EUit": "Pelly",
+      "EUnl": "Pelly",
+      "EUru": "Пелли",
+      "JPja": "ぺりこ",
+      "KRko": "펠리",
+      "TWzh": "宋信子",
+      "USen": "Pelly",
+      "USes": "Sol",
+      "USfr": "Opélie"
+    }
+  },
+  {
+    "label": "plm",
+    "locale": {
+      "CNzh": "宋信美",
+      "EUde": "Peggy",
+      "EUen": "Phyllis",
+      "EUes": "Estrella",
+      "EUfr": "Élisabec",
+      "EUit": "Polly",
+      "EUnl": "Phyllis",
+      "EUru": "Филлис",
+      "JPja": "ぺりみ",
+      "KRko": "펠리미",
+      "TWzh": "宋信美",
+      "USen": "Phyllis",
+      "USes": "Estrella",
+      "USfr": "Élisabec"
+    }
+  },
+  {
+    "label": "plo",
+    "locale": {
+      "CNzh": "程信雄",
+      "EUde": "Peter",
+      "EUen": "Pete",
+      "EUes": "Carturo",
+      "EUfr": "Antoine",
+      "EUit": "Tino",
+      "EUnl": "Pete",
+      "EUru": "Пит{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ぺりお",
+      "KRko": "펠리오",
+      "TWzh": "程信雄",
+      "USen": "Pete",
+      "USes": "Carturo",
+      "USfr": "Antoine"
+    }
+  },
+  {
+    "label": "poo",
+    "locale": {
+      "CNzh": "刀丽茹",
+      "EUde": "Trude",
+      "EUen": "Harriet",
+      "EUes": "Marilín",
+      "EUfr": "Ginette",
+      "EUit": "Bigodina",
+      "EUnl": "Harriet",
+      "EUru": "Харриет",
+      "JPja": "カットリーヌ",
+      "KRko": "카트리나",
+      "TWzh": "刀麗茹",
+      "USen": "Harriet",
+      "USes": "Marilín",
+      "USfr": "Ginette"
+    }
+  },
+  {
+    "label": "pooB",
+    "locale": {
+      "CNzh": "刀丽茹",
+      "EUde": "Trude",
+      "EUen": "Harriet",
+      "EUes": "Marilín",
+      "EUfr": "Ginette",
+      "EUit": "Bigodina",
+      "EUnl": "Harriet",
+      "EUru": "Харриет",
+      "JPja": "カットリーヌ",
+      "KRko": "카트리나",
+      "TWzh": "刀麗茹",
+      "USen": "Harriet",
+      "USes": "Marilín",
+      "USfr": "Ginette"
+    }
+  },
+  {
+    "label": "pyn",
+    "locale": {
+      "CNzh": "蹦蹦",
+      "EUde": "Ohs",
+      "EUen": "Zipper",
+      "EUes": "Coti",
+      "EUfr": "Albin",
+      "EUit": "Ovidio",
+      "EUnl": "Zipper",
+      "EUru": "Зиппер{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ぴょんたろう",
+      "KRko": "토빗",
+      "TWzh": "蹦蹦",
+      "USen": "Zipper",
+      "USes": "Coti",
+      "USfr": "Albin"
+    }
+  },
+  {
+    "label": "rcm",
+    "locale": {
+      "CNzh": "豆狸",
+      "EUde": "Nepp",
+      "EUen": "Timmy",
+      "EUes": "Tendo",
+      "EUfr": "Méli",
+      "EUit": "Mirco",
+      "EUnl": "Timmy",
+      "EUru": "Тимми",
+      "JPja": "まめきち",
+      "KRko": "콩돌이",
+      "TWzh": "豆狸",
+      "USen": "Timmy",
+      "USes": "Tendo",
+      "USfr": "Méli"
+    }
+  },
+  {
+    "label": "rco",
+    "locale": {
+      "CNzh": "狸克",
+      "EUde": "Tom Nook",
+      "EUen": "Tom Nook",
+      "EUes": "Tom Nook",
+      "EUfr": "Tom Nook",
+      "EUit": "Tom Nook",
+      "EUnl": "Tom Nook",
+      "EUru": "Том{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}} Нук{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "たぬきち",
+      "KRko": "너굴",
+      "TWzh": "狸克",
+      "USen": "Tom Nook",
+      "USes": "Tom Nook",
+      "USfr": "Tom Nook"
+    }
+  },
+  {
+    "label": "rct",
+    "locale": {
+      "CNzh": "粒狸",
+      "EUde": "Schlepp",
+      "EUen": "Tommy",
+      "EUes": "Nendo",
+      "EUfr": "Mélo",
+      "EUit": "Marco",
+      "EUnl": "Tommy",
+      "EUru": "Томми",
+      "JPja": "つぶきち",
+      "KRko": "밤돌이",
+      "TWzh": "粒狸",
+      "USen": "Tommy",
+      "USes": "Nendo",
+      "USfr": "Mélo"
+    }
+  },
+  {
+    "label": "rei",
+    "locale": {
+      "CNzh": "铃铃鹿",
+      "EUde": "Chris",
+      "EUen": "Jingle",
+      "EUes": "Renato",
+      "EUfr": "Rodolphe",
+      "EUit": "Jingle",
+      "EUnl": "Jingle",
+      "EUru": "Джингл{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ジングル",
+      "KRko": "루돌",
+      "TWzh": "鈴鈴鹿",
+      "USen": "Jingle",
+      "USes": "Renato",
+      "USfr": "Rodolphe"
+    }
+  },
+  {
+    "label": "seo",
+    "locale": {
+      "CNzh": "阿獭",
+      "EUde": "Johannes",
+      "EUen": "Pascal",
+      "EUes": "Pascal",
+      "EUfr": "Pascal",
+      "EUit": "Pasqualo",
+      "EUnl": "Pascal",
+      "EUru": "Паскал{{wordCase nom=\"ь\" acc=\"я\" dat=\"ю\" gen=\"я\"}}",
+      "JPja": "ラコスケ",
+      "KRko": "해탈한",
+      "TWzh": "阿獺",
+      "USen": "Pascal",
+      "USes": "Pascal",
+      "USfr": "Pascal"
+    }
+  },
+  {
+    "label": "skk",
+    "locale": {
+      "CNzh": "薛革",
+      "EUde": "Schubert",
+      "EUen": "Kicks",
+      "EUes": "Betunio",
+      "EUfr": "Blaise",
+      "EUit": "Sciuscià",
+      "EUnl": "Kicks",
+      "EUru": "Кикс{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "シャンク",
+      "KRko": "패트릭",
+      "TWzh": "薛革",
+      "USen": "Kicks",
+      "USes": "Betunio",
+      "USfr": "Blaise"
+    }
+  },
+  {
+    "label": "slo",
+    "locale": {
+      "CNzh": "然然",
+      "EUde": "Gerd",
+      "EUen": "Leif",
+      "EUes": "Gandulio",
+      "EUfr": "Racine",
+      "EUit": "Florindo",
+      "EUnl": "Leif",
+      "EUru": "Лейф{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "レイジ",
+      "KRko": "늘봉",
+      "TWzh": "然然",
+      "USen": "Leif",
+      "USes": "Gandulio",
+      "USfr": "Racine"
+    }
+  },
+  {
+    "label": "spn",
+    "locale": {
+      "CNzh": "巴猎",
+      "EUde": "Harvey",
+      "EUen": "Harvey",
+      "EUes": "Fauno",
+      "EUfr": "Joe",
+      "EUit": "Fiorilio",
+      "EUnl": "Harvey",
+      "EUru": "Харви",
+      "JPja": "パニエル",
+      "KRko": "파니엘",
+      "TWzh": "巴獵",
+      "USen": "Harvey",
+      "USes": "Fauno",
+      "USfr": "Joe"
+    }
+  },
+  {
+    "label": "sza",
+    "locale": {
+      "CNzh": "西施惠",
+      "EUde": "Melinda",
+      "EUen": "Isabelle",
+      "EUes": "Canela",
+      "EUfr": "Marie",
+      "EUit": "Fuffi",
+      "EUnl": "Isabelle",
+      "EUru": "Изабель",
+      "JPja": "しずえ",
+      "KRko": "여울",
+      "TWzh": "西施惠",
+      "USen": "Isabelle",
+      "USes": "Canela",
+      "USfr": "Marie"
+    }
+  },
+  {
+    "label": "szo",
+    "locale": {
+      "CNzh": "西施德",
+      "EUde": "Moritz",
+      "EUen": "Digby",
+      "EUes": "Candrés",
+      "EUfr": "Max",
+      "EUit": "Fofò",
+      "EUnl": "Digby",
+      "EUru": "Дигби",
+      "JPja": "ケント",
+      "KRko": "켄트",
+      "TWzh": "西施德",
+      "USen": "Digby",
+      "USes": "Candrés",
+      "USfr": "Max"
+    }
+  },
+  {
+    "label": "tap",
+    "locale": {
+      "CNzh": "梦美",
+      "EUde": "Serenada",
+      "EUen": "Luna",
+      "EUes": "Alakama",
+      "EUfr": "Serena",
+      "EUit": "Sonia",
+      "EUnl": "Luna",
+      "EUru": "Лун{{wordCase nom=\"а\" acc=\"у\" dat=\"е\" gen=\"ы\"}}",
+      "JPja": "ゆめみ",
+      "KRko": "몽셰르",
+      "TWzh": "夢美",
+      "USen": "Luna",
+      "USes": "Alakama",
+      "USfr": "Serena"
+    }
+  },
+  {
+    "label": "tkkA",
+    "locale": {
+      "CNzh": "K.K.",
+      "EUde": "K.K.",
+      "EUen": "K.K.",
+      "EUes": "Totakeke",
+      "EUfr": "Kéké",
+      "EUit": "K.K.",
+      "EUnl": "K.K.",
+      "EUru": "К. К.",
+      "JPja": "とたけけ",
+      "KRko": "K.K.",
+      "TWzh": "K.K.",
+      "USen": "K.K.",
+      "USes": "Totakeke",
+      "USfr": "Kéké"
+    }
+  },
+  {
+    "label": "tkkB",
+    "locale": {
+      "CNzh": "DJ KK",
+      "EUde": "DJ K.K.",
+      "EUen": "DJ KK",
+      "EUes": "DJ KeKe",
+      "EUfr": "DJ Kéké",
+      "EUit": "DJ K.K.",
+      "EUnl": "DJ K.K.",
+      "EUru": "DJ KK",
+      "JPja": "DJ K.K",
+      "KRko": "DJ K.K.",
+      "TWzh": "DJ KK",
+      "USen": "DJ KK",
+      "USes": "DJ KeKe",
+      "USfr": "DJ Kéké"
+    }
+  },
+  {
+    "label": "ttlA",
+    "locale": {
+      "CNzh": "寿伯",
+      "EUde": "Törtel",
+      "EUen": "Tortimer",
+      "EUes": "Tórtimer",
+      "EUfr": "Tortimer",
+      "EUit": "Tortimer",
+      "EUnl": "Tortimer",
+      "EUru": "Тортимер{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "コトブキ",
+      "KRko": "고북",
+      "TWzh": "壽伯",
+      "USen": "Tortimer",
+      "USes": "Tórtimer",
+      "USfr": "Tortimer"
+    }
+  },
+  {
+    "label": "ttlB",
+    "locale": {
+      "CNzh": "橡伯",
+      "EUde": "Eichenmann",
+      "EUen": "Cornimer",
+      "EUes": "Córnimer",
+      "EUfr": "Cornimer",
+      "EUit": "Ghiandy",
+      "EUnl": "Cornimer",
+      "EUru": "Корнимер{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ドンどんぐり",
+      "KRko": "도토리옹",
+      "TWzh": "橡伯",
+      "USen": "Cornimer",
+      "USes": "Córnimer",
+      "USfr": "Cornimer"
+    }
+  },
+  {
+    "label": "tuk",
+    "locale": {
+      "CNzh": "富蓝",
+      "EUde": "Gernod",
+      "EUen": "Franklin",
+      "EUes": "Guindo",
+      "EUfr": "Dindou",
+      "EUit": "Cedrone",
+      "EUnl": "Franklin",
+      "EUru": "Франклин{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "フランクリン",
+      "KRko": "프랭클린",
+      "TWzh": "富藍",
+      "USen": "Franklin",
+      "USes": "Guindo",
+      "USfr": "Dindou"
+    }
+  },
+  {
+    "label": "upa",
+    "locale": {
+      "CNzh": "笑匠",
+      "EUde": "Samselt",
+      "EUen": "Shrunk",
+      "EUes": "Dr. Sito",
+      "EUfr": "Ciboulot",
+      "EUit": "Strizzo",
+      "EUnl": "Shrunk",
+      "EUru": "Шранк{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "ししょー",
+      "KRko": "스승",
+      "TWzh": "笑匠",
+      "USen": "Shrunk",
+      "USes": "Dr. Sito",
+      "USfr": "Ciboulot"
+    }
+  },
+  {
+    "label": "wrl",
+    "locale": {
+      "CNzh": "海项",
+      "EUde": "Winci",
+      "EUen": "Wendell",
+      "EUes": "Da Morsi",
+      "EUfr": "Morsicus",
+      "EUit": "Van Trik",
+      "EUnl": "Wendell",
+      "EUru": "Уэнделл{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "セイイチ",
+      "KRko": "고파유",
+      "TWzh": "海項",
+      "USen": "Wendell",
+      "USes": "Da Morsi",
+      "USfr": "Morsicus"
+    }
+  },
+  {
+    "label": "xct",
+    "locale": {
+      "CNzh": "陌陌",
+      "EUde": "Olli",
+      "EUen": "Rover",
+      "EUes": "Fran",
+      "EUfr": "Charly",
+      "EUit": "Girolamo",
+      "EUnl": "Rover",
+      "EUru": "Ровер{{wordCase nom=\"\" acc=\"а\" dat=\"у\" gen=\"а\"}}",
+      "JPja": "みしらぬネコ",
+      "KRko": "낯선고양이",
+      "TWzh": "陌陌",
+      "USen": "Rover",
+      "USes": "Fran",
+      "USfr": "Charly"
+    }
+  }
+]
