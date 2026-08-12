@@ -12,6 +12,8 @@ The checklist currently includes:
 * Music
 * Gyroids
 * Reactions
+* Villagers
+* Special NPCs
 
 ## Live Website
 
@@ -45,6 +47,7 @@ A simple, interactive checklist for tracking your Animal Crossing: New Horizons 
 * **Gyroids** include different colour variations
 * **Reactions** include obtaining methods and the type of villager who teaches them
 * Progress tracking for each collection
+* **Villagers** and **NPCs** include their basic information, such as their gender, hobby, personality, birthday and etc.
 
 
 ## Data & Credits
