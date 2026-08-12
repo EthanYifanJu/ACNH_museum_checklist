@@ -62,74 +62,183 @@
     }
 
 
-    /* MENU */
+  /* MENU */
+  .menu {
+    width: min(900px, 100%);
+    margin: 30px auto 0;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+
+  /* CATEGORY CARD */
+  .category {
+    background: #fffaf3;
+    border: 1px solid #eadfce;
+    border-radius: 18px;
+    padding: 18px 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 160px;
+    align-items: center;
+    gap: 20px;
+
+    box-shadow: 0 3px 10px rgba(100, 80, 50, 0.08);
+
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+
+  /* CATEGORY LINK */
+  .category a {
+    text-decoration: none;
+    color: #5f5145;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    padding: 0;
+    background: none;
+  }
+
+
+  .category a:hover {
+    color: #8a6f55;
+  }
+
+
+  /* PROGRESS */
+  .progress {
+    width: 100%;
+  }
+
+
+  .progress-bar {
+    height: 9px;
+    background: #eee5d8;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+
+  .progress-fill {
+    height: 100%;
+    width: 0%;
+
+    background: linear-gradient(
+      90deg,
+      #a8d5ba,
+      #8fc9ad
+    );
+
+    border-radius: 20px;
+
+    transition: width 0.4s ease;
+  }
+
+
+  .progress-text {
+    margin-top: 5px;
+
+    font-size: 12px;
+    color: #9a8b7b;
+
+    text-align: right;
+  }
+
+
+  /* HOVER */
+  .category:hover {
+    transform: translateY(-3px);
+
+    border-color: #d9c9b5;
+
+    box-shadow:
+      0 6px 18px rgba(100, 80, 50, 0.12);
+  }
+
+
+  /* MOBILE */
+  @media (max-width: 650px) {
 
     .menu {
-      display: grid;
+      grid-template-columns: 1fr;
       gap: 12px;
     }
 
-
-    .menu a {
-      text-decoration: none;
-
-      padding: 15px 20px;
-
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-
-      color: var(--text);
-      font-weight: 600;
-
-      box-shadow: 0 2px 8px rgba(120, 90, 60, 0.05);
-
-      transition: 0.2s;
+    .category {
+      grid-template-columns: 1fr 130px;
+      padding: 15px 16px;
     }
 
-
-    .menu a:hover {
-      transform: translateY(-2px);
-
-      background: #fdf0e5;
-
-      border-color: rgba(120, 90, 60, 0.25);
-
-      box-shadow: 0 4px 12px rgba(120, 90, 60, 0.1);
-    }
-
-
-    /* ICON */
-
-    .icon {
-      margin-right: 8px;
-    }
-
-
-    /* MOBILE */
-
-    @media (max-width: 600px) {
-
-      body {
-        align-items: flex-start;
-        padding-top: 60px;
-      }
-
-      h1 {
-        font-size: 24px;
-      }
-
-      .subtitle {
-        margin-bottom: 24px;
-      }
-
-      .menu a {
-        padding: 14px;
-      }
-    }
+  }
   </style>
 
 </head>
+
+<script>
+  const museum = JSON.parse(localStorage.getItem("museum")) || {};
+
+  const categories = [
+    { name: "fish", file: "data/fish.json" },
+    { name: "insect", file: "data/insect.json" },
+    { name: "sea", file: "data/sea.json" },
+    { name: "fossil", file: "data/fossil.json" },
+    { name: "art", file: "data/art.json" },
+    { name: "music", file: "data/music.json" },
+    { name: "gyroid", file: "data/gyroid.json" },
+    { name: "reaction", file: "data/reaction.json" }
+  ];
+
+
+  async function updateCategoryProgress() {
+
+    for (const category of categories) {
+
+      try {
+
+        const response = await fetch(category.file);
+        const data = await response.json();
+
+        const total = data.length;
+
+        const done = data.filter(
+          item => museum[item.Name]
+        ).length;
+
+        const percentage =
+          total > 0 ? (done / total) * 100 : 0;
+
+
+        document.getElementById(
+          `${category.name}Progress`
+        ).style.width = `${percentage}%`;
+
+
+        document.getElementById(
+          `${category.name}Text`
+        ).textContent =
+          `${done} / ${total} collected`;
+
+      } catch (error) {
+
+        console.error(
+          `Failed to load ${category.name}:`,
+          error
+        );
+
+      }
+    }
+  }
+
+
+  updateCategoryProgress();
+</script>
 
 
 <body>
@@ -145,37 +254,142 @@
 
     <div class="menu">
 
-      <a href="src/fish.html">
-        Fish
-      </a>
+      <div class="category">
 
-      <a href="src/insect.html">
-        Insects
-      </a>
+        <a href="src/fish.html">
+          <span>Fish</span>
+        </a>
 
-      <a href="src/sea.html">
-        Sea Creatures
-      </a>
+        <div class="progress">
+          <div class="progress-bar">
+            <div id="fishProgress" class="progress-fill"></div>
+          </div>
 
-      <a href="src/fossil.html">
-        Fossils
-      </a>
+          <div id="fishText" class="progress-text">
+            0 / 0 collected
+          </div>
+        </div>
 
-      <a href="src/art.html">
-        Artwork
-      </a>
+      </div>
 
-      <a href="src/music.html">
-        Music
-      </a>
+      <div class="category">
+        <a href="src/insect.html">
+          <span>Insects</span>
+        </a>
 
-      <a href="src/gyroid.html">
-        Gyroids
-      </a>
+        <div class="progress">
+          <div class="progress-bar">
+            <div id="insectProgress" class="progress-fill"></div>
+          </div>
 
-      <a href="src/reaction.html">
-        Reactions
-      </a>
+          <div id="insectText" class="progress-text">
+            0 / 0 collected
+          </div>
+        </div>
+
+      </div>
+
+      <div class="category">
+        <a href="src/sea.html">
+          <span>Sea Creatures</span>
+        </a>
+
+        <div class="progress">
+          <div class="progress-bar">
+            <div id="seaProgress" class="progress-fill"></div>
+          </div>
+
+          <div id="seaText" class="progress-text">
+            0 / 0 collected
+          </div>
+        </div>
+
+      </div>
+
+      <div class="category">
+        <a href="src/fossil.html">
+          <span>Fossils</span>
+        </a>
+
+        <div class="progress">
+          <div class="progress-bar">
+            <div id="fossilProgress" class="progress-fill"></div>
+          </div>
+
+          <div id="fossilText" class="progress-text">
+            0 / 0 collected
+          </div>
+        </div>
+
+      </div>
+
+      <div class="category">
+        <a href="src/art.html">
+          <span>Artwork</span>
+        </a>
+
+        <div class="progress">
+          <div class="progress-bar">
+            <div id="artProgress" class="progress-fill"></div>
+          </div>
+
+          <div id="artText" class="progress-text">
+            0 / 0 collected
+          </div>
+        </div>
+
+      </div>
+
+      <div class="category">
+        <a href="src/music.html">
+          <span>Music</span>
+        </a>
+
+        <div class="progress">
+          <div class="progress-bar">
+            <div id="musicProgress" class="progress-fill"></div>
+          </div>
+
+          <div id="musicText" class="progress-text">
+            0 / 0 collected
+          </div>
+        </div>
+
+      </div>
+
+      <div class="category">
+        <a href="src/gyroid.html">
+          <span>Gyroids</span>
+        </a>
+
+        <div class="progress">
+          <div class="progress-bar">
+            <div id="gyroidProgress" class="progress-fill"></div>
+          </div>
+
+          <div id="gyroidText" class="progress-text">
+            0 / 0 collected
+          </div>
+        </div>
+
+      </div>
+
+      <div class="category">
+        <a href="src/reaction.html">
+          <span>Reactions</span>
+        </a>
+
+        <div class="progress">
+          <div class="progress-bar">
+            <div id="reactionProgress" class="progress-fill"></div>
+          </div>
+
+          <div id="reactionText" class="progress-text">
+            0 / 0 collected
+          </div>
+        </div>
+
+      </div>
 
     </div>
 
